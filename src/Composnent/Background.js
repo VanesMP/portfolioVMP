@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/background.css";
-import Header from "./Header";
+import "../Styles/banner.css";
+import Banner from "./Banner";
 
 function Background() {
 
@@ -51,7 +52,8 @@ function Background() {
                 <span></span>
                 <span></span>
             </div>  
-            <Header />
+            <Banner upOrDown="header" />
+            <Banner upOrDown="footer" />
         </div>
     )
 }
