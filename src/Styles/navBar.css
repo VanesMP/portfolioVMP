@@ -23,4 +23,5 @@ li {
     color: #ffffff;
     font: 400 18px 'Roboto', sans-serif;
     list-style-type: none;
+    cursor: pointer;
 }

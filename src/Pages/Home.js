@@ -13,6 +13,7 @@ function Home() {
                 <Name />
                 <Navbar />
             </div>
+            <div className="arrowDown"></div>
             <div className="footerPage">
                 <Footer />
             </div>
