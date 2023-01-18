@@ -1,8 +1,14 @@
 import React from "react";
+import "../Styles/header.css";
+import Name from "./Name";
+import Navbar from "./Navbar";
 
-function Header() {
+function Header () {
     return(
-        <div></div>
+        <div className="header">
+            <Name />
+            <Navbar />
+        </div>
     )
 };
 

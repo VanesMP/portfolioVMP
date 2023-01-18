@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 100%;
+    height: 100vh;
+    /* font-family: 'Allura', cursive, 'Baskervville', 'Buda', 'Roboto', serif, sans-serif; */
+    /* font-family: 'Allura', cursive;
+    font-family: 'Baskervville', serif;
+    font-family: 'Buda', cursive;
+    font-family: 'Roboto', sans-serif; */
+}
