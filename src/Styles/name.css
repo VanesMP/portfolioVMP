@@ -4,20 +4,20 @@
     align-items: center;
     justify-content: center;
     width: 45%;
-    height: 119px;
+    height: 120px;
+    opacity: 80%;
 }
 
 .name {
-    height: 52px;
+    height: 48px;
     color: #f5f5f5;
-    font: 500 56px 'Allura', cursive;
+    font: 500 53px 'Allura', cursive;
     letter-spacing: 2pt;
 }
 
 .job {
-    /* color: #ffffff; la couleur a utiliser pour le rendu final */
-    color: black;
-    opacity: 76%;
-    font: 400 27px 'Baskervville', serif;
+    color: #ffffff;
+    /* color: black; */
+    font: 400 26px 'Baskervville', serif;
     padding-left: 220px;
 }

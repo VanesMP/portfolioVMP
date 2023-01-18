@@ -1,6 +1,7 @@
 .nav {
     width: 45%;
     height: 70px;
+    opacity: 80%;
 }
 
 nav {
@@ -19,7 +20,7 @@ ul {
 }
 
 li {
-    color: #ffff;
-    font: 17px 'Roboto', sans-serif;
+    color: #ffffff;
+    font: 400 18px 'Roboto', sans-serif;
     list-style-type: none;
 }

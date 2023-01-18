@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './Composnent/Header';
+import Home from './Pages/Home';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      Hello
+      <Home />
       
     </div>
   );
