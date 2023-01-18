@@ -9,11 +9,13 @@ function Home() {
     return(
         <div>
             <Background />
+            <div className="containerProjectsIcone"></div>
             <div className="headerPage">
                 <Name />
                 <Navbar />
             </div>
             <div className="arrowDown"></div>
+            
             <div className="footerPage">
                 <Footer />
             </div>

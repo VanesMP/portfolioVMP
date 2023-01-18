@@ -13,3 +13,9 @@
     height: 70px;
     bottom: 0;
 }
+
+.containerProjectsIcone {
+    width: 100%;
+    height: 1200px;
+    background-color: red;
+}

@@ -1,6 +1,6 @@
 .header,
 .footer {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 70px;
     background-color: #444c44;
