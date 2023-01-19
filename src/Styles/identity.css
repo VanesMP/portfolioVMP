@@ -1,0 +1,58 @@
+.identity {
+    position: absolute;
+    width: 912px;
+    height: 380px;
+    left: 280px;
+    top: 278px;
+    background-color: #444c4447;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.portrait {
+    width: 237px;
+    height: 226px;
+}
+
+.presentation {
+    height: 299px;
+    width: 569px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+}
+
+.bienvenu {
+    font: 400 20px 'Roboto', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 300px;
+}
+
+.paragraphePresentation,
+.learnMore {
+    font: 100 18px 'Roboto', serif;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+.learnMore {
+    text-decoration: underline;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
