@@ -17,13 +17,24 @@
 .containerPresentation {
     width: 100%;
     height: 1200px;
-    background-color: red;
+    background-color: #444c44;
+}
+
+.arrow,
+.arrowUp {
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
 }
 
 .arrow {
     position: absolute;
     bottom: 100px;
     left: 50%;
-    width: 55px;
-    height: 55px;
+}
+
+.upPageProjects {
+    width: 100%;
+    height: 185px;
+    background: #FFFFFF;
 }
