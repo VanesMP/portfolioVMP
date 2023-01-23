@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import "../Styles/gallery.css";
 import {getLinkItems} from "../api.js";
-// import Box from '@mui/material/Box';
+import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 
@@ -19,33 +19,30 @@ function Gallery() {
     }, []);
         
     let small = {
-    width: '400px',
+    width: '100%',
     height: '400px',
     };
 
     let large = {
-    width: '400px',
+    width: '100%',
     height: '550px',
     }
 
   return (
-    <div className="containerGallery">
-    
-      <ImageList variant="masonry" cols={3} gap={6}>
+    <Box className="box">
+      <ImageList variant="masonry" cols={3} gap={6} className="ul">
         {items.map((item) => (
           <ImageListItem key={item.title}>
             <img
-              src={`${item.source}?w=248&fit=crop&auto=format`}
-            //   srcSet={`${item.source}?w=248&fit=crop&auto=format&dpr=2 2x`}
+              src={item.source}
               alt={item.title}
               loading="lazy"
               style={item.size === 'small' ? small : large}
-              className="imageGallery"
             />
           </ImageListItem>
         ))}
       </ImageList>
-    </div>
+      </Box>
     )
 };
 

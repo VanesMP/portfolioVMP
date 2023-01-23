@@ -16,13 +16,13 @@ function Home() {
             <div>
             <Identity />
             <a href="#ancreProject"><img src={arrowDown} alt="arrow to check directly all the projects"  className="arrow" /></a>
-            </div>
             <div className="containerPresentation">
                 <div className="upPageProjects" id="ancreProject"></div>
                 <Gallery />
-                <img src={arrowUp} alt="arrow to get back" className="arrowUp" />
+            <a href="#ancreMenu"><img src={arrowUp} alt="arrow to get back" className="arrowUp" /></a>
             </div>
-            <div className="headerPage">
+            </div>
+            <div className="headerPage" id="ancreMenu">
                 <Name />
                 <Navbar />
             </div>

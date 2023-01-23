@@ -1,23 +1,29 @@
-.headerPage {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: absolute;
-    height: 70px;
-    top: 0;
-}
-
+.headerPage,
 .footerPage {
     width: 100%;
     position: absolute;
     height: 70px;
+    z-index: 1;
+}
+
+.headerPage {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+}
+
+.footerPage {
     bottom: 0;
 }
 
 .containerPresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     width: 100%;
-    height: 1200px;
-    background-color: #444c44;
+    background-color: #f3f3f33b;
+    z-index: 0;
 }
 
 .arrow,
@@ -33,8 +39,11 @@
     left: 50%;
 }
 
+.arrowUp {
+    margin-bottom: 100px;
+}
+
 .upPageProjects {
     width: 100%;
     height: 185px;
-    background: #FFFFFF;
 }
