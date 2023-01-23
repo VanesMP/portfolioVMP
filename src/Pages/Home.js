@@ -6,6 +6,7 @@ import Footer from "../Composnent/Footerr";
 import Identity from "../Composnent/Identity";
 import Name from "../Composnent/Name";
 import Navbar from "../Composnent/Navbar";
+import Gallery from "../Composnent/Gallery";
 import "../Styles/homePage.css";
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
             </div>
             <div className="containerPresentation">
                 <div className="upPageProjects" id="ancreProject"></div>
+                <Gallery />
                 <img src={arrowUp} alt="arrow to get back" className="arrowUp" />
             </div>
             <div className="headerPage">

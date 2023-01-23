@@ -1,0 +1,12 @@
+.containerGallery {
+    width: 1210ps;
+    height: 9450px;
+    color: #f3f3f3;
+    overflow: hidden;
+    margin: auto;
+}
+
+.imageGallery {
+    width: auto;
+    height: auto;
+}

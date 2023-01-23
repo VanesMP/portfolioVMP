@@ -1,0 +1,18 @@
+{
+    "itemData": [{
+            "source": "src/test/1.jpg",
+            "title": "1.jpg",
+            "size": "small"
+        },
+        {
+            "source": "src/test/2.jpg",
+            "title": "2.jpg",
+            "size": "large"
+        },
+        {
+            "source": "src/test/3.jpg",
+            "title": "3.jpg",
+            "size": "small"
+        }
+    ]
+}
