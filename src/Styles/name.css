@@ -17,8 +17,14 @@
 }
 
 .job {
-    color: #ffffff;
-    /* color: black; */
     font: 400 26px 'Baskervville', serif;
     padding-left: 220px;
+}
+
+#default {
+    color: #ffffff;
+}
+
+#scrolled {
+    color: #314035;
 }
