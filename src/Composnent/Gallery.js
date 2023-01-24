@@ -20,17 +20,17 @@ function Gallery() {
         
     let small = {
     width: '100%',
-    height: '400px',
+    height: '300px',
     };
 
     let large = {
     width: '100%',
-    height: '550px',
+    height: '450px',
     }
 
   return (
     <Box className="box">
-      <ImageList variant="masonry" cols={3} gap={6} className="ul">
+      <ImageList variant="masonry" cols={3} gap={20} className="ul">
         {items.map((item) => (
           <ImageListItem key={item.title} className="cellItem">
             <img

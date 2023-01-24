@@ -6,8 +6,8 @@
     width: 80%;
     height: auto;
     margin: auto;
-    row-gap: 6px;
-    background-color: #fff;
+    row-gap: 20px;
+    /* background-color: #fff; */
 }
 
 .cellItem {
