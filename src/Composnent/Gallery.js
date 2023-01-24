@@ -32,12 +32,13 @@ function Gallery() {
     <Box className="box">
       <ImageList variant="masonry" cols={3} gap={6} className="ul">
         {items.map((item) => (
-          <ImageListItem key={item.title}>
+          <ImageListItem key={item.title} className="cellItem">
             <img
               src={item.source}
               alt={item.title}
               loading="lazy"
               style={item.size === 'small' ? small : large}
+              className="linkImg"
             />
           </ImageListItem>
         ))}

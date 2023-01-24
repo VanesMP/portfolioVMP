@@ -10,7 +10,10 @@
     background-color: #fff;
 }
 
+.cellItem {
+    background-color: #2B322B;
+}
 
-/* .imageGallery {
-    object-fit: cover;
-} */
+.linkImg:hover {
+    opacity: 20%;
+}

@@ -1,31 +1,31 @@
 {
     "itemData": [{
-            "source": "/test/1.jpg",
+            "source": "/linkImg/1.jpg",
             "title": "1.jpg",
             "size": "small"
         },
         {
-            "source": "/test/2.jpg",
+            "source": "/linkImg/2.jpg",
             "title": "2.jpg",
             "size": "large"
         },
         {
-            "source": "/test/3.jpg",
+            "source": "/linkImg/3.jpg",
             "title": "3.jpg",
             "size": "large"
         },
         {
-            "source": "/test/4.jpg",
+            "source": "/linkImg/4.jpg",
             "title": "4.jpg",
             "size": "small"
         },
         {
-            "source": "/test/5.jpg",
+            "source": "/linkImg/5.jpg",
             "title": "5.jpg",
             "size": "small"
         },
         {
-            "source": "/test/6.jpg",
+            "source": "/linkImg/6.jpg",
             "title": "6.jpg",
             "size": "large"
         }
