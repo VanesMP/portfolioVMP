@@ -14,7 +14,7 @@ function Name () {
       }, []);
       
       const handleScroll = () => {
-        if (window.scrollY > 860) {
+        if (window.scrollY > 860 && window.scrollY < 990) {
           setTextClass('scrolled');
         } else {
           setTextClass('default');

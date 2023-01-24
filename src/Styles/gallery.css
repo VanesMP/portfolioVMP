@@ -1,5 +1,5 @@
 .box {
-    margin-bottom: 25px;
+    margin-bottom: 80px;
 }
 
 .ul {
@@ -10,8 +10,13 @@
     /* background-color: #fff; */
 }
 
-.cellItem {
+
+/* .cellItem {
     background-color: #2B322B;
+} */
+
+.linkImg {
+    border-radius: 5px;
 }
 
 .linkImg:hover {
