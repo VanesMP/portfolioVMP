@@ -1,13 +1,13 @@
 import React from "react";
 import "../Styles/navBar.css";
 
-function Navbar () {
+function Navbar ({ ancreProjet }) {
     return (
         <div className="nav">
             <nav>
                 <ul>
                     <li>HOME</li>
-                    <li>PROJECTS</li>
+                    <a href={ancreProjet}><li>PROJECTS</li></a>
                     <li>ABOUT</li>
                     <li>C.V</li>
                     <li>CONTACT</li>

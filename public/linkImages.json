@@ -1,47 +1,46 @@
 {
     "itemData": [{
             "source": "/linkImg/reserviaLink.png",
-            "title": "reserviaLink",
+            "title": "Reservia",
             "size": "small"
         },
         {
             "source": "/linkImg/ohmyfood.png",
-            "title": "ohmyfoodLink",
+            "title": "Oh my food",
             "size": "large"
         },
         {
             "source": "/linkImg/gameonLink.png",
-            "title": "gameon",
+            "title": "Game On",
             "size": "small"
         },
         {
             "source": "/linkImg/fisheyeLink.png",
-            "title": "fisheye",
+            "title": "Fisheye",
             "size": "large"
         },
         {
             "source": "/linkImg/lespetitsplatsLink.png",
-            "title": "lespetitsplats",
+            "title": "Les petits plats",
             "size": "small"
         },
         {
             "source": "/linkImg/learnmoreLink.png",
-            "title": "learnmore",
+            "title": "Learn More",
             "size": "large"
         },
         {
             "source": "/linkImg/kasaLink.png",
-            "title": "kasa",
+            "title": "Kasa",
             "size": "small"
         },
         {
             "source": "/linkImg/sportseeLink.png",
-            "title": "sportsee",
+            "title": "Sportsee",
             "size": "large"
         },
         {
             "source": "/linkImg/contactLink.png",
-            "title": "contactme",
             "size": "small"
         }
     ]

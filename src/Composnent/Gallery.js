@@ -40,6 +40,7 @@ function Gallery() {
               style={item.size === 'small' ? small : large}
               className="linkImg"
             />
+            <h4 className="titleLink">{item.title}</h4>
           </ImageListItem>
         ))}
       </ImageList>

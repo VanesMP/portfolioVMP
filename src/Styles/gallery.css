@@ -10,15 +10,55 @@
     /* background-color: #fff; */
 }
 
-
-/* .cellItem {
+.cellItem {
     background-color: #2B322B;
-} */
+}
 
-.linkImg {
+.linkImg,
+.cellItem {
     border-radius: 5px;
+    position: relative;
 }
 
 .linkImg:hover {
     opacity: 20%;
+}
+
+.titleLink {
+    pointer-events: none;
+    color: #f3f3f3;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    bottom: 38%;
+    font: 400 26px 'Baskervville', serif;
+    text-shadow: 2px 2px 3px #9fcb9f;
+    background-color: #1d211eba;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0%;
+}
+
+.linkImg:hover~.titleLink {
+    opacity: 100%;
+}
+
+
+/* Cela permet de créer un élément invisible qui couvre l'élément ciblé et qui est capable de réagir aux événements de la souris. */
+
+
+/* 
+.titleLink:hover+.linkImg {
+    opacity: 20%;
+} */
+
+
+/* .titleLink {
+    pointer-events: none;
+ }*/
+
+.titleLink::before {
+    pointer-events: auto;
 }
