@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import arrowDown from "../assets/arrowDown.svg";
 import arrowUp from "../assets/ArrowUp.svg";
 import Background from "../Composnent/Background";
@@ -10,6 +10,26 @@ import Gallery from "../Composnent/Gallery";
 import "../Styles/homePage.css";
 
 function Home() {
+
+    const [textClass, setTextClass] = useState('default');
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+      
+      const handleScroll = () => {
+        // if (window.scrollY > 860 && window.scrollY < 990) {
+          if (window.scrollY > 860) {
+          setTextClass('scrolled');
+        } else {
+          setTextClass('default');
+        }
+      };
+      
+
     return(
         <div>
             <Background />
@@ -23,12 +43,12 @@ function Home() {
             </div>
             </div>
             <div className="headerPage" id="ancreMenu">
-                <Name />
+                <Name nameprop="name" jobprop="job" idTextclass={textClass} />
                 <Navbar ancreProjet="#project"/>
             </div>
             <div className="arrowDown"></div>
             <div className="footerPage">
-                <Footer />
+                <Footer containerFooter="containerFooterFixe"/>
             </div>
         </div>
     )

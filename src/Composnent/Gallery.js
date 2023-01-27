@@ -31,8 +31,8 @@ function Gallery() {
   return (
     <Box className="box">
       <ImageList variant="masonry" cols={3} gap={20} className="ul">
-        {items.map((item) => (
-          <ImageListItem key={item.title} className="cellItem">
+        {items.map((item, index) => (
+          <ImageListItem key={index++} className="cellItem">
             <img
               src={item.source}
               alt={item.title}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import "../Styles/navBar.css";
 
 function Navbar ({ ancreProjet }) {
@@ -6,8 +7,12 @@ function Navbar ({ ancreProjet }) {
         <div className="nav">
             <nav>
                 <ul>
-                    <li>HOME</li>
-                    <a href={ancreProjet}><li>PROJECTS</li></a>
+                    <Link to="/">
+                        <li>HOME</li>
+                    </Link>
+                    <Link to="/project">
+                        <a href={ancreProjet}><li>PROJECTS</li></a>
+                    </Link>
                     <li>ABOUT</li>
                     <li>C.V</li>
                     <li>CONTACT</li>

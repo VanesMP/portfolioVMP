@@ -7,11 +7,11 @@ import Project from './Pages/Project';
 
 function App() {
   return (
-        <div className="App">
+    <div className="App">
     <Router>  
         <Routes>
           <Route exact path="/" element={<Home />}/>
-          <Route path="/project/:title" element={<Project />}/>
+          <Route path="/project" element={<Project />}/>
         </Routes> 
     </Router>
     </div>

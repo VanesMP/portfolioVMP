@@ -8,23 +8,3 @@
     height: 120px;
     opacity: 80%;
 }
-
-.name {
-    height: 48px;
-    color: #f5f5f5;
-    font: 500 53px 'Allura', cursive;
-    letter-spacing: 2pt;
-}
-
-.job {
-    font: 400 26px 'Baskervville', serif;
-    padding-left: 220px;
-}
-
-#default {
-    color: #ffffff;
-}
-
-#scrolled {
-    color: #314035;
-}
