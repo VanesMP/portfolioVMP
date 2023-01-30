@@ -36,7 +36,7 @@ function DisplayProject() {
                         <h4 className="titreTextPres">L' objectif</h4>
                         <p>
                             Mon travail sur ce projet, était de réaliser un site web responsive en suivant la maquette réalisé par Loïc.
-                            La contrainte de ce projet etait qu'il devait etre réalisé en utilisant uniquement HTML et CSS
+                            La contrainte de ce projet etait qu'il devait etre réalisé en utilisant uniquement HTML et CSS.
                         </p>
                     </div>
                     <div className="textRealisation">
