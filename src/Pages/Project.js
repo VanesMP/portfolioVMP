@@ -17,7 +17,7 @@ function Project() {
             </div>
             <div className="headerPage">
                 <Name nameprop="nameProject" jobprop="jobproject"/>
-                <Navbar />
+                <Navbar pathAncre="/" />
             </div>
             {/* <div className="footerPage">
                 <Footer containerFooter="containerFooterScroll"/>

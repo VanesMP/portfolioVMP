@@ -35,16 +35,16 @@ function Home() {
             <Background />
             <div>
             <Identity />
-            <a href="#project"><img src={arrowDown} alt="arrow to check directly all the projects"  className="arrow" /></a>
+            <a href="#projects"><img src={arrowDown} alt="arrow to check directly all the projects"  className="arrow" /></a>
             <div className="containerPresentation">
-                <div className="upPageProjects" id="project"></div>
+                <div className="upPageProjects" id="projects"></div>
                 <Gallery />
             <a href="#ancreMenu"><img src={arrowUp} alt="arrow to get back" className="arrowUp" /></a>
             </div>
             </div>
             <div className="headerPage" id="ancreMenu">
                 <Name nameprop="name" jobprop="job" idTextclass={textClass} />
-                <Navbar ancreProjet="#project"/>
+                <Navbar pathAncre="#projects" />
             </div>
             <div className="arrowDown"></div>
             <div className="footerPage">
