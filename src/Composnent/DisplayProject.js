@@ -6,9 +6,9 @@ import testLogo from "../assets/logo/reservia.png";
 import "../Styles/displayProject.css";
 import gitLink from "../assets/githubLink.png";
 import webLink from "../assets/webLink.png";
-import one from "../assets/test/imageA.Reservia.jpg";
-import two from "../assets/test/imageB.Reservia.jpg";
-import three from "../assets/test/imageC.Reservia.jpg";
+// import one from "../assets/test/imageA.Reservia.jpg";
+// import two from "../assets/test/imageB.Reservia.jpg";
+// import three from "../assets/test/imageC.Reservia.jpg";
 
 function DisplayProject() {
 
@@ -59,9 +59,9 @@ function DisplayProject() {
                 </div>
             </div>
             <div className="galleryImg">
-                <img src={one} alt="1" className="imgGallery" />
+                {/* <img src={one} alt="1" className="imgGallery" />
                 <img src={two} alt="2" className="imgGallery" />
-                <img src={three} alt="3" className="imgGallery" />
+                <img src={three} alt="3" className="imgGallery" /> */}
             </div>
             <div className="containerFooter">
                 <Banner upOrDown="footerProject" />

@@ -15,9 +15,9 @@ import ohmyfoodMobile from "../src/assets/media/ohmyfood/imageC.Ohmyfood.jpg";
 // GameOn Media
 // import gameonLogo from "../src/assets/logo/gameOn.png";
 // import gameonIFrame from "../src/assets/media/gameon/frame-Gameon.png";
-// import gameonDesktop from "../src/assets/media/gameon/imageA.GameOn.jpg";
-// import gameonTablet from "../src/assets/media/gameon/imageB.GameOn.jpg";
-// import gameonMobile from "../src/assets/media/gameon/imageC.GameOn.jpg";
+import gameonDesktop from "../src/assets/media/gameon/imageA.GameOn.jpg";
+import gameonTablet from "../src/assets/media/gameon/imageB.GameOn.jpg";
+import gameonMobile from "../src/assets/media/gameon/imageC.GameOn.jpg";
 
 // Fisheye Media
 // import fisheyeLogo from "../src/assets/logo/fisheye.png";
@@ -77,17 +77,48 @@ export const dataList = [{
         id: "002",
         name: "Oh my food",
         entreprise: "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.",
-        subject1: "*",
-        subject2: "*",
-        objectif: `L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. 
-                En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que 
+        subject1: `Cette entreprise de commande de repas en ligne, permet aux utilisateurs de composer leur propre menu 
+                et de réduire leur temps d'attente dans les restaurants car leur menu est préparé à l'avance.`,
+        subject2: `En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que 
                 les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !.`,
-        realisation: "*",
+        objectif: `L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
+                Ohmyfood! souhaite se positionner sur un marché de niche, avec les restaurants luxueux des villes
+                dans lesquelles ils sont établis. 
+                Souhaitant être identifié comme une entreprise qui propose des services haut de gamme, l'équipe a réalisé une maquette 
+                et des animations CSS avancées qui ont su respect cette demande.`,
+        realisation: `Le parcours utilisateur commence par l' affichage d'un spinner qui reprends l'A.D.N de la marque, puis direction la page d'accueil qui 
+                offre la possibilité de choisir les menus de 4 restaurants parisiens.
+                Une fois le choix du restaurant réalisé, l' utilisateur peut alors composer son menu en sélection les différentes propositions, dans les entrées,
+                les plats et les desserts.
+                A chaque sélection faite par l' utilisateur, une animation Css marque le choix.`,
         pictures: [ohmyfoodDesktop, ohmyfoodTablet, ohmyfoodMobile],
         tagsTechno: ["html", "css"],
         tagsSkills: ["maquette", "responsive", "versionning", "animationCSS", "navigation"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_3_06052021",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_3_06052021/"
+    },
+    {
+        id: "003",
+        name: "Game On",
+        entreprise: "GameOn, spécialisée dans les conférences et les concours de jeux.",
+        subject1: `Cette PME spécialisée dans le domaine du jeux vidéo, propose aux utilisateurs dans cette landing page
+                via un formulaire de s'inscrire au Marathon national du jeux vidéo.`,
+        subject2: ` `,
+        objectif: `Après avoir reçu des commentaires négatifs de la part de certains utilisateurs, la nouvelle page d'accueil ainsi que les
+                inscriptions aux concours ont été simplifié.
+                Mon travail dans ce projet consistait d'abord à vérifier et tester le code déja réalisé et à ajouter une fonctionnalité manquante,
+                le formulaire d' inscription.`,
+        realisation: `Le parcours utilisateur commence par l' affichage de la landing page qui propose aux utilisateurs/gameurs de s' inscrire
+                au concours.
+                Le bouton s'inscrire offre une fenêtre pop up, qui est le formulaire d' inscription.
+                Plusieurs champs de saisi sont présents, du texte, une date, des boutons radio et des checkbox. Avant la validation du formulaire, tous les champs
+                du formulaire doivent être correctemnt saisi.
+                La barre de navigation n'a pas encore été implémenté.`,
+        pictures: [gameonDesktop, gameonTablet, gameonMobile],
+        tagsTechno: ["html", "css", "javascript"],
+        tagsSkills: ["responsive", "versionning", "formulaire", "navigation", "landingPage"],
+        gitLink: "https://github.com/VanesMP/MacedopintoVanessa_4_06052021",
+        gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_4_06052021/"
     },
 
 ]
