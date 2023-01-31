@@ -22,36 +22,36 @@ import gameonMobile from "../src/assets/media/gameon/imageC.GameOn.jpg";
 // Fisheye Media
 // import fisheyeLogo from "../src/assets/logo/fisheye.png";
 // import fisheyeIFrame from "../src/assets/media/fisheye/frame-Fisheye.png";
-// import fisheyeDesktop from "../src/assets/media/fisheye/imageA.Fisheye.jpg";
-// import fisheyeTablet from "../src/assets/media/fisheye/imageB.Fisheye.jpg";
-// import fisheyeMobile from "../src/assets/media/fisheye/imageC.Fisheye.jpg";
+import fisheyeDesktop from "../src/assets/media/fisheye/imageA.Fisheye.jpg";
+import fisheyeTablet from "../src/assets/media/fisheye/imageB.Fisheye.jpg";
+import fisheyeMobile from "../src/assets/media/fisheye/imageC.Fisheye.jpg";
 
 // Les petits plats Media
 // import lespetitsplatsLogo from "../src/assets/logo/lespetitsplats.svg";
 // import lespetitsplatsIFrame from "../src/assets/media/lespetitsplats/frame-Lespetitsplats.png";
-// import lespetitsplatsDesktop from "../src/assets/media/lespetitsplats/imageA.FLespetitsplats.jpg";
-// import lespetitsplatsTablet from "../src/assets/media/lespetitsplats/imageB.FLespetitsplats.jpg";
+import lespetitsplatsDesktop from "../src/assets/media/lespetitsplats/imageA.FLespetitsplats.jpg";
+import lespetitsplatsTablet from "../src/assets/media/lespetitsplats/imageB.FLespetitsplats.jpg";
 
 // Learn more Media
 // import learnmorelogo from "../src/assets/logo/learnMore.png";
 // import learnmoreIFrame from "../src/assets/media/learnmore/frame-Learnmore.png";
-// import learnmoreDesktop from "../src/assets/media/learnmore/imageA.LearnMore.jpg";
-// import learnmoreTablet from "../src/assets/media/learnmore/imageB.LearnMore.jpg";
-// import learnmoreMobile from "../src/assets/media/learnmore/imageC.LearnMore.jpg";
+import learnmoreDesktop from "../src/assets/media/learnmore/imageA.LearnMore.jpg";
+import learnmoreTablet from "../src/assets/media/learnmore/imageB.LearnMore.jpg";
+import learnmoreMobile from "../src/assets/media/learnmore/imageC.LearnMore.jpg";
 
 // Kasa Media
 // import kasalogo from "../src/assets/logo/kasa.png";
 // import kasaIFrame from "../src/assets/media/kasa/frame-Kasa.png";
-// import kasaDesktop from "../src/assets/media/kasa/imageA.Kasa.jpg";
-// import kasaTablet from "../src/assets/media/kasa/imageB.Kasa.jpg";
-// import kasaMobile from "../src/assets/media/kasa/imageC.Kasa.jpg";
+import kasaDesktop from "../src/assets/media/kasa/imageA.Kasa.jpg";
+import kasaTablet from "../src/assets/media/kasa/imageB.Kasa.jpg";
+import kasaMobile from "../src/assets/media/kasa/imageC.Kasa.jpg";
 
 // Sportsee Media
 // import sportseelogo from "../src/assets/logo/sportsee.png";
 // import sportseeIFrame from "../src/assets/media/sportsee/frame-Sportsee.png";
-// import sportseeDesktop from "../src/assets/media/sportsee/imageA.Sportsee.jpg";
-// import sportseeTablet from "../src/assets/media/sportsee/imageB.Sportsee.jpg";
-// import sportseeMobile from "../src/assets/media/sportsee/imageC.Sportsee.jpg";
+import sportseeDesktop from "../src/assets/media/sportsee/imageA.Sportsee.jpg";
+import sportseeTablet from "../src/assets/media/sportsee/imageB.Sportsee.jpg";
+import sportseeMobile from "../src/assets/media/sportsee/imageC.Sportsee.jpg";
 
 export const dataList = [{
         id: "001",
@@ -119,6 +119,81 @@ export const dataList = [{
         tagsSkills: ["responsive", "versionning", "formulaire", "navigation", "landingPage"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_4_06052021",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_4_06052021/"
+    },
+    {
+        id: "004",
+        name: "Fisheye",
+        entreprise: "FishEye est un site web qui permet aux photographes frelance de présenter leurs meilleurs travaux.",
+        subject1: `Ces photographes prennent de super photos, mais ils n'y connaissent rien en développement web. C'est
+                pourquoi Fisheye propose une plateforme unique pour montrer leurs photos sur une belle page
+                et de permettre aux visiteurs de les contacter pour des événements ou des tirages.`,
+        subject2: `Fisheye posséde un énorme réseau de photographes, aprés une récente levé de fonds, l'entreprise souhaite faire une mise à niveau
+                vers un site dynamique.`,
+        objectif: `L' objectif est de construire un prototype fonctionnel d'un nouveau site web, en adéquation avec les maquettes au préalablement validées.
+                J'ai été uniquement en charge de la partie front-end de ce site web en respectant les différentes fonctionnalités et exigences techniques,
+                notamment celle en matière d'accessibilité.`,
+        realisation: ``,
+        pictures: [fisheyeDesktop, fisheyeTablet, fisheyeMobile],
+        tagsTechno: ["html", "css", "sass", "javascript"],
+        tagsSkills: ["responsive", "versionning", "desinPattern", "navigation", "accessibilite"],
+        gitLink: "https://github.com/VanesMP/MacedopintoVanessa_6_06052021",
+        gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_6_06052021/"
+    },
+    {
+        id: "005",
+        name: "Les petits plats",
+        //     entreprise: "",
+        //     subject1: ``,
+        //     subject2: ` `,
+        //     objectif: ``,
+        //     realisation: ``,
+        pictures: [lespetitsplatsDesktop, lespetitsplatsTablet],
+        tagsTechno: ["html", "css", "sass", "javascript"],
+        //     tagsSkills: ["versionning","navigation", "algoythme", "tri"],
+        gitLink: "https://github.com/VanesMP/VanesMP-MacedopintoVanessa_7_06052021",
+        gitWebsite: "https://vanesmp.github.io/VanesMP-MacedopintoVanessa_7_06052021/"
+    },
+    {
+        id: "006",
+        name: "Learn more",
+        //     entreprise: "",
+        //     subject1: ``,
+        //     subject2: ` `,
+        //     objectif: ``,
+        //     realisation: ``,
+        pictures: [learnmoreDesktop, learnmoreTablet, learnmoreMobile],
+        tagsTechno: ["figma"],
+        tagsSkills: ["maquette", "userstories"],
+        gitLink: " ",
+        gitWebsite: " "
+    },
+    {
+        id: "007",
+        name: "Kasa",
+        //     entreprise: "",
+        //     subject1: ``,
+        //     subject2: ` `,
+        //     objectif: ``,
+        //     realisation: ``,
+        pictures: [kasaDesktop, kasaTablet, kasaMobile],
+        tagsTechno: ["html", "css", "javascript", "react"],
+        tagsSkills: ["versionning", "composant", "framework", "navigation"],
+        gitLink: " ",
+        gitWebsite: " "
+    },
+    {
+        id: "008",
+        name: "Sportsee",
+        //     entreprise: "",
+        //     subject1: ``,
+        //     subject2: ` `,
+        //     objectif: ``,
+        //     realisation: ``,
+        pictures: [sportseeDesktop, sportseeTablet, sportseeMobile],
+        tagsTechno: ["html", "css", "javascript", "react", "recharts"],
+        tagsSkills: ["versionning", "composant", "framework", "connexion", "charts"],
+        gitLink: "https://github.com/VanesMP/MacedoPintoVanessa_12_06052021",
+        gitWebsite: " "
     },
 
 ]
