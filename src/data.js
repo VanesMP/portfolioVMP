@@ -1,53 +1,64 @@
+// CONTACT Media
+import contactmeGallery from "../src/assets/linkImg/contactLink.png";
+
 // Reservia Media
 import reserviaLogo from "../src/assets/logo/reservia.png";
+import reserviaGallery from "../src/assets/linkImg/reserviaLink.png";
 // import reserviaIFrame from "../src/assets/media/reservia/frame-Reservia.png";
 import reserviaDesktop from "../src/assets/media/reservia/imageA.Reservia.jpg";
 import reserviaTablet from "../src/assets/media/reservia/imageB.Reservia.jpg";
 import reserviaMobile from "../src/assets/media/reservia/imageC.Reservia.jpg";
 
 // OhMyFood Media
-// import ohmyfoodLogo from "../src/assets/logo/ohmyfood.png";
+import ohmyfoodLogo from "../src/assets/logo/ohmyfood.png";
+import ohmyfoodGallery from "../src/assets/linkImg/ohmyfood.png";
 // import ohmyfoodIFrame from "../src/assets/media/ohmyfood/frame-Ohmyfood.png";
 import ohmyfoodDesktop from "../src/assets/media/ohmyfood/imageA.Ohmyfood.jpg";
 import ohmyfoodTablet from "../src/assets/media/ohmyfood/imageB.Ohmyfood.jpg";
 import ohmyfoodMobile from "../src/assets/media/ohmyfood/imageC.Ohmyfood.jpg";
 
 // GameOn Media
-// import gameonLogo from "../src/assets/logo/gameOn.png";
+import gameonLogo from "../src/assets/logo/gameOn.png";
+import gameonGallery from "../src/assets/linkImg/gameonLink.png";
 // import gameonIFrame from "../src/assets/media/gameon/frame-Gameon.png";
 import gameonDesktop from "../src/assets/media/gameon/imageA.GameOn.jpg";
 import gameonTablet from "../src/assets/media/gameon/imageB.GameOn.jpg";
 import gameonMobile from "../src/assets/media/gameon/imageC.GameOn.jpg";
 
 // Fisheye Media
-// import fisheyeLogo from "../src/assets/logo/fisheye.png";
+import fisheyeLogo from "../src/assets/logo/fisheye.png";
+import fisheyeGallery from "../src/assets/linkImg/fisheyeLink.png";
 // import fisheyeIFrame from "../src/assets/media/fisheye/frame-Fisheye.png";
 import fisheyeDesktop from "../src/assets/media/fisheye/imageA.Fisheye.jpg";
 import fisheyeTablet from "../src/assets/media/fisheye/imageB.Fisheye.jpg";
 import fisheyeMobile from "../src/assets/media/fisheye/imageC.Fisheye.jpg";
 
 // Les petits plats Media
-// import lespetitsplatsLogo from "../src/assets/logo/lespetitsplats.svg";
+import lespetitsplatsLogo from "../src/assets/logo/lespetitsplats.svg";
+import lespetitsplatsGallery from "../src/assets/linkImg/lespetitsplatsLink.png";
 // import lespetitsplatsIFrame from "../src/assets/media/lespetitsplats/frame-Lespetitsplats.png";
 import lespetitsplatsDesktop from "../src/assets/media/lespetitsplats/imageA.FLespetitsplats.jpg";
 import lespetitsplatsTablet from "../src/assets/media/lespetitsplats/imageB.FLespetitsplats.jpg";
 
 // Learn@Home Media
-// import learnhomelogo from "../src/assets/logo/learnhome.png";
+import learnhomelogo from "../src/assets/logo/learnhome.png";
+import learnhomeGallery from "../src/assets/linkImg/learnmoreLink.png";
 // import learnhomeIFrame from "../src/assets/media/learnhome/frame-learnhome.png";
 import learnhomeDesktop from "../src/assets/media/learnhome/imageA.learnhome.jpg";
 import learnhomeTablet from "../src/assets/media/learnhome/imageB.learnhome.jpg";
 import learnhomeMobile from "../src/assets/media/learnhome/imageC.learnhome.jpg";
 
 // Kasa Media
-// import kasalogo from "../src/assets/logo/kasa.png";
+import kasalogo from "../src/assets/logo/kasa.png";
+import kasaGallery from "../src/assets/linkImg/kasaLink.png";
 // import kasaIFrame from "../src/assets/media/kasa/frame-Kasa.png";
 import kasaDesktop from "../src/assets/media/kasa/imageA.Kasa.jpg";
 import kasaTablet from "../src/assets/media/kasa/imageB.Kasa.jpg";
 import kasaMobile from "../src/assets/media/kasa/imageC.Kasa.jpg";
 
 // Sportsee Media
-// import sportseelogo from "../src/assets/logo/sportsee.png";
+import sportseelogo from "../src/assets/logo/sportsee.png";
+import sportseeGallery from "../src/assets/linkImg/sportseeLink.png";
 // import sportseeIFrame from "../src/assets/media/sportsee/frame-Sportsee.png";
 import sportseeDesktop from "../src/assets/media/sportsee/imageA.Sportsee.jpg";
 import sportseeTablet from "../src/assets/media/sportsee/imageB.Sportsee.jpg";
@@ -57,6 +68,8 @@ export const dataList = [{
         id: "001",
         name: "Reservia",
         logo: reserviaLogo,
+        source: reserviaGallery,
+        size: "small",
         entreprise: "Reservia est une petite entreprise qui propose un outil de planification pour leur vacances.",
         subject1: `Le site de Reservia permet à ces usagers de trouver des hébergements et des activités dans un large choix de ville, 
             en ayant la possibilité de filtrer ces hébergements par thématique, par ambiance  ou selon le budget.`,
@@ -77,7 +90,10 @@ export const dataList = [{
     },
     {
         id: "002",
-        name: "Oh my food",
+        name: "Ohmyfood!",
+        logo: ohmyfoodLogo,
+        source: ohmyfoodGallery,
+        size: "large",
         entreprise: "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.",
         subject1: `Cette entreprise de commande de repas en ligne, permet aux utilisateurs de composer leur propre menu 
                 et de réduire leur temps d'attente dans les restaurants car leur menu est préparé à l'avance.`,
@@ -103,6 +119,9 @@ export const dataList = [{
     {
         id: "003",
         name: "Game On",
+        logo: gameonLogo,
+        source: gameonGallery,
+        size: "small",
         entreprise: "GameOn, spécialisée dans les conférences et les concours de jeux.",
         subject1: `Cette PME spécialisée dans le domaine du jeux vidéo, propose aux utilisateurs dans cette landing page
                 via un formulaire de s'inscrire au Marathon national du jeux vidéo.`,
@@ -127,6 +146,9 @@ export const dataList = [{
     {
         id: "004",
         name: "Fisheye",
+        logo: fisheyeLogo,
+        source: fisheyeGallery,
+        size: "large",
         entreprise: "FishEye est un site web qui permet aux photographes frelance de présenter leurs meilleurs travaux.",
         subject1: `Ces photographes prennent de super photos, mais ils n'y connaissent rien en développement web. C'est
                 pourquoi Fisheye propose une plateforme unique pour montrer leurs photos sur une belle page
@@ -155,6 +177,9 @@ export const dataList = [{
     {
         id: "005",
         name: "Les petits plats",
+        logo: lespetitsplatsLogo,
+        source: lespetitsplatsGallery,
+        size: "small",
         entreprise: "Les petits plats est une entreprise édite des livres de cuisine depuis plusieurs années.",
         subject1: `L'entreprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine 
                 à l'instar de Marmiton ou 750g.`,
@@ -183,6 +208,9 @@ export const dataList = [{
     {
         id: "006",
         name: "Learn@Home",
+        logo: learnhomelogo,
+        source: learnhomeGallery,
+        size: "large",
         entreprise: "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles, en ligne",
         subject1: `Chaque élève inscrit sur le site a un tuteur bénévole, qui lui est assigné. Le bénévole a pour objectif de soutenir l'élève 
                 dans son apprentissage, à travers de courts rendez-vous prévus chaque semaine. Durant ces rendez-vous, le bénévole
@@ -211,6 +239,9 @@ export const dataList = [{
     {
         id: "007",
         name: "Kasa",
+        logo: kasalogo,
+        source: kasaGallery,
+        size: "small",
         entreprise: "Kasa est dans le métier de la location d'appartements entre particuliers depuis près de 10 ans maintenant.",
         subject1: `Avec plus de 500 annonces postées chaque jour Kasa fait partie des 
                 leaders de la location d'appartements entre particuliers en France.`,
@@ -234,6 +265,9 @@ export const dataList = [{
     {
         id: "008",
         name: "Sportsee",
+        logo: sportseelogo,
+        source: sportseeGallery,
+        size: "large",
         entreprise: "SportSee est une startup dédiée au coaching sportif.",
         subject1: `En pleine croissance, l'entreprise va aujourd'hui lancer une nouvelle version de la page profil de l'utilisateur.`,
         subject2: `Cette page va notamment permettre à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.`,
@@ -252,5 +286,11 @@ export const dataList = [{
         nameLinkApercu: " ",
         gitWebsite: " "
     },
+    {
+        id: "009",
+        name: "Contact",
+        source: contactmeGallery,
+        size: "small",
+    }
 
 ]

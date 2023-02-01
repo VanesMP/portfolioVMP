@@ -7,10 +7,10 @@
     height: auto;
     margin: auto;
     row-gap: 20px;
-    /* background-color: #fff; */
 }
 
 .cellItem {
+    height: 299px;
     background-color: #2B322B;
 }
 
@@ -32,7 +32,7 @@
     position: absolute;
     bottom: 38%;
     font: 400 26px 'Baskervville', serif;
-    text-shadow: 2px 2px 3px #9fcb9f;
+    text-shadow: 2px 2px 5px #9fcb9f;
     background-color: #1d211eba;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@
     opacity: 0%;
 }
 
-.linkImg:hover~.titleLink {
+.cellLink:hover~.titleLink {
     opacity: 100%;
 }
 

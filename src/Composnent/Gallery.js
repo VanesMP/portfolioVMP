@@ -1,22 +1,12 @@
-import React, {useEffect, useState} from "react";
+import React from "react";
 import "../Styles/gallery.css";
-import {getLinkItems} from "../api.js";
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import { Link } from "react-router-dom";
+import { dataList } from "../data";
 
 function Gallery() {
-
-    const [items, setItems] = useState([]);
-
-    // access the items array in the JSON file
-      useEffect(() => {
-        getLinkItems()
-            .then(data => {
-                console.log('data : ', data)
-                setItems(data);
-            });
-    }, []);
         
     let small = {
     width: '100%',
@@ -31,18 +21,18 @@ function Gallery() {
   return (
     <Box className="box">
       <ImageList variant="masonry" cols={3} gap={20} className="ul">
-        {items.map((item, index) => (
+        {dataList.map((data, index) => (
           <ImageListItem key={index++} className="cellItem">
-            <a href="?" >
-            <img
-              src={item.source}
-              alt={item.title}
-              loading="lazy"
-              style={item.size === 'small' ? small : large}
-              className="linkImg"
-            />
-            </a>
-            <h4 className="titleLink">{item.title}</h4>
+              <Link to={`/projectPage/${data.id}`} key={data.id} className="cellLink">
+              <img
+                src={data.source}
+                alt={data.name}
+                loading="lazy"
+                style={data.size === 'small' ? small : large}
+                className="linkImg"
+              />
+              </Link>
+              <h4 className="titleLink">{data.name}</h4>
           </ImageListItem>
         ))}
       </ImageList>
