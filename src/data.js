@@ -199,7 +199,7 @@ export const dataList = [{
         tagsTechno: ["figma"],
         tagsSkills: ["maquette", "userstories"],
         gitLink: " ",
-        gitWebsite: " "
+        gitWebsite: "https://www.figma.com/proto/SJguRYU06mWo71XcjRlmDO/Learn%40Home?node-id=35%3A524&scaling=min-zoom&page-id=0%3A1"
     },
     {
         id: "007",
