@@ -32,12 +32,12 @@ import fisheyeMobile from "../src/assets/media/fisheye/imageC.Fisheye.jpg";
 import lespetitsplatsDesktop from "../src/assets/media/lespetitsplats/imageA.FLespetitsplats.jpg";
 import lespetitsplatsTablet from "../src/assets/media/lespetitsplats/imageB.FLespetitsplats.jpg";
 
-// Learn more Media
-// import learnmorelogo from "../src/assets/logo/learnMore.png";
-// import learnmoreIFrame from "../src/assets/media/learnmore/frame-Learnmore.png";
-import learnmoreDesktop from "../src/assets/media/learnmore/imageA.LearnMore.jpg";
-import learnmoreTablet from "../src/assets/media/learnmore/imageB.LearnMore.jpg";
-import learnmoreMobile from "../src/assets/media/learnmore/imageC.LearnMore.jpg";
+// Learn@Home Media
+// import learnhomelogo from "../src/assets/logo/learnhome.png";
+// import learnhomeIFrame from "../src/assets/media/learnhome/frame-learnhome.png";
+import learnhomeDesktop from "../src/assets/media/learnhome/imageA.learnhome.jpg";
+import learnhomeTablet from "../src/assets/media/learnhome/imageB.learnhome.jpg";
+import learnhomeMobile from "../src/assets/media/learnhome/imageC.learnhome.jpg";
 
 // Kasa Media
 // import kasalogo from "../src/assets/logo/kasa.png";
@@ -176,13 +176,26 @@ export const dataList = [{
     },
     {
         id: "006",
-        name: "Learn more",
-        //     entreprise: "",
-        //     subject1: ``,
-        //     subject2: ` `,
-        //     objectif: ``,
-        //     realisation: ``,
-        pictures: [learnmoreDesktop, learnmoreTablet, learnmoreMobile],
+        name: "Learn@Home",
+        entreprise: "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles, en ligne",
+        subject1: `Chaque élève inscrit sur le site a un tuteur bénévole, qui lui est assigné. Le bénévole a pour objectif de soutenir l'élève 
+                dans son apprentissage, à travers de courts rendez-vous prévus chaque semaine. Durant ces rendez-vous, le bénévole
+                aide l'élève à réaliser ses devoirs et à s'organiser.`,
+        subject2: `Jusqu'alors élèves et bénévoles utilisaient surtout WhatsApp et les SMS pour communiquer, le projet de Learn@Home est la création
+                d'un site web.`,
+        objectif: `Mon travail a été de concevoir la maquette du site web qui permettra aux éléves et aux bénévoles de faciliter leurs échanges.`,
+        realisation: `Dans un premier temps, j'ai dû bien définir les besoins client en réalisant pour chacune des fonctionnalités des diagrammes de 
+                cas d'usage pour chaque page (connexion, chat, calendrier, gestionnaire de tâches, tableau de bord) et des
+                user stories avec critère(s) d'acceptation.
+                Les maquettes responsives de chaques pages ont été réalisé selon les attentes de Learn@Home.
+                La page de connexion permet aux éléves et bénévole de se connecter ou de créer un compte et la possibilité de récupérer som mot de passe.
+                La page du tableau de bord regroupe un récapitulatif de toutes les informations récentes et importantes en provenance des autres pages :
+                chat(messages non lus), calendrier(rendez vous à venir), gestion des tâches(exercices ou correction à effectuer).
+                La page de Chat intégre un système de discussion instantané classique entre élèves et bénévoles.
+                La page de calendrier affiche les différents événements et rendez-vous d'un éléve ou d'un bénévole.
+                L'interface de la page de gestion des tâches  permet à un éléve de se créer des tâches à réaliser et aux bénévoles d'en créer pour lui 
+                ou pour ses éléves.`,
+        pictures: [learnhomeDesktop, learnhomeTablet, learnhomeMobile],
         tagsTechno: ["figma"],
         tagsSkills: ["maquette", "userstories"],
         gitLink: " ",
