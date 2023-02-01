@@ -1,0 +1,16 @@
+.boxButton {
+    width: 270px;
+    height: 44px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: solid 3px #3140358a;
+}
+
+.textButton {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: center;
+    font: 600 20px 'Baskervville', serif;
+    color: #314035f5;
+}

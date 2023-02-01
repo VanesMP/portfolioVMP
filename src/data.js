@@ -1,7 +1,7 @@
 // Reservia Media
-// import reserviaLogo from "../src/assets/logo/reservia.png";
+import reserviaLogo from "../src/assets/logo/reservia.png";
 // import reserviaIFrame from "../src/assets/media/reservia/frame-Reservia.png";
-import reserviaDesktop from "src/assets/media/reservia/imageA.Reservia.jpg";
+import reserviaDesktop from "../src/assets/media/reservia/imageA.Reservia.jpg";
 import reserviaTablet from "../src/assets/media/reservia/imageB.Reservia.jpg";
 import reserviaMobile from "../src/assets/media/reservia/imageC.Reservia.jpg";
 
@@ -56,6 +56,7 @@ import sportseeMobile from "../src/assets/media/sportsee/imageC.Sportsee.jpg";
 export const dataList = [{
         id: "001",
         name: "Reservia",
+        logo: reserviaLogo,
         entreprise: "Reservia est une petite entreprise qui propose un outil de planification pour leur vacances.",
         subject1: `Le site de Reservia permet à ces usagers de trouver des hébergements et des activités dans un large choix de ville, 
             en ayant la possibilité de filtrer ces hébergements par thématique, par ambiance  ou selon le budget.`,
@@ -205,7 +206,7 @@ export const dataList = [{
         tagsSkills: ["maquette", "userstories"],
         gitLink: " ",
         nameLinkApercu: "Lien vers la page web",
-        gitWebsite: "https://www.figma.com/proto/SJguRYU06mWo71XcjRlmDO/Learn%40Home?node-id=35%3A524&scaling=min-zoom&page-id=0%3A1"
+        gitWebsite: "https://www.figma.com/proto/SJguRYU06mWo71XcjRlmDO/Learn%40Home?node-id=14%3A86&scaling=min-zoom&page-id=0%3A1"
     },
     {
         id: "007",

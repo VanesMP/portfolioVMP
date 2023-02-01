@@ -33,6 +33,7 @@ function Gallery() {
       <ImageList variant="masonry" cols={3} gap={20} className="ul">
         {items.map((item, index) => (
           <ImageListItem key={index++} className="cellItem">
+            <a href="?" >
             <img
               src={item.source}
               alt={item.title}
@@ -40,6 +41,7 @@ function Gallery() {
               style={item.size === 'small' ? small : large}
               className="linkImg"
             />
+            </a>
             <h4 className="titleLink">{item.title}</h4>
           </ImageListItem>
         ))}
