@@ -71,6 +71,7 @@ export const dataList = [{
         tagsTechno: ["html", "css"],
         tagsSkills: ["maquette", "responsive", "versionning"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_2_06052021",
+        nameLinkApercu: "Lien vers la page web",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_2_06052021/"
     },
     {
@@ -95,6 +96,7 @@ export const dataList = [{
         tagsTechno: ["html", "css"],
         tagsSkills: ["maquette", "responsive", "versionning", "animationCSS", "navigation"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_3_06052021",
+        nameLinkApercu: "Lien vers la page web",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_3_06052021/"
     },
     {
@@ -118,6 +120,7 @@ export const dataList = [{
         tagsTechno: ["html", "css", "javascript"],
         tagsSkills: ["responsive", "versionning", "formulaire", "navigation", "landingPage"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_4_06052021",
+        nameLinkApercu: "Lien vers la page web",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_4_06052021/"
     },
     {
@@ -145,6 +148,7 @@ export const dataList = [{
         tagsTechno: ["html", "css", "sass", "javascript"],
         tagsSkills: ["responsive", "versionning", "desinPattern", "navigation", "accessibilite"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_6_06052021",
+        nameLinkApercu: "Lien vers la page web",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_6_06052021/"
     },
     {
@@ -172,6 +176,7 @@ export const dataList = [{
         tagsTechno: ["html", "css", "javascript"],
         tagsSkills: ["versionning", "algorithme", "tri"],
         gitLink: "https://github.com/VanesMP/VanesMP-MacedopintoVanessa_7_06052021",
+        nameLinkApercu: "Lien vers la page web",
         gitWebsite: "https://vanesmp.github.io/VanesMP-MacedopintoVanessa_7_06052021/"
     },
     {
@@ -199,6 +204,7 @@ export const dataList = [{
         tagsTechno: ["figma"],
         tagsSkills: ["maquette", "userstories"],
         gitLink: " ",
+        nameLinkApercu: "Lien vers la page web",
         gitWebsite: "https://www.figma.com/proto/SJguRYU06mWo71XcjRlmDO/Learn%40Home?node-id=35%3A524&scaling=min-zoom&page-id=0%3A1"
     },
     {
@@ -221,20 +227,28 @@ export const dataList = [{
         tagsTechno: ["html", "css", "javascript", "react"],
         tagsSkills: ["responsive", "versionning", "composant", "framework", "navigation"],
         gitLink: " ",
+        nameLinkApercu: "Aperçu de la maquette",
         gitWebsite: " "
     },
     {
         id: "008",
         name: "Sportsee",
-        //     entreprise: "",
-        //     subject1: ``,
-        //     subject2: ` `,
-        //     objectif: ``,
-        //     realisation: ``,
+        entreprise: "SportSee est une startup dédiée au coaching sportif.",
+        subject1: `En pleine croissance, l'entreprise va aujourd'hui lancer une nouvelle version de la page profil de l'utilisateur.`,
+        subject2: `Cette page va notamment permettre à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.`,
+        objectif: `L'objectif est de refaire la page profil en respectant la maquette et en intégrant les user stories.`,
+        realisation: `J'ai développé cette nouvelle version avec React et en utilisant la librairie Recharts, car le projet intègre des graphiques sur 
+                l'activité sportive de l'utilisateur.
+                Cette page de profil devait pouvoir être consulté sur un ordinateur ayant une résolution d'au moins 1024 par 780 pixels.
+                Mon travail dans ce projet c'est concentré sur la récuperation des données utilisateur et leur utilisation dans les différents graphiques
+                ainsi que la configuration et personnalisation de ces graphiques.
+                Pour avoir un aperçu de ce projet, vous pourrez suivre les étapes d'installation depuis le Readme du repository Github.
+                Quelques prérequis seront nécessaires : NodeJS, Yarn, Visual Studio Code or another IDE et Docker Desktop.`,
         pictures: [sportseeDesktop, sportseeTablet, sportseeMobile],
-        tagsTechno: ["html", "css", "javascript", "react", "recharts"],
+        tagsTechno: ["html", "css", "javascript", "react", "recharts", "nodejs"],
         tagsSkills: ["versionning", "composant", "framework", "connexion", "charts"],
         gitLink: "https://github.com/VanesMP/MacedoPintoVanessa_12_06052021",
+        nameLinkApercu: " ",
         gitWebsite: " "
     },
 
