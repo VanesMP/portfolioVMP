@@ -129,10 +129,18 @@ export const dataList = [{
                 et de permettre aux visiteurs de les contacter pour des événements ou des tirages.`,
         subject2: `Fisheye posséde un énorme réseau de photographes, aprés une récente levé de fonds, l'entreprise souhaite faire une mise à niveau
                 vers un site dynamique.`,
-        objectif: `L' objectif est de construire un prototype fonctionnel d'un nouveau site web, en adéquation avec les maquettes au préalablement validées.
+        objectif: `L'objectif était de construire un prototype fonctionnel d'un nouveau site web accessible, en adéquation avec les maquettes au préalablement validées.
                 J'ai été uniquement en charge de la partie front-end de ce site web en respectant les différentes fonctionnalités et exigences techniques,
                 notamment celle en matière d'accessibilité.`,
-        realisation: ``,
+        realisation: `Dans cette application axée sur l'accessibilité, tous les médias ont une description textuelle et les commandes du clavier 
+                permettent de naviguer sur le sie, comme les touches fléchées pour la lightbox dans la page du photographe.
+                Dans la page d'accueil, l'utilisateur peux trier les photographes selon un thême grâce à plusieurs tags que j'ai placé dans le header du site. Aprés la
+                sélection d'un photographe, l'utilisateur est redirigé vers la page personnelle du photographe qui affiche une galerie de son travail, photographies et/ou vidéos sous forme de miniature.
+                Quelques précision fonctionnelles contenues dans cette page, d'abord les différents média peuvent être triés par populrité ou par titre et chacun d'eux permettent
+                d'ouvrir une lightbox où l'utilisateur peux faire défiler les différntes images et fermer cette lightbox à sa convenance.
+                Pour contacter un photographe, un bouton de contact affiche une modale sous forme de formulaire qui comprend des champs pour les noms, l'adresse 
+                électronique et le message.
+                `,
         pictures: [fisheyeDesktop, fisheyeTablet, fisheyeMobile],
         tagsTechno: ["html", "css", "sass", "javascript"],
         tagsSkills: ["responsive", "versionning", "desinPattern", "navigation", "accessibilite"],
@@ -142,14 +150,27 @@ export const dataList = [{
     {
         id: "005",
         name: "Les petits plats",
-        //     entreprise: "",
-        //     subject1: ``,
-        //     subject2: ` `,
-        //     objectif: ``,
-        //     realisation: ``,
+        entreprise: "Les petits plats est une entreprise édite des livres de cuisine depuis plusieurs années.",
+        subject1: `L'entreprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine 
+                à l'instar de Marmiton ou 750g.`,
+        subject2: `Les sites qui proposent des recettes de cuisines sont nombreux et l'équipe a pensé que l'element qui pourrait faire la 
+                différences sur ce site serait la fluidité du moteur de recherche.`,
+        objectif: `Ma mission dans ce projet, "visez la performance". Je devais d'implémenter une fonctionnalité de recherche, qui offrira aux utilisateurs, 
+                un résultat le plus instantané possible.`,
+        realisation: `La recherche étant la fonctionnalité principale de ce projet, j'ai commencé par implémenter deux algorithmes différents 
+                pour pouvoir comparer leurs performances et choisir le meilleure.
+                J'ai réalisé une première version utilisant les boucles natives (while, for...) et une version en programmation fonctionnelle avec 
+                les méthodes de l'objet array (foreach, filter, map, reduce) qui peuvent être consulté depuis le lien github.
+                J'ai utilisé 2 branches différentes sur Git afin de bien conserver les codes séparés.
+                Quelques contraintes fontcionnelles obligatoires, d'abord une recherche qui doit pouvoir se faire via la barre de recherche dés 3 
+                caractères saisis par l'utilisateur ou via les tags (ingrédients, ustensiles ou appareil) et chaque recherche actualise la liste des recettes
+                qui correspondent dans l'interface. Si il n'y a pas de correspondants, un meessage informe l'utilisateur qu' aucunes recette n'a été trouvé et l'invite a 
+                recommencer sa recherche.
+                Pour l'instant l'équipe Back-end n'était pas encore formée, nous disposons uniquement d'un fichier JavaScript contenant un tableau JSON de 50 recettes. 
+            `,
         pictures: [lespetitsplatsDesktop, lespetitsplatsTablet],
-        tagsTechno: ["html", "css", "sass", "javascript"],
-        //     tagsSkills: ["versionning","navigation", "algoythme", "tri"],
+        tagsTechno: ["html", "css", "javascript"],
+        tagsSkills: ["versionning", "algorithme", "tri"],
         gitLink: "https://github.com/VanesMP/VanesMP-MacedopintoVanessa_7_06052021",
         gitWebsite: "https://vanesmp.github.io/VanesMP-MacedopintoVanessa_7_06052021/"
     },
@@ -170,14 +191,22 @@ export const dataList = [{
     {
         id: "007",
         name: "Kasa",
-        //     entreprise: "",
-        //     subject1: ``,
-        //     subject2: ` `,
-        //     objectif: ``,
-        //     realisation: ``,
+        entreprise: "Kasa est dans le métier de la location d'appartements entre particuliers depuis près de 10 ans maintenant.",
+        subject1: `Avec plus de 500 annonces postées chaque jour Kasa fait partie des 
+                leaders de la location d'appartements entre particuliers en France.`,
+        subject2: `Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. 
+                La CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, 
+                et React côté Front-end. 
+                Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance.`,
+        objectif: `Mon travail dans ce prjet était de developper un nouvelle plateforme web avec React et en respectant leurs nouvelles maquettes.`,
+        realisation: `En suivant le design d'interface responsive sur Figma, j'ai démarré le projet avec React et travaillé l'ensemble de l'application 
+            avec la logique de composants.
+            Quelques précision sur une des contraintes fonctionnelles que vous pourrez trouver, dans la page d'un logement selectionné, l'utilisateur 
+            peux faire défiler les différentes images dans la galerie qui reste de la hauteur.
+            Le back-end n'étant pas terminé, les logements proposés dans l 'application sont extrait d'un fichier JSON.`,
         pictures: [kasaDesktop, kasaTablet, kasaMobile],
         tagsTechno: ["html", "css", "javascript", "react"],
-        tagsSkills: ["versionning", "composant", "framework", "navigation"],
+        tagsSkills: ["responsive", "versionning", "composant", "framework", "navigation"],
         gitLink: " ",
         gitWebsite: " "
     },
