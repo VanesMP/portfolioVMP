@@ -2,16 +2,16 @@ import React from "react";
 import "../Styles/header.css";
 import Navbar from "./Navbar";
 
-function Header({ fixPosition, nameprop, jobprop, idTextclass, seeProject }) {
+function Header({ fixPosition, idTextclass, seeProject, classNavig }) {
 
     return(
         <div>
             <div className="banner" id={fixPosition}>
                 <div className="containerName" >
-                    <h1 className= {nameprop} >Vanessa Macedo Pinto</h1>
-                    <h2 className={jobprop} id={idTextclass}>Développeuse Frontend Junior</h2>
+                    <h1 className= "name" >Vanessa Macedo Pinto</h1>
+                    <h2 className="job" id={idTextclass}>Développeuse Frontend Junior</h2>
                 </div>
-                <Navbar pathAncre={seeProject} />
+                <Navbar pathAncre={seeProject} navig={classNavig} />
             </div>
         </div>
     )

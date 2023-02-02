@@ -1,15 +1,13 @@
-.nameProject {
-    height: 48px;
-    color: #f5f5f5;
-    font: 500 53px 'Allura', cursive;
-    letter-spacing: 2pt;
+.positionHeaderProject {
+    position: static;
 }
 
-.jobproject {
-    font: 400 26px 'Baskervville', serif;
-    padding-left: 220px;
-    color: #314035;
-    position: initial;
+.navFooter {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 70px;
 }
 
 .insidePageProject {

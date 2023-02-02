@@ -2,7 +2,6 @@
     position: absolute;
     width: 912px;
     height: 380px;
-    left: 280px;
     top: 250px;
     background-color: #444c4447;
     border-radius: 5px;
@@ -55,4 +54,5 @@
     width: 50%;
     margin: auto;
     margin-top: 25px;
+    cursor: pointer;
 }

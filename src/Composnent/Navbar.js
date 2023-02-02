@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/navBar.css";
 
-function Navbar ({ pathAncre }) {
+function Navbar ({ navig, pathAncre }) {
 
     return (
-        <div className="nav">
+        <div className={navig}>
             <nav>
                 <ul>
                     <Link to="/">

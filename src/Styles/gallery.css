@@ -16,8 +16,10 @@
 
 .linkImg,
 .cellItem {
+    object-fit: cover;
     border-radius: 5px;
-    position: relative;
+    opacity: 100%;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .linkImg:hover {
@@ -39,25 +41,12 @@
     flex-direction: row;
     justify-content: center;
     opacity: 0%;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .cellLink:hover~.titleLink {
     opacity: 100%;
 }
-
-
-/* Cela permet de créer un élément invisible qui couvre l'élément ciblé et qui est capable de réagir aux événements de la souris. */
-
-
-/* 
-.titleLink:hover+.linkImg {
-    opacity: 20%;
-} */
-
-
-/* .titleLink {
-    pointer-events: none;
- }*/
 
 .titleLink::before {
     pointer-events: auto;

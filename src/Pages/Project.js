@@ -1,13 +1,11 @@
 import React from "react";
 import DisplayProject from "../Composnent/DisplayProject";
-// import Banner from "../Composnent/Banner";
-import Name from "../Composnent/Name";
-import Navbar from "../Composnent/Navbar";
 import {dataList} from "../data.js";
-import "../Styles/homePage.css";
 import "../Styles/projectPage.css";
 import { useParams } from "react-router";
 import Home from "./Home";
+import Header from "../Composnent/Header";
+import Footer from "../Composnent/Footer";
 
 function Project() {
 
@@ -25,7 +23,11 @@ function Project() {
     }else {
     return(
         <div>
-            {/* <Banner upOrDown="header" /> */}
+            <Header 
+                fixPosition="positionHeaderProject"
+                classNavig="navFooter"
+                seeProject="/"
+            />
             <div className="insidePageProject">
                     <DisplayProject 
                         dataLogo={itemProject.logo}
@@ -39,10 +41,7 @@ function Project() {
                         linkProject={itemProject.gitWebsite}
                     />
             </div>
-            <div className="headerPage">
-                <Name nameprop="nameProject" jobprop="jobproject"/>
-                <Navbar pathAncre="/" />
-            </div>
+            <Footer />
         </div>
     )}
 };

@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import arrowDown from "../assets/arrowDown.svg";
 import arrowUp from "../assets/ArrowUp.svg";
 import Background from "../Composnent/Background";
-import Footer from "../Composnent/Footerr";
+import Footer from "../Composnent/Footer";
 import Identity from "../Composnent/Identity";
 import Gallery from "../Composnent/Gallery";
 import "../Styles/homePage.css";
@@ -31,26 +31,25 @@ function Home() {
     return(
         <div>
             <Background />
-            <div>
-            <Identity />
-            <a href="#projects"><img src={arrowDown} alt="arrow to check directly all the projects"  className="arrow" /></a>
-            <div className="containerPresentation">
-                <div className="upPageProjects" id="projects"></div>
-                <Gallery />
-            <a href="#ancreMenu"><img src={arrowUp} alt="arrow to get back" className="arrowUp" /></a>
-            </div>
+            <div className="boxIdentity">
+                <Identity />
+                    <a href="#projects"><img src={arrowDown} alt="arrow to check directly all the projects"  className="arrow" /></a>
+                        <div className="containerPresentation">
+                            <div className="upPageProjects" id="projects"></div>
+                                <Gallery />
+                                    <a href="#ancreMenu"><img src={arrowUp} alt="arrow to get back" className="arrowUp" /></a>
+                        </div>
             </div>
             <Header 
-                fixPosition="positionHome"
-                nameprop="name" 
-                jobprop="job"
+                fixPosition="positionHeaderHome"
                 idTextclass={textClass} 
                 seeProject="#projects"
+                classNavig="nav"
             />
             <div className="arrowDown"></div>
-            <div className="footerPage">
-                <Footer containerFooter="containerFooterFixe"/>
-            </div>
+            <Footer 
+                fixPosition="positionFooterHome" 
+            />
         </div>
     )
 };

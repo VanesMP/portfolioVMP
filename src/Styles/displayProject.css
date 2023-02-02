@@ -4,7 +4,7 @@
 
 .title {
     position: relative;
-    top: 240px;
+    top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,31 +29,7 @@
     height: fit-content;
     margin: auto;
     background-color: #444c4405;
-    margin-top: 275px;
-}
-
-.containerFooter {
-    height: 70px;
-}
-
-.containerScroll {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    position: relative;
-    height: 70px;
-    width: 99%;
-    opacity: 60%;
-    bottom: 71px;
-}
-
-.footerProject {
-    width: 100%;
-    height: 70px;
-    background-color: #444c44;
-    opacity: 60%;
-    z-index: 1;
+    margin-top: 255px;
 }
 
 .textProject {
@@ -63,14 +39,14 @@
 }
 
 p {
-    font: 300 19px 'Roboto', sans-serif;
+    font: 300 17px 'Roboto', sans-serif;
     color: black;
     line-height: 25px;
 }
 
 .titreTextPres {
     color: #314035;
-    font: 400 22px 'Roboto', sans-serif;
+    font: 400 22px 'Baskerville', serif;
 }
 
 .textObjectif,
