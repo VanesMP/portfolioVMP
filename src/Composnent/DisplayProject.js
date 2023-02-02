@@ -1,11 +1,11 @@
 import React from "react";
-import Banner from "./Banner";
+// import Banner from "./Banner";
 import Footer from "./Footerr";
 import bannerTitle from "../assets/titleDecoration.png";
 import "../Styles/displayProject.css";
 import ButtonLink from "./buttonLink";
 
-function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, dataObjectif, dataRealisation, textLinkProject, dataPictures }) {
+function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, dataObjectif, dataRealisation, textLinkProject, dataPictures, linkProject }) {
 
 
     return(
@@ -43,7 +43,7 @@ function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, 
                         <div className="textDiscover">
                             <h4 className="titreTextPres">En découvrir plus ...</h4>
                                 <div className="containerLinkProject">
-                                    <ButtonLink textButtonLink={textLinkProject} />
+                                    <ButtonLink textButtonLink={textLinkProject} pathLink={linkProject}/>
                                 </div>
                         </div>
                     </div>
@@ -54,8 +54,8 @@ function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, 
                 )}
             </div>
             <div className="containerFooter">
-            <Banner upOrDown="footerProject" />
-            <Footer containerFooter="containerFooterScroll"/>
+            {/* <Banner upOrDown="footerProject" /> */}
+            <Footer containerFooter="containerScroll"/>
             </div>
             </div>
     </div>

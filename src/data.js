@@ -1,5 +1,5 @@
 // CONTACT Media
-import contactmeGallery from "../src/assets/linkImg/contactLink.png";
+// import contactmeGallery from "../src/assets/linkImg/contactLink.png";
 
 // Reservia Media
 import reserviaLogo from "../src/assets/logo/reservia.png";
@@ -285,12 +285,13 @@ export const dataList = [{
         gitLink: "https://github.com/VanesMP/MacedoPintoVanessa_12_06052021",
         nameLinkApercu: " ",
         gitWebsite: " "
-    },
-    {
-        id: "009",
-        name: "Contact",
-        source: contactmeGallery,
-        size: "small",
     }
+    // ,
+    // {
+    //     id: "009",
+    //     name: "Contact",
+    //     source: contactmeGallery,
+    //     size: "small",
+    // }
 
 ]

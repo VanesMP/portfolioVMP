@@ -1,14 +1,5 @@
-.headerPage,
-.footerPage {
-    width: 100%;
-    position: absolute;
-    height: 70px;
-    z-index: 1;
-}
-
-.headerPage {
-    display: flex;
-    justify-content: space-between;
+#positionHome {
+    position: fixed;
     top: 0;
 }
 

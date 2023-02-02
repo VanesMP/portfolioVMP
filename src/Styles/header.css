@@ -1,0 +1,16 @@
+.banner {
+    width: 100%;
+    height: 70px;
+    background-color: #314035a3;
+    z-index: 1;
+}
+
+.containerName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 120px;
+    opacity: 80%;
+}

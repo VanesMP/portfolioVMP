@@ -21,8 +21,8 @@ function Gallery() {
   return (
     <Box className="box">
       <ImageList variant="masonry" cols={3} gap={20} className="ul">
-        {dataList.map((data, index) => (
-          <ImageListItem key={index++} className="cellItem">
+        {dataList.map((data) => (
+          <ImageListItem key={data.id} className="cellItem">
               <Link to={`/projectPage/${data.id}`} key={data.id} className="cellLink">
               <img
                 src={data.source}

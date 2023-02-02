@@ -1,12 +1,14 @@
 import React from "react";
 import "../Styles/buttonLink.css";
 
-function ButtonLink({ textButtonLink }) {
+function ButtonLink({ textButtonLink, pathLink }) {
 
     return(
         <div>
             <div className="boxButton">
-                <p className="textButton">{textButtonLink}</p>
+                <a href={pathLink} target="_blank" rel="noopener noreferrer">
+                    <p className="textButton">{textButtonLink}</p>
+                </a>
             </div>
         </div>
     )
