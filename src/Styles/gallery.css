@@ -9,11 +9,6 @@
     row-gap: 20px;
 }
 
-.cellItem {
-    height: 299px;
-    background-color: #2B322B;
-}
-
 .linkImg,
 .cellItem {
     object-fit: cover;
@@ -23,7 +18,7 @@
 }
 
 .linkImg:hover {
-    opacity: 20%;
+    filter: brightness(0.3);
 }
 
 .titleLink {
