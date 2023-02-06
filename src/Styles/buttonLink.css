@@ -4,6 +4,7 @@
     background-color: #fff;
     border-radius: 20px;
     border: solid 3px #3140358a;
+    cursor: pointer;
 }
 
 .textButton {
@@ -13,4 +14,14 @@
     justify-content: center;
     font: 600 20px 'Baskervville', serif;
     color: #314035f5;
+}
+
+.boxButton:hover {
+    border: solid 2px #2b322bde;
+    background-color: #596959d9;
+}
+
+.boxButton:hover .textButton {
+    color: #f3f3f3;
+    font: 200 21px 'Baskervville', serif;
 }

@@ -18,12 +18,18 @@ function Gallery() {
     height: '450px',
     }
 
+    const handleLinkClick = (e) => {
+      window.scrollTo(0, 0);
+    }
+
+    
+
   return (
     <Box className="box">
       <ImageList variant="masonry" cols={3} gap={20} className="ul">
         {dataList.map((data) => (
           <ImageListItem key={data.id} className="cellItem">
-              <Link to={`/projectPage/${data.id}`} key={data.id} className="cellLink">
+              <Link to={`/projectPage/${data.id}`} key={data.id} className="cellLink" onClick={handleLinkClick}>
               <img
                 src={data.source}
                 alt={data.name}

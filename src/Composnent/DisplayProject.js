@@ -1,7 +1,7 @@
 import React from "react";
 import bannerTitle from "../assets/titleDecoration.png";
 import "../Styles/displayProject.css";
-import ButtonLink from "./buttonLink";
+import ButtonLink from "./ButtonLink";
 
 function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, dataObjectif, dataRealisation, textLinkProject, dataPictures, linkProject }) {
 
@@ -41,7 +41,7 @@ function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, 
                         <div className="textDiscover">
                             <h4 className="titreTextPres">En découvrir plus ...</h4>
                                 <div className="containerLinkProject">
-                                    
+
                                     <ButtonLink textButtonLink={textLinkProject} pathLink={linkProject}/>
                                 </div>
                         </div>

@@ -30,7 +30,7 @@ function Home() {
 
     return(
         <div>
-            <Background />
+            <Background darkorclear="darkbackground"/>
             <div className="boxIdentity">
                 <Identity />
                     <a href="#projects"><img src={arrowDown} alt="arrow to check directly all the projects"  className="arrow" /></a>

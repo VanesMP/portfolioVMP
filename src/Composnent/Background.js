@@ -1,12 +1,12 @@
 import React from "react";
 import "../Styles/background.css";
 
-function Background() {
+function Background({ darkorclear }) {
 
     return(
         <div>
             
-            <div className="background">
+            <div className="background" id={darkorclear}>
                 <span></span>
                 <span></span>
                 <span></span>

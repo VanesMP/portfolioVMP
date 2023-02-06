@@ -71,6 +71,11 @@ p {
     height: 50px;
 }
 
+
+/* style1 */
+
+
+/* 
 .galleryImg {
     width: fit-content;
     margin: auto;
@@ -86,4 +91,25 @@ p {
     margin: auto;
     object-fit: cover;
     border-radius: 8px;
+} */
+
+
+/* style2 */
+
+.galleryImg {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgGallery {
+    border-top: solid 7px white;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 2px;
 }
