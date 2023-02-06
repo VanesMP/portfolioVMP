@@ -3,7 +3,7 @@ import bannerTitle from "../assets/titleDecoration.png";
 import "../Styles/displayProject.css";
 import ButtonLink from "./ButtonLink";
 
-function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, dataObjectif, dataRealisation, textLinkProject, dataPictures, linkProject }) {
+function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, dataObjectif, dataRealisation, textLinkProject, dataPictures, dataLinkWebsite, linkGithub, linkProject }) {
 
 
     return(
@@ -41,8 +41,12 @@ function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, 
                         <div className="textDiscover">
                             <h4 className="titreTextPres">En découvrir plus ...</h4>
                                 <div className="containerLinkProject">
-
-                                    <ButtonLink textButtonLink={textLinkProject} pathLink={linkProject}/>
+                                {/* {dataLinkWebsite !== '?' ? 
+                                        <p>"Plein"</p> : <p>"Vide"</p>} */}
+                                    {dataLinkWebsite !== '?' && (
+                                        <ButtonLink textButtonLink={textLinkProject} pathLink={linkProject} />)}
+                                    {linkGithub !== '?' && (
+                                    <ButtonLink textButtonLink="Lien vers le code sur Github" pathLink={linkGithub} />)}
                                 </div>
                         </div>
                     </div>

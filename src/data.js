@@ -232,8 +232,8 @@ export const dataList = [{
         pictures: [learnhomeDesktop, learnhomeTablet, learnhomeMobile],
         tagsTechno: ["figma"],
         tagsSkills: ["maquette", "userstories"],
-        gitLink: " ",
-        nameLinkApercu: "Lien vers la page web",
+        gitLink: "?",
+        nameLinkApercu: "Aperçu de la maquette",
         gitWebsite: "https://www.figma.com/proto/SJguRYU06mWo71XcjRlmDO/Learn%40Home?node-id=14%3A86&scaling=min-zoom&page-id=0%3A1"
     },
     {
@@ -258,9 +258,9 @@ export const dataList = [{
         pictures: [kasaDesktop, kasaTablet, kasaMobile],
         tagsTechno: ["html", "css", "javascript", "react"],
         tagsSkills: ["responsive", "versionning", "composant", "framework", "navigation"],
-        gitLink: " ",
-        nameLinkApercu: "Aperçu de la maquette",
-        gitWebsite: " "
+        gitLink: "?",
+        nameLinkApercu: "Lien vers la page web",
+        gitWebsite: "?"
     },
     {
         id: "008",
@@ -284,7 +284,7 @@ export const dataList = [{
         tagsSkills: ["versionning", "composant", "framework", "connexion", "charts"],
         gitLink: "https://github.com/VanesMP/MacedoPintoVanessa_12_06052021",
         nameLinkApercu: " ",
-        gitWebsite: " "
+        gitWebsite: "?"
     }
     // ,
     // {

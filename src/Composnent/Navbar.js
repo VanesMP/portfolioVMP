@@ -12,11 +12,11 @@ function Navbar ({ navig, pathAncre }) {
                         <li>HOME</li>
                     </Link>
                     <a href={pathAncre}><li>PROJECTS</li></a>
-                    <Link to="/about">
-                        <li>ABOUT</li>
-                    </Link>
+                    <li>ABOUT</li>
                     <li>C.V</li>
-                    <li>CONTACT</li>
+                    <Link to="/contact">
+                        <li>CONTACT</li>
+                    </Link>
                 </ul>
             </nav>
         </div>

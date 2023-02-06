@@ -10,9 +10,9 @@ import Footer from "../Composnent/Footer";
 function Project() {
 
     const { id } = useParams();
-    console.log(id)
 
     const itemProject = dataList.filter((project) => project.id === id)[0]
+    console.log(itemProject)
 
     if(itemProject === undefined) {
         return(
@@ -38,6 +38,8 @@ function Project() {
                         dataRealisation={itemProject.realisation}
                         textLinkProject={itemProject.nameLinkApercu}
                         dataPictures={itemProject.pictures}
+                        dataLinkWebsite={itemProject.gitWebsite}
+                        linkGithub={itemProject.gitLink}
                         linkProject={itemProject.gitWebsite}
                     />
             </div>
