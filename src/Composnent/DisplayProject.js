@@ -41,8 +41,6 @@ function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, 
                         <div className="textDiscover">
                             <h4 className="titreTextPres">En découvrir plus ...</h4>
                                 <div className="containerLinkProject">
-                                {/* {dataLinkWebsite !== '?' ? 
-                                        <p>"Plein"</p> : <p>"Vide"</p>} */}
                                     {dataLinkWebsite !== '?' && (
                                         <ButtonLink textButtonLink={textLinkProject} pathLink={linkProject} />)}
                                     {linkGithub !== '?' && (

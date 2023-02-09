@@ -42,6 +42,22 @@
     margin-right: 34%;
 }
 
+.containerIconeContact {
+    left: 65%;
+    position: absolute;
+    display: flex;
+    top: 0;
+    width: 288px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleContactIcone {
+    font: 100 60px 'Allura', cursive;
+    color: #d0d0d0;
+}
+
 .subtitleContact {
     color: #eaeaea;
     width: 95%;
@@ -98,4 +114,9 @@
     color: #f8fbfa;
     background-color: #363d36;
     border: solid 1px #f8fbfab2;
+}
+
+.iconeContact {
+    width: 30px;
+    height: 30px;
 }
