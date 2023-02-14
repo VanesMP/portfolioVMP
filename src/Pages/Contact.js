@@ -2,6 +2,7 @@ import React from "react";
 import { useForm } from 'react-hook-form';
 import { Link } from "react-router-dom";
 import "../Styles/contact.css";
+import bannerWip from "../assets/banner-wip.png";
 import iconeEmail from "../assets/iconeEmail.png";
 import iconeLinkedin from "../assets/iconeLinkedin.png";
 import backHome from "../assets/ArrowUp.svg";
@@ -22,6 +23,8 @@ function Contact() {
             <Link to="/">
                 <img src={backHome} alt="retour vers la page d'accueil" className="backHome"/>
             </Link>
+            <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress1" ></img>
+            <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress2" ></img>
             <div className="bannerCenter">
                     <h1 className="titleContact">Formulaire de contact</h1>
                         <div className="containerFormContact">

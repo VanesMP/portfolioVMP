@@ -121,3 +121,21 @@
     height: 30px;
     cursor: pointer;
 }
+
+.crimeBanner {
+    position: absolute;
+    z-index: 3;
+    height: 32px;
+}
+
+.InProgress1 {
+    top: 417px;
+    left: -21px;
+    transform: rotate(337deg);
+}
+
+.InProgress2 {
+    top: 510px;
+    left: 39px;
+    transform: rotate(23deg);
+}
