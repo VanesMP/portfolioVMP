@@ -42,27 +42,41 @@
     margin-right: 34%;
 }
 
-.containerIconeContact {
-    left: 65%;
+.containerContact {
+    left: 63%;
     position: absolute;
     display: flex;
-    top: 0;
-    width: 288px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    top: -54px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .titleContactIcone {
     font: 100 60px 'Allura', cursive;
-    color: #d0d0d0;
+    color: #5a5f5a;
+    height: 55px;
 }
 
-.subtitleContact {
+.subtitleContact,
+.instruction {
     color: #eaeaea;
+    font: 100 22px 'Allura', cursive;
+}
+
+.subtitleContactForm {
     width: 95%;
     margin: auto;
-    font: 100 22px 'Allura', cursive;
+}
+
+.containerIcone {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    flex-direction: row;
+    height: 110px;
+    align-items: flex-end;
+    margin: auto;
 }
 
 .formulaire {
@@ -117,25 +131,30 @@
 }
 
 .iconeContact {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
+    width: 60px;
+    height: 60px;
 }
 
 .crimeBanner {
     position: absolute;
     z-index: 3;
-    height: 32px;
+    height: 30px;
 }
 
 .InProgress1 {
-    top: 417px;
-    left: -21px;
-    transform: rotate(337deg);
+    top: 301px;
+    left: -110px;
+    transform: rotate(344deg);
 }
 
 .InProgress2 {
-    top: 510px;
-    left: 39px;
-    transform: rotate(23deg);
+    top: 350px;
+    left: -120px;
+    transform: rotate(31deg);
+}
+
+.iconentext {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
 }

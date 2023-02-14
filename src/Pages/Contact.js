@@ -7,6 +7,8 @@ import iconeEmail from "../assets/iconeEmail.png";
 import iconeLinkedin from "../assets/iconeLinkedin.png";
 import backHome from "../assets/ArrowUp.svg";
 import Background from "../Composnent/Background";
+import ContactLink from "../Composnent/ContactLink";
+import {dataLink} from "../data.js";
 
 
 function Contact() {
@@ -17,18 +19,25 @@ function Contact() {
         console.log(data);
       };
 
+    console.log(dataLink[0].Linkedin)
+
+    const linkLindekin = dataLink[0].Linkedin
+    console.log(linkLindekin)
+
     return(
         <div>
             <Background darkorclear="clear" />
             <Link to="/">
                 <img src={backHome} alt="retour vers la page d'accueil" className="backHome"/>
             </Link>
-            <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress1" ></img>
-            <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress2" ></img>
             <div className="bannerCenter">
                     <h1 className="titleContact">Formulaire de contact</h1>
                         <div className="containerFormContact">
-                            <h3 className="subtitleContact">- je suis là pour répondre à vos questions, n'hésitez pas à me contacter</h3>
+            <div>
+                <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress1" ></img>
+                <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress2" ></img>
+            </div>
+                            <p className="subtitleContact subtitleContactForm">- je suis là pour répondre à vos questions, n'hésitez pas à me contacter</p>
                             <form onSubmit={handleSubmit(onSubmit)} className="formulaire">
                                 <label htmlFor="name" className="labelContact">Votre nom (obligatoire)</label>
                                     <input 
@@ -72,10 +81,26 @@ function Contact() {
                                 <button type="submit" value="Submit" className="submitButton">Envoyer</button>
                             </form>
                         </div>
-                        <div className="containerIconeContact">
+                        <div className="containerContact">
                             <h2 className="titleContactIcone">Contact</h2>
-                            <img src={iconeEmail} alt="icone email contact" className="iconeContact" />
-                            <img src={iconeLinkedin} alt="icone contact Linkedin" className="iconeContact" />
+                            <p className="subtitleContact">- je suis là pour répondre à vos questions, n'hésitez pas à me contacter</p>
+                            <div className="containerIcone" >
+                                <ContactLink styleIconentext="iconentext"
+                                             icone={iconeEmail}
+                                             targetLink="mailto:alicemp@hotmail.fr"
+                                             altText="icone contact mail"
+                                             styleIconeContact="iconeContact" 
+                                             styleInstruction="instruction" 
+                                             subtextLink="mail me" />
+                                    <ContactLink styleIconentext="iconentext"
+                                                icone={iconeLinkedin}
+                                                //  targetLink="www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
+                                                targetLink={linkLindekin}
+                                                altText="icone contact Linkedin"
+                                                styleIconeContact="iconeContact" 
+                                                styleInstruction="instruction" 
+                                                subtextLink="follow me" />
+                            </div>
                         </div>
             </div>
         </div>
