@@ -14,10 +14,10 @@ function Navbar ({ navig, pathAncre }) {
                     </Link>
                     <a href={pathAncre}><li>PROJECTS</li></a>
                     <li>ABOUT</li>
-                    <a href={CV}><li>C.V</li></a>
-                    <Link to="/contact">
+                    <a href={CV} target="_blank" rel="noopener noreferrer" ><li>C.V</li></a>
+                    <a href="/contact">
                         <li>CONTACT</li>
-                    </Link>
+                    </a>
                 </ul>
             </nav>
         </div>

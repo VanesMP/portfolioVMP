@@ -37,7 +37,7 @@ function Home() {
                         <div className="containerPresentation">
                             <div className="upPageProjects" id="projects"></div>
                                 <Gallery />
-                                    <a href="#ancreMenu"><img src={arrowUp} alt="arrow to get back" className="arrowUp" /></a>
+                                <a href="#ancreMenu"><img src={arrowUp} alt="arrow to get back" className="arrowUp" /></a>
                         </div>
             </div>
             <Header 
@@ -46,7 +46,6 @@ function Home() {
                 seeProject="#projects"
                 classNavig="nav"
             />
-            <div className="arrowDown"></div>
             <Footer 
                 fixPosition="positionFooterHome" 
             />

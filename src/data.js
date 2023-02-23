@@ -297,5 +297,6 @@ export const dataList = [{
 ]
 
 export const dataLink = [{
+    name: "Linkedin",
     Linkedin: "www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
 }]

@@ -8,7 +8,7 @@ import iconeLinkedin from "../assets/iconeLinkedin.png";
 import backHome from "../assets/ArrowUp.svg";
 import Background from "../Composnent/Background";
 import ContactLink from "../Composnent/ContactLink";
-import {dataLink} from "../data.js";
+// import {dataLink} from "../data.js";
 
 
 function Contact() {
@@ -19,10 +19,21 @@ function Contact() {
         console.log(data);
       };
 
-    console.log(dataLink[0].Linkedin)
+    // const linkLindekin = dataLink[0].Linkedin
+    // console.log(linkLindekin)
 
-    const linkLindekin = dataLink[0].Linkedin
-    console.log(linkLindekin)
+    // function test() {
+    //     const linkL = window.location.href = "www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
+    //     return (linkL)
+    // }
+
+    // console.log(test())
+
+    // console.log(linkLinkedin)
+
+    // function handleClick() {
+    //     window.location.replace("www.linkedin.com/in/vanessa-macedo-pinto-devjunior");
+    //   };
 
     return(
         <div>
@@ -92,14 +103,19 @@ function Contact() {
                                              styleIconeContact="iconeContact" 
                                              styleInstruction="instruction" 
                                              subtextLink="mail me" />
+                                {/* {dataLink.map((linkedinLink) => ( */}
                                     <ContactLink styleIconentext="iconentext"
                                                 icone={iconeLinkedin}
-                                                //  targetLink="www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
-                                                targetLink={linkLindekin}
+                                                // targetLink={handleClick}
+                                                targetLink="www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
+                                                // targetLink={test}
+                                                // key={linkedinLink.name}
+                                                // targetLink={linkedinLink.Linkedin}
                                                 altText="icone contact Linkedin"
                                                 styleIconeContact="iconeContact" 
                                                 styleInstruction="instruction" 
                                                 subtextLink="follow me" />
+                                                {/* ))} */}
                             </div>
                         </div>
             </div>
