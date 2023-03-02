@@ -273,7 +273,7 @@ export const dataList = [{
                 Mon travail dans ce projet s'est concentré sur la récupération des données utilisateur et leur utilisation dans les différents graphiques,
                 ainsi que sur la configuration et la personnalisation de ces graphiques.
                 Pour avoir un aperçu de ce projet, vous pouvez suivre les étapes d'installation depuis le fichier Readme du repository Github.
-                Quelques prérequis seront nécessaires : NodeJS, Yarn, Visual Studio Code or another IDE et Docker Desktop.`,
+                Quelques prérequis seront nécessaires : NodeJS, Yarn, Visual Studio Code ou tout autre IDE et Docker Desktop.`,
         pictures: [sportseeDesktop, sportseeTablet, sportseeMobile],
         tagsTechno: ["html", "css", "javascript", "react", "recharts", "nodejs"],
         tagsSkills: ["versionning", "composant", "framework", "connexion", "charts"],

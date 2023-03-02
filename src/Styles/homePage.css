@@ -41,7 +41,7 @@
 }
 
 .arrowUp {
-    margin-bottom: 120px;
+    margin-bottom: 110px;
 }
 
 .upPageProjects {
@@ -63,4 +63,17 @@
 
 #scrolled {
     color: #314035;
+}
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1180px) {
+    .nav {
+        right: 15px;
+    }
+    .arrow {
+        bottom: 378px;
+        left: 47%;
+    }
 }

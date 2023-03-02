@@ -19,3 +19,17 @@ li {
     list-style-type: none;
     cursor: pointer;
 }
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1180px) {
+    ul {
+        gap: 19px;
+        align-items: flex-end;
+        height: 59px;
+    }
+    li {
+        font-size: 15px;
+    }
+}

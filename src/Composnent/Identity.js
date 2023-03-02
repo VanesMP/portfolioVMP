@@ -1,5 +1,5 @@
 import React from "react";
-import picture from "../assets/picture.png";
+import picture from "../assets/identite2.jpg";
 import dot from "../assets/dotWhite.svg";
 import "../Styles/identity.css";
 import { Link } from "react-router-dom";

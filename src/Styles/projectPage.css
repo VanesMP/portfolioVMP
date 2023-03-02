@@ -14,3 +14,12 @@
     display: flex;
     flex-direction: column;
 }
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1180px) {
+    .navFooter {
+        right: 15px;
+    }
+}

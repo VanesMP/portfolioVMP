@@ -32,3 +32,28 @@
     font: 400 26px 'Baskervville', serif;
     padding-left: 220px;
 }
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1380px) {
+    .job {
+        padding-left: 112px;
+    }
+}
+
+@media (max-width: 1180px) {
+    .containerName {
+        width: 48%;
+        height: 121px;
+    }
+    .name {
+        height: 34px;
+        font-size: 39px;
+        letter-spacing: 1pt;
+    }
+    .job {
+        font-size: 22px;
+        padding-left: 90px;
+    }
+}

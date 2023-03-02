@@ -30,6 +30,7 @@
     margin: auto;
     background-color: #444c4405;
     margin-top: 255px;
+    margin-bottom: 1px;
 }
 
 .textProject {
@@ -75,31 +76,6 @@ p {
     display: none;
 }
 
-
-/* style1 */
-
-
-/* 
-.galleryImg {
-    width: fit-content;
-    margin: auto;
-    height: 560px;
-    background-color: white;
-    margin-bottom: 75px;
-}
-
-.imgGallery {
-    border: solid 5px white;
-    width: 380px;
-    height: 550px;
-    margin: auto;
-    object-fit: cover;
-    border-radius: 8px;
-} */
-
-
-/* style2 */
-
 .galleryImg {
     width: 50%;
     margin: auto;
@@ -116,4 +92,24 @@ p {
     margin: auto;
     object-fit: cover;
     border-radius: 2px;
+}
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1180px) {
+    .logoTitle {
+        width: 25%;
+    }
+    .descriptionProject {
+        width: 78%;
+        margin-top: 230px;
+    }
+    .containerLinkProject {
+        justify-content: space-between;
+    }
+    .galleryImg {
+        width: 78%;
+        margin-bottom: 45px;
+    }
 }

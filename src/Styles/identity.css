@@ -14,7 +14,9 @@
 
 .portrait {
     width: 237px;
-    height: 226px;
+    height: 237px;
+    border-radius: 50%;
+    filter: grayscale(0.7);
 }
 
 .presentation {
@@ -56,4 +58,49 @@
     margin: auto;
     margin-top: 10px;
     cursor: pointer;
+}
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1180px) {
+    .identity {
+        align-items: center;
+        background-color: #444c4447;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        height: 418px;
+        justify-content: flex-end;
+        position: absolute;
+        top: 280px;
+        width: 85%;
+    }
+    .portrait {
+        margin-left: 405px;
+        height: 175px;
+        width: 180px;
+    }
+    .presentation {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        height: 299px;
+        justify-content: space-evenly;
+        margin: 0;
+        width: 569px;
+    }
+    .learnMore {
+        cursor: pointer;
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        width: fit-content;
+    }
+    .arrow {
+        bottom: 395px;
+        left: 46%;
+        position: absolute;
+    }
 }

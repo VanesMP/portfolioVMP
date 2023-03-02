@@ -1,5 +1,5 @@
 .box {
-    margin-bottom: 80px;
+    margin-bottom: 45px;
 }
 
 .ul {
@@ -7,6 +7,7 @@
     height: auto;
     margin: auto;
     row-gap: 20px;
+    column-count: 3;
 }
 
 .linkImg,
@@ -45,4 +46,17 @@
 
 .titleLink::before {
     pointer-events: auto;
+}
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (min-width: 770px) and (max-width: 1180px) {
+    .ul {
+        height: auto;
+        margin: auto;
+        row-gap: 20px;
+        width: 90%;
+        column-count: 2;
+    }
 }
