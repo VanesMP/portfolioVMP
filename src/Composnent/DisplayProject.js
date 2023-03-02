@@ -44,7 +44,7 @@ function DisplayProject({ dataLogo, dataEntreprise, dataSubject1, dataSubject2, 
                                     {dataLinkWebsite !== '?' && (
                                         <ButtonLink textButtonLink={textLinkProject} pathLink={linkProject} />)}
                                     {linkGithub !== '?' && (
-                                    <ButtonLink textButtonLink="Lien vers le code sur Github" pathLink={linkGithub} />)}
+                                    <ButtonLink textButtonLink="Le code sur Github" pathLink={linkGithub} />)}
                                 </div>
                         </div>
                     </div>

@@ -70,17 +70,16 @@ export const dataList = [{
         logo: reserviaLogo,
         source: reserviaGallery,
         size: "small",
-        entreprise: "Reservia est une petite entreprise qui propose un outil de planification pour leur vacances.",
-        subject1: `Le site de Reservia permet à ces usagers de trouver des hébergements et des activités dans un large choix de ville, 
+        entreprise: "Reservia est une petite entreprise qui propose un outil de planification pour les vacances.",
+        subject1: `Le site de Reservia permet à ses utilisateurs de trouver des hébergements et des activités dans un large choix de ville, 
             en ayant la possibilité de filtrer ces hébergements par thématique, par ambiance  ou selon le budget.`,
-        subject2: `Un nouveau design basé sur les principes du Material Design venait d'être proposé par Loïc, designer UI.`,
-        objectif: `Mon travail sur ce projet, était de réaliser un site web responsive en suivant la maquette réalisé par Loïc.
-            La contrainte de ce projet etait qu'il devait etre réalisé en utilisant uniquement HTML et CSS.`,
-        realisation: `Le parcours utilisateur commence par l'affichage de la page d'accueil de Reservia,
-            qui propose des hébergements et des activités.
-            Depuis cette page d'accueil, l'usager pourra par la suite faire une saisie dans la barre 
-            de rechercghe pour trouver un hébergement dans la ville souhaitée, puis affiner sa recherche en utilisant les filtres proposés. 
-            Les liens dans le menu sont des ancres qui emmenent aux sections de la page.`,
+        subject2: `Un nouveau design basé sur les principes du Material Design vient d'être proposé par Loïc, designer UI.`,
+        objectif: `Mon travail sur ce projet, était de réaliser un site web responsive en suivant la maquette réalisée par Loïc.
+            La contrainte de ce projet etait qu'il devait être réalisé en utilisant uniquement HTML et CSS.`,
+        realisation: `Le parcours utilisateur commence par l'affichage de la page d'accueil de Reservia, qui propose des hébergements 
+            et des activités. Depuis cette page d'accueil, l'utilisateur pourra par la suite faire une saisie dans la barre de recherche 
+            pour trouver un hébergement dans la ville souhaitée, puis affiner sa recherche en utilisant les filtres proposés. Les liens 
+            dans le menu sont des ancres qui mènent aux sections de la page.`,
         pictures: [reserviaDesktop, reserviaTablet, reserviaMobile],
         tagsTechno: ["html", "css"],
         tagsSkills: ["maquette", "responsive", "versionning"],
@@ -95,20 +94,19 @@ export const dataList = [{
         source: ohmyfoodGallery,
         size: "large",
         entreprise: "Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration.",
-        subject1: `Cette entreprise de commande de repas en ligne, permet aux utilisateurs de composer leur propre menu 
+        subject1: `Cette entreprise de commande de repas en ligne permet aux utilisateurs de composer leur propre menu 
                 et de réduire leur temps d'attente dans les restaurants car leur menu est préparé à l'avance.`,
         subject2: `En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que 
-                les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !.`,
+                les plats soient prêts à leur arrivée. Finis les temps d'attente au restaurant !`,
         objectif: `L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques.
-                Ohmyfood! souhaite se positionner sur un marché de niche, avec les restaurants luxueux des villes
+                Ohmyfood! souhaite se positionner sur un marché de niche avec les restaurants luxueux des villes
                 dans lesquelles ils sont établis. 
-                Souhaitant être identifié comme une entreprise qui propose des services haut de gamme, l'équipe a réalisé une maquette 
-                et des animations CSS avancées qui ont su respect cette demande.`,
-        realisation: `Le parcours utilisateur commence par l' affichage d'un spinner qui reprends l'A.D.N de la marque, puis direction la page d'accueil qui 
-                offre la possibilité de choisir les menus de 4 restaurants parisiens.
-                Une fois le choix du restaurant réalisé, l' utilisateur peut alors composer son menu en sélection les différentes propositions, dans les entrées,
-                les plats et les desserts.
-                A chaque sélection faite par l' utilisateur, une animation Css marque le choix.`,
+                Souhaitant être identifiée comme une entreprise qui propose des services haut de gamme, l'équipe a réalisé une maquette 
+                et des animations CSS avancées qui ont su respecter cette demande.`,
+        realisation: `Le parcours utilisateur commence par l'affichage d'un spinner que j'ai créé en reprenant l'ADN de la marque. 
+                Puis direction la page d'accueil qui offre la possibilité de choisir les menus de 4 restaurants parisiens. Une fois 
+                le choix du restaurant réalisé, l'utilisateur peut alors composer son menu en sélectionnant les différentes propositions 
+                dans les entrées, les plats et les desserts. À chaque sélection faite par l'utilisateur, une animation CSS marque le choix.`,
         pictures: [ohmyfoodDesktop, ohmyfoodTablet, ohmyfoodMobile],
         tagsTechno: ["html", "css"],
         tagsSkills: ["maquette", "responsive", "versionning", "animationCSS", "navigation"],
@@ -122,20 +120,20 @@ export const dataList = [{
         logo: gameonLogo,
         source: gameonGallery,
         size: "small",
-        entreprise: "GameOn, spécialisée dans les conférences et les concours de jeux.",
-        subject1: `Cette PME spécialisée dans le domaine du jeux vidéo, propose aux utilisateurs dans cette landing page
-                via un formulaire de s'inscrire au Marathon national du jeux vidéo.`,
+        entreprise: "GameOn est une entreprise spécialisée dans les conférences et les concours de jeux.",
+        subject1: `Cette PME spécialisée dans le domaine du jeu vidéo, propose aux utilisateurs dans cette landing page,
+                de s'inscrire au Marathon national du jeu vidéo via un formulaire.`,
         subject2: ` `,
-        objectif: `Après avoir reçu des commentaires négatifs de la part de certains utilisateurs, la nouvelle page d'accueil ainsi que les
-                inscriptions aux concours ont été simplifié.
-                Mon travail dans ce projet consistait d'abord à vérifier et tester le code déja réalisé et à ajouter une fonctionnalité manquante,
-                le formulaire d' inscription.`,
-        realisation: `Le parcours utilisateur commence par l' affichage de la landing page qui propose aux utilisateurs/gameurs de s' inscrire
+        objectif: `Après avoir reçu des commentaires négatifs de la part de certains utilisateurs, la nouvelle page d'accueil ainsi que le formulaire
+                d'inscription aux concours ont été simplifiées.
+                Mon travail dans ce projet consistait d'abord à vérifier et tester le code déja réalisé et à ajouter une fonctionnalité encore manquante,
+                le formulaire d'inscription.`,
+        realisation: `Le parcours utilisateur commence par l' affichage de la landing page qui propose aux utilisateurs/gameurs de s'inscrire
                 au concours.
-                Le bouton s'inscrire offre une fenêtre pop up, qui est le formulaire d' inscription.
-                Plusieurs champs de saisi sont présents, du texte, une date, des boutons radio et des checkbox. Avant la validation du formulaire, tous les champs
-                du formulaire doivent être correctemnt saisi.
-                La barre de navigation n'a pas encore été implémenté.`,
+                Le bouton 'S'inscrire' ouvre une fenêtre pop up qui est le formulaire d'inscription.
+                Plusieurs champs de saisie sont présents comme du texte, une date, des boutons radio et des cases à cocher. Avant la validation du formulaire, tous les champs
+                doivent être correctement remplis.
+                La barre de navigation n'a pas encore été implémentée.`,
         pictures: [gameonDesktop, gameonTablet, gameonMobile],
         tagsTechno: ["html", "css", "javascript"],
         tagsSkills: ["responsive", "versionning", "formulaire", "navigation", "landingPage"],
@@ -149,21 +147,20 @@ export const dataList = [{
         logo: fisheyeLogo,
         source: fisheyeGallery,
         size: "large",
-        entreprise: "FishEye est un site web qui permet aux photographes frelance de présenter leurs meilleurs travaux.",
-        subject1: `Ces photographes prennent de super photos, mais ils n'y connaissent rien en développement web. C'est
-                pourquoi Fisheye propose une plateforme unique pour montrer leurs photos sur une belle page
-                et de permettre aux visiteurs de les contacter pour des événements ou des tirages.`,
-        subject2: `Fisheye posséde un énorme réseau de photographes, aprés une récente levé de fonds, l'entreprise souhaite faire une mise à niveau
-                vers un site dynamique.`,
+        entreprise: "FishEye est un site web qui permet aux photographes freelances de présenter une sélection de leurs meilleurs travaux.",
+        subject1: `Fisheye propose aux photographes une plateforme unique pour exposer leur travail
+                et permet aux visiteurs de les contacter pour des événements ou des tirages.`,
+        subject2: `Fisheye possède un énorme réseau de photographes et, aprés une récente levée de fonds, l'entreprise souhaite effecctuer une mise à niveau
+                vers un site web plus dynamique.`,
         objectif: `L'objectif était de construire un prototype fonctionnel d'un nouveau site web accessible, en adéquation avec les maquettes au préalablement validées.
-                J'ai été uniquement en charge de la partie front-end de ce site web en respectant les différentes fonctionnalités et exigences techniques,
-                notamment celle en matière d'accessibilité.`,
-        realisation: `Dans cette application axée sur l'accessibilité, tous les médias ont une description textuelle et les commandes du clavier 
-                permettent de naviguer sur le sie, comme les touches fléchées pour la lightbox dans la page du photographe.
-                Dans la page d'accueil, l'utilisateur peux trier les photographes selon un thême grâce à plusieurs tags que j'ai placé dans le header du site. Aprés la
-                sélection d'un photographe, l'utilisateur est redirigé vers la page personnelle du photographe qui affiche une galerie de son travail, photographies et/ou vidéos sous forme de miniature.
-                Quelques précision fonctionnelles contenues dans cette page, d'abord les différents média peuvent être triés par populrité ou par titre et chacun d'eux permettent
-                d'ouvrir une lightbox où l'utilisateur peux faire défiler les différntes images et fermer cette lightbox à sa convenance.
+                J'ai été uniquement en charge de la partie front-end de ce site web, en respectant les différentes fonctionnalités et exigences techniques,
+                notamment celles en matière d'accessibilité.`,
+        realisation: `Dans cette application axée sur l'accessibilité, tous les médias disposent d'une description textuelle et les commandes du clavier 
+                permettent de naviguer sur le sie, comme les touches fléchées pour la lightbox dans la page des photographes.
+                Sur la page d'accueil, l'utilisateur peut trier les photographes selon un thème grâce à plusieurs tags que j'ai placés dans le header du site. Aprés la
+                sélection d'un photographe, l'utilisateur est redirigé vers la page personnelle du photographe qui affiche une galerie de son travail, comprenant photographies et/ou vidéos sous forme de miniatures.
+                Quelques précisions fonctionnelles sont contenues dans cette page: d'abord, les différents médias peuvent être triés par popularité ou par titre, et chacun d'eux permet
+                d'ouvrir une lightbox où l'utilisateur peut faire défiler les différntes images et fermer cette lightbox à sa convenance.
                 Pour contacter un photographe, un bouton de contact affiche une modale sous forme de formulaire qui comprend des champs pour les noms, l'adresse 
                 électronique et le message.
                 `,
@@ -180,23 +177,22 @@ export const dataList = [{
         logo: lespetitsplatsLogo,
         source: lespetitsplatsGallery,
         size: "small",
-        entreprise: "Les petits plats est une entreprise édite des livres de cuisine depuis plusieurs années.",
-        subject1: `L'entreprise a décidé de se lancer dans un nouveau projet : réaliser son propre site de recettes de cuisine 
+        entreprise: "Les petits plats est une entreprise qui édite des livres de cuisine depuis plusieurs années.",
+        subject1: `L'entreprise a décidé de se lancer dans un nouveau projet: réaliser son propre site de recettes de cuisine 
                 à l'instar de Marmiton ou 750g.`,
-        subject2: `Les sites qui proposent des recettes de cuisines sont nombreux et l'équipe a pensé que l'element qui pourrait faire la 
-                différences sur ce site serait la fluidité du moteur de recherche.`,
-        objectif: `Ma mission dans ce projet, "visez la performance". Je devais d'implémenter une fonctionnalité de recherche, qui offrira aux utilisateurs, 
+        subject2: `Les sites qui proposent des recettes de cuisine sont nombreux et l'équipe a pensé que l'élément qui pourrait faire la 
+                différence sur ce site serait, la fluidité du moteur de recherche.`,
+        objectif: `Ma mission dans ce projet: "Visez la performance". J'ai donc été chargé d'implémenter une fonctionnalité de recherche qui offre aux utilisateurs 
                 un résultat le plus instantané possible.`,
         realisation: `La recherche étant la fonctionnalité principale de ce projet, j'ai commencé par implémenter deux algorithmes différents 
-                pour pouvoir comparer leurs performances et choisir le meilleure.
+                pour pouvoir comparer leurs performances et choisir le plus performant.
                 J'ai réalisé une première version utilisant les boucles natives (while, for...) et une version en programmation fonctionnelle avec 
-                les méthodes de l'objet array (foreach, filter, map, reduce) qui peuvent être consulté depuis le lien github.
-                J'ai utilisé 2 branches différentes sur Git afin de bien conserver les codes séparés.
-                Quelques contraintes fontcionnelles obligatoires, d'abord une recherche qui doit pouvoir se faire via la barre de recherche dés 3 
-                caractères saisis par l'utilisateur ou via les tags (ingrédients, ustensiles ou appareil) et chaque recherche actualise la liste des recettes
-                qui correspondent dans l'interface. Si il n'y a pas de correspondants, un meessage informe l'utilisateur qu' aucunes recette n'a été trouvé et l'invite a 
+                les méthodes de l'objet Array (forEach, filter, map, reduce) qui peuvent être consultées depuis le lien Github.
+                Quelques contraintes fonctionnelles devaient être respectées, d'abord une recherche qui doit pouvoir se faire via la barre de recherche principale et 
+                se lancer automatiquement dès 3 caractères saisis par l'utilisateur ou via les tags (ingrédients, ustensiles ou appareil). Chaque recherche actualise la liste des recettes
+                correspondante dans l'interface. Si aucune recette ne correspondant, un message informe l'utilisateur et l'invite à 
                 recommencer sa recherche.
-                Pour l'instant l'équipe Back-end n'était pas encore formée, nous disposons uniquement d'un fichier JavaScript contenant un tableau JSON de 50 recettes. 
+                Pour l'instant, l'équipe Back-end n'était pas encore formée, nous disposons uniquement d'un fichier JavaScript contenant un tableau JSON de 50 recettes. 
             `,
         pictures: [lespetitsplatsDesktop, lespetitsplatsTablet],
         tagsTechno: ["html", "css", "javascript"],
@@ -211,24 +207,23 @@ export const dataList = [{
         logo: learnhomelogo,
         source: learnhomeGallery,
         size: "large",
-        entreprise: "Learn@Home est une association qui met en relation des enfants en difficulté scolaire avec des tuteurs bénévoles, en ligne",
-        subject1: `Chaque élève inscrit sur le site a un tuteur bénévole, qui lui est assigné. Le bénévole a pour objectif de soutenir l'élève 
-                dans son apprentissage, à travers de courts rendez-vous prévus chaque semaine. Durant ces rendez-vous, le bénévole
+        entreprise: "Learn@Home est une association qui vise à aider des enfants en difficulté scolaire en les mettant en relation avec des tuteurs bénévoles en ligne",
+        subject1: `Chaque élève inscrit sur le site est assigné à un tuteur bénévole dont objectif est de soutenir l'élève 
+                dans son apprentissage. Les rendez-vous sont organisés chaque semaine et durant ces rencontres, le bénévole
                 aide l'élève à réaliser ses devoirs et à s'organiser.`,
-        subject2: `Jusqu'alors élèves et bénévoles utilisaient surtout WhatsApp et les SMS pour communiquer, le projet de Learn@Home est la création
-                d'un site web.`,
-        objectif: `Mon travail a été de concevoir la maquette du site web qui permettra aux éléves et aux bénévoles de faciliter leurs échanges.`,
-        realisation: `Dans un premier temps, j'ai dû bien définir les besoins client en réalisant pour chacune des fonctionnalités des diagrammes de 
-                cas d'usage pour chaque page (connexion, chat, calendrier, gestionnaire de tâches, tableau de bord) et des
-                user stories avec critère(s) d'acceptation.
-                Les maquettes responsives de chaques pages ont été réalisé selon les attentes de Learn@Home.
-                La page de connexion permet aux éléves et bénévole de se connecter ou de créer un compte et la possibilité de récupérer som mot de passe.
-                La page du tableau de bord regroupe un récapitulatif de toutes les informations récentes et importantes en provenance des autres pages :
-                chat(messages non lus), calendrier(rendez vous à venir), gestion des tâches(exercices ou correction à effectuer).
-                La page de Chat intégre un système de discussion instantané classique entre élèves et bénévoles.
+        subject2: `Jusqu'à présent, les élèves et les bénévoles communiquaient principalement via WhatsApp et les SMS, désormais le projet de Learn@Home consiste à créer son
+                site web.`,
+        objectif: `Mon travail a consisté à concevoir la maquette du site web qui permettra aux éléves et aux bénévoles de faciliter leurs échanges.`,
+        realisation: `Dans un premier temps, j'ai dû définir les besoins du client en réalisant pour chaques pages (connexion, chat, calendrier, gestionnaire de tâches, tableau de bord)
+                des diagrammes de cas d'usage ainsi que des user stories avec critère(s) d'acceptation.
+                J'ai ensuite créé des maquettes responsives pour chaque page, conformes aux attentes de Learn@Home.
+                La page de connexion permet aux éléves et aux bénévoles de se connecter ou de créer un compte ainsi que de récupérer un mot de passe oublié.
+                La page du tableau de bord regroupe un récapitulatif de toutes les informations récentes et importantes provenant des autres pages:
+                y compris les messages non lus du chat, les rendez-vous à venir du calendrier et les tâches à effectuer du gestionnaire de tâches.
+                La page de Chat intègre un système de discussion instantané classique entre élèves et bénévoles.
                 La page de calendrier affiche les différents événements et rendez-vous d'un éléve ou d'un bénévole.
-                L'interface de la page de gestion des tâches  permet à un éléve de se créer des tâches à réaliser et aux bénévoles d'en créer pour lui 
-                ou pour ses éléves.`,
+                L'interface de la page de gestion des tâches permet aux éléves de créer des tâches à réaliser et aux bénévoles d'en créer pour eux-même 
+                ou pour leurs élèves.`,
         pictures: [learnhomeDesktop, learnhomeTablet, learnhomeMobile],
         tagsTechno: ["figma"],
         tagsSkills: ["maquette", "userstories"],
@@ -242,19 +237,19 @@ export const dataList = [{
         logo: kasalogo,
         source: kasaGallery,
         size: "small",
-        entreprise: "Kasa est dans le métier de la location d'appartements entre particuliers depuis près de 10 ans maintenant.",
-        subject1: `Avec plus de 500 annonces postées chaque jour Kasa fait partie des 
-                leaders de la location d'appartements entre particuliers en France.`,
-        subject2: `Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. 
-                La CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté Back-end, 
-                et React côté Front-end. 
-                Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel, qui est en freelance.`,
-        objectif: `Mon travail dans ce prjet était de developper un nouvelle plateforme web avec React et en respectant leurs nouvelles maquettes.`,
-        realisation: `En suivant le design d'interface responsive sur Figma, j'ai démarré le projet avec React et travaillé l'ensemble de l'application 
+        entreprise: "Kasa est un acteur majeur de la location d'appartements entre particuliers en France depuis presque 10 ans.",
+        subject1: `Avec plus de 500 annonces postées chaque jour, Kasa est l'un des 
+                leaders du secteur.`,
+        subject2: `Cependant, le site de Kasa a été codé il y a plus de 10 ans en ASP.NET. 
+                La CTO, a décidé de lancer une refonte totale du site pour passer à une stack complète en JavaScript avec NodeJS pour le Back-end, 
+                et React pour le Front-end. 
+                Kasa a également demandé à son designer habituel, de créer de nouvelles maquettes pour le site.`,
+        objectif: `Mon travail dans ce projet était de développer une nouvelle plateforme web en utilisant React et en respectant les nouvelles maquettes de Kasa.`,
+        realisation: `En suivant le design d'interface responsive sur Figma, j'ai démarré le projet avec React et travaillé sur l'ensemble de l'application 
             avec la logique de composants.
-            Quelques précision sur une des contraintes fonctionnelles que vous pourrez trouver, dans la page d'un logement selectionné, l'utilisateur 
-            peux faire défiler les différentes images dans la galerie qui reste de la hauteur.
-            Le back-end n'étant pas terminé, les logements proposés dans l 'application sont extrait d'un fichier JSON.`,
+            Une des contraintes fonctionnelles importantes que vous pourrez remarquer est que dans la page d'un logement sélectionné, l'utilisateur peut faire 
+            défiler les différentes images dans la galerie qui conserve une hauteur fixe. Comme le backend n'était pas terminé, les logements proposés dans l'application 
+            ont été extraits d'un fichier JSON.`,
         pictures: [kasaDesktop, kasaTablet, kasaMobile],
         tagsTechno: ["html", "css", "javascript", "react"],
         tagsSkills: ["responsive", "versionning", "composant", "framework", "navigation"],
@@ -268,16 +263,16 @@ export const dataList = [{
         logo: sportseelogo,
         source: sportseeGallery,
         size: "large",
-        entreprise: "SportSee est une startup dédiée au coaching sportif.",
-        subject1: `En pleine croissance, l'entreprise va aujourd'hui lancer une nouvelle version de la page profil de l'utilisateur.`,
-        subject2: `Cette page va notamment permettre à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.`,
-        objectif: `L'objectif est de refaire la page profil en respectant la maquette et en intégrant les user stories.`,
+        entreprise: "SportSee est une startup dédiée au coaching sportif en pleine croissance.",
+        subject1: `L'entreprise s'apprête à lancer une nouvelle version de la page profil utilisateur.`,
+        subject2: `Cette page permettra à l'utilisateur de suivre le nombre de sessions réalisées ainsi que le nombre de calories brûlées.`,
+        objectif: `L'objectif est de refaire la page de profil en respectant la maquette fournie et en intégrant les fonctionnalités demandées dans les user stories.`,
         realisation: `J'ai développé cette nouvelle version avec React et en utilisant la librairie Recharts, car le projet intègre des graphiques sur 
                 l'activité sportive de l'utilisateur.
-                Cette page de profil devait pouvoir être consulté sur un ordinateur ayant une résolution d'au moins 1024 par 780 pixels.
-                Mon travail dans ce projet c'est concentré sur la récuperation des données utilisateur et leur utilisation dans les différents graphiques
-                ainsi que la configuration et personnalisation de ces graphiques.
-                Pour avoir un aperçu de ce projet, vous pourrez suivre les étapes d'installation depuis le Readme du repository Github.
+                La page de profil devait pouvoir être consultée sur un ordinateur ayant une résolution d'au moins 1024 par 780 pixels.
+                Mon travail dans ce projet s'est concentré sur la récupération des données utilisateur et leur utilisation dans les différents graphiques,
+                ainsi que sur la configuration et la personnalisation de ces graphiques.
+                Pour avoir un aperçu de ce projet, vous pouvez suivre les étapes d'installation depuis le fichier Readme du repository Github.
                 Quelques prérequis seront nécessaires : NodeJS, Yarn, Visual Studio Code or another IDE et Docker Desktop.`,
         pictures: [sportseeDesktop, sportseeTablet, sportseeMobile],
         tagsTechno: ["html", "css", "javascript", "react", "recharts", "nodejs"],
