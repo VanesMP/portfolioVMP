@@ -19,22 +19,6 @@ function Contact() {
         console.log(data);
       };
 
-    // const linkLindekin = dataLink[0].Linkedin
-    // console.log(linkLindekin)
-
-    // function test() {
-    //     const linkL = window.location.href = "www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
-    //     return (linkL)
-    // }
-
-    // console.log(test())
-
-    // console.log(linkLinkedin)
-
-    // function handleClick() {
-    //     window.location.replace("www.linkedin.com/in/vanessa-macedo-pinto-devjunior");
-    //   };
-
     return(
         <div>
             <Background darkorclear="clear" />
@@ -103,19 +87,13 @@ function Contact() {
                                              styleIconeContact="iconeContact" 
                                              styleInstruction="instruction" 
                                              subtextLink="mail me" />
-                                {/* {dataLink.map((linkedinLink) => ( */}
                                     <ContactLink styleIconentext="iconentext"
                                                 icone={iconeLinkedin}
-                                                // targetLink={handleClick}
                                                 targetLink="http://www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
-                                                // targetLink={test}
-                                                // key={linkedinLink.name}
-                                                // targetLink={linkedinLink.Linkedin}
                                                 altText="icone contact Linkedin"
                                                 styleIconeContact="iconeContact" 
                                                 styleInstruction="instruction" 
                                                 subtextLink="follow me" />
-                                                {/* ))} */}
                             </div>
                         </div>
             </div>

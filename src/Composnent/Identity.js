@@ -30,7 +30,7 @@ function Identity() {
                     </p>
                 </div>
                 <div>
-                    <p className="learnMore">En savoir plus</p>
+                    <a href="/about" className="learnMore">En savoir plus</a>
                 </div>
             </div>
         </div>

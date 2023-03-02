@@ -50,9 +50,10 @@
 }
 
 .learnMore {
+    display: block;
     text-decoration: underline;
     width: 50%;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 10px;
     cursor: pointer;
 }
