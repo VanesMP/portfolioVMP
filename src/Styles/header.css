@@ -8,6 +8,7 @@
 #ancreMenu {
     position: absolute;
     top: 0;
+    width: 100%;
 }
 
 .containerName {
@@ -15,7 +16,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 45%;
+    width: 42%;
     height: 120px;
     opacity: 80%;
 }

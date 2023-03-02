@@ -85,7 +85,7 @@ export const dataList = [{
         tagsTechno: ["html", "css"],
         tagsSkills: ["maquette", "responsive", "versionning"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_2_06052021",
-        nameLinkApercu: "Lien vers la page web",
+        nameLinkApercu: "La page web",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_2_06052021/"
     },
     {
@@ -113,7 +113,7 @@ export const dataList = [{
         tagsTechno: ["html", "css"],
         tagsSkills: ["maquette", "responsive", "versionning", "animationCSS", "navigation"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_3_06052021",
-        nameLinkApercu: "Lien vers la page web",
+        nameLinkApercu: "La page web",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_3_06052021/"
     },
     {
@@ -140,7 +140,7 @@ export const dataList = [{
         tagsTechno: ["html", "css", "javascript"],
         tagsSkills: ["responsive", "versionning", "formulaire", "navigation", "landingPage"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_4_06052021",
-        nameLinkApercu: "Lien vers la page web",
+        nameLinkApercu: "La page web",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_4_06052021/"
     },
     {
@@ -171,7 +171,7 @@ export const dataList = [{
         tagsTechno: ["html", "css", "sass", "javascript"],
         tagsSkills: ["responsive", "versionning", "desinPattern", "navigation", "accessibilite"],
         gitLink: "https://github.com/VanesMP/MacedopintoVanessa_6_06052021",
-        nameLinkApercu: "Lien vers la page web",
+        nameLinkApercu: "La page web",
         gitWebsite: "https://vanesmp.github.io/MacedopintoVanessa_6_06052021/"
     },
     {
@@ -202,7 +202,7 @@ export const dataList = [{
         tagsTechno: ["html", "css", "javascript"],
         tagsSkills: ["versionning", "algorithme", "tri"],
         gitLink: "https://github.com/VanesMP/VanesMP-MacedopintoVanessa_7_06052021",
-        nameLinkApercu: "Lien vers la page web",
+        nameLinkApercu: "La page web",
         gitWebsite: "https://vanesmp.github.io/VanesMP-MacedopintoVanessa_7_06052021/"
     },
     {
@@ -233,7 +233,7 @@ export const dataList = [{
         tagsTechno: ["figma"],
         tagsSkills: ["maquette", "userstories"],
         gitLink: "?",
-        nameLinkApercu: "Aperçu de la maquette",
+        nameLinkApercu: "La maquette",
         gitWebsite: "https://www.figma.com/proto/SJguRYU06mWo71XcjRlmDO/Learn%40Home?node-id=14%3A86&scaling=min-zoom&page-id=0%3A1"
     },
     {
@@ -259,7 +259,7 @@ export const dataList = [{
         tagsTechno: ["html", "css", "javascript", "react"],
         tagsSkills: ["responsive", "versionning", "composant", "framework", "navigation"],
         gitLink: "?",
-        nameLinkApercu: "Lien vers la page web",
+        nameLinkApercu: "La page web",
         gitWebsite: "?"
     },
     {

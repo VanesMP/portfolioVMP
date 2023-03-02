@@ -107,7 +107,7 @@ function Contact() {
                                     <ContactLink styleIconentext="iconentext"
                                                 icone={iconeLinkedin}
                                                 // targetLink={handleClick}
-                                                targetLink="www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
+                                                targetLink="http://www.linkedin.com/in/vanessa-macedo-pinto-devjunior"
                                                 // targetLink={test}
                                                 // key={linkedinLink.name}
                                                 // targetLink={linkedinLink.Linkedin}
