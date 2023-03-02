@@ -2,6 +2,7 @@ import React from "react";
 import picture from "../assets/picture.png";
 import dot from "../assets/dotWhite.svg";
 import "../Styles/identity.css";
+import { Link } from "react-router-dom";
 
 function Identity() {
     return(
@@ -30,7 +31,7 @@ function Identity() {
                     </p>
                 </div>
                 <div>
-                    <a href="/about" className="learnMore">En savoir plus</a>
+                    <Link to="/about" className="learnMore">En savoir plus</Link>
                 </div>
             </div>
         </div>
