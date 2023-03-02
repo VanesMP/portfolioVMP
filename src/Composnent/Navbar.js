@@ -17,9 +17,9 @@ function Navbar ({ navig, pathAncre }) {
                         <li>ABOUT</li>
                     </Link>
                     <a href={CV} target="_blank" rel="noopener noreferrer" ><li>C.V</li></a>
-                    <a href="/contact">
+                    <Link to="/contact">
                         <li>CONTACT</li>
-                    </a>
+                    </Link>
                 </ul>
             </nav>
         </div>
