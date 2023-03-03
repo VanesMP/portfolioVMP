@@ -26,12 +26,13 @@ function Contact() {
                 <img src={backHome} alt="retour vers la page d'accueil" className="backHome"/>
             </Link>
             <div className="bannerCenter">
+                <div className="contactForm">
                     <h1 className="titleContact">Formulaire de contact</h1>
                         <div className="containerFormContact">
-            <div>
-                <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress1" ></img>
-                <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress2" ></img>
-            </div>
+                    <div>
+                        <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress1" ></img>
+                        <img src={bannerWip} alt="work in progress, presque prêt" className="crimeBanner InProgress2" ></img>
+                    </div>
                             <p className="subtitleContact subtitleContactForm">- je suis là pour répondre à vos questions, n'hésitez pas à me contacter</p>
                             <form onSubmit={handleSubmit(onSubmit)} className="formulaire">
                                 <label htmlFor="name" className="labelContact">Votre nom (obligatoire)</label>
@@ -76,6 +77,7 @@ function Contact() {
                                 <button type="submit" value="Submit" className="submitButton">Envoyer</button>
                             </form>
                         </div>
+                </div>
                         <div className="containerContact">
                             <h2 className="titleContactIcone">Contact</h2>
                             <p className="subtitleContact">- je suis là pour répondre à vos questions, n'hésitez pas à me contacter</p>

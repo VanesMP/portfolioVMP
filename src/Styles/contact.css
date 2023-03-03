@@ -12,7 +12,7 @@
 }
 
 .bannerCenter {
-    background-color: #2b322bf0;
+    /* background-color: #2b322bf0;
     width: 100%;
     height: 500px;
     position: absolute;
@@ -20,36 +20,67 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center; */
+    background-color: #2b322bf0;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
     justify-content: center;
 }
 
+.contactForm {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .containerFormContact {
-    background-color: #7c877c;
+    /* background-color: #7c877c;
     width: 600px;
     height: 635px;
     border-radius: 2px;
     margin-right: 34%;
     margin-top: 50px;
-    position: absolute;
+    position: absolute; */
+    background-color: #7c877c;
+    width: 600px;
+    height: 635px;
+    border-radius: 2px;
+    position: relative;
 }
 
 .titleContact {
-    font: 100 60px 'Allura', cursive;
+    /* font: 100 60px 'Allura', cursive;
     color: #5a5f5a;
     position: absolute;
     top: -97px;
     width: 600px;
-    margin-right: 34%;
+    margin-right: 34%; */
+    font: 100 60px 'Allura', cursive;
+    color: #5a5f5a;
 }
 
 .containerContact {
-    left: 63%;
+    /* left: 63%;
     position: absolute;
     display: flex;
     top: -54px;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
+    position: relative;
+    height: 611px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .titleContactIcone {
@@ -71,10 +102,11 @@
 
 .containerIcone {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-direction: row;
     height: 110px;
     align-items: flex-end;
+    width: 100%;
 }
 
 .formulaire {
@@ -157,4 +189,52 @@
     cursor: pointer;
     width: 100px;
     align-items: flex-start;
+}
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1290px) {}
+
+@media (max-width: 1290px) {
+    .bannerCenter {
+        background-color: #2b322bf0;
+        width: 100%;
+        height: max-content;
+        position: absolute;
+        top: 18%;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactForm {
+        width: 86%;
+        position: relative;
+        top: -90px;
+        display: flex;
+        flex-direction: column;
+    }
+    .containerContact {
+        position: relative;
+        height: 310px;
+        width: 86%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .titleContactIcone {
+        font: 100 60px 'Allura', cursive;
+        color: #e5eeeb;
+        height: 55px;
+    }
+    .containerIcone {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        height: 110px;
+        align-items: flex-end;
+        width: 86%;
+    }
 }
