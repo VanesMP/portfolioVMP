@@ -17,17 +17,16 @@ function Identity() {
                             Bienvenue sur mon portfolio
                         <img src={dot} alt="dot decoration around the welcome message" className="dot"/>
                     </h3>
-                    <p className="paragraphePresentation">Aprés avoir travaillé plusieurs années dans le secteur de la vente, 
-                        j' ai choisit de me reconvertir dans le dévelopement d' application
-                        front-end et l' UX/XI Design.
+                    <p className="paragraphePresentation">Après avoir travaillé durant plusieurs années dans le secteur de la vente, 
+                    j'ai choisi de changer de carrière et de me reconvertir dans le développement d'applications front-end et la conception
+                     UX/UI Design.
                     </p>
-                    <p className="paragraphePresentation">Au cours de mes études, j' ai pu découvrir et acquérir des 
-                        compétences en développement d' application front-end  ainsi 
-                        qu'en design et graphisme.
+                    <p className="paragraphePresentation">Au fil de mes études, j'ai eu l'opportunité de découvrir et de développer mes compétences 
+                    en développement d'applications front-end ainsi qu'en design graphique.
                     </p>
-                    <p className="paragraphePresentation">Vous pouvez découvrir ci-dessous les différents projets réalisés
-                        au cours de ma formation chez Openclassrooms. 
-                        Bonne visite!
+                    <p className="paragraphePresentation">Je suis ravie de vous présenter ci-dessous les différents projets que j'ai réalisés 
+                    pendant ma formation chez Openclassrooms. 
+                    Je vous invite à les découvrir ci-dessous et j'espère que vous apprécierez votre visite !
                     </p>
                 </div>
                 <div>
