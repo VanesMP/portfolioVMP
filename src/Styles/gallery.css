@@ -49,14 +49,19 @@
 }
 
 
-/* media queries pour tablette (basé sur ipad air) */
+/* .box {
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+} */
 
-@media (min-width: 770px) and (max-width: 1180px) {
-    .ul {
-        height: auto;
-        margin: auto;
-        row-gap: 20px;
-        width: 90%;
-        column-count: 2;
+
+/* media queries pour mobile (basé sur iphone 12 pro) */
+
+@media (max-width: 851px) {
+    .box {
+        margin-bottom: 25px;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }

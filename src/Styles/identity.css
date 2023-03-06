@@ -70,10 +70,10 @@
         border-radius: 5px;
         display: flex;
         flex-direction: column;
-        height: 418px;
+        height: 429px;
         justify-content: flex-end;
         position: absolute;
-        top: 280px;
+        top: 255px;
         width: 85%;
     }
     .portrait {
@@ -85,10 +85,11 @@
         align-items: flex-start;
         display: flex;
         flex-direction: column;
-        height: 299px;
+        height: 347px;
         justify-content: space-evenly;
         margin: 0;
         width: 569px;
+        margin-bottom: 10px;
     }
     .learnMore {
         cursor: pointer;
@@ -102,5 +103,56 @@
         bottom: 395px;
         left: 46%;
         position: absolute;
+    }
+}
+
+
+/* media queries pour mobile (basé sur iphone 12 pro) */
+
+@media (max-width: 840px) {
+    .identity {
+        align-items: center;
+        background-color: #444c4447;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        height: 520px;
+        justify-content: flex-end;
+        position: absolute;
+        top: 255px;
+        width: 85%;
+    }
+    .portrait {
+        height: 140px;
+        width: 140px;
+        margin-left: 0;
+    }
+    .presentation {
+        align-items: flex-start;
+        display: flex;
+        flex-direction: column;
+        height: 440px;
+        justify-content: space-between;
+        width: 86%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bienvenu {
+        font: 400 18px 'Roboto', sans-serif;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        width: 300px;
+    }
+    .paragraphePresentation,
+    .learnMore {
+        font: 100 16px 'Roboto', serif;
+        color: #ffffff;
+        line-height: 1.3;
     }
 }

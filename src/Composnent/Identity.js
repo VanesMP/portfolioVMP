@@ -2,7 +2,7 @@ import React from "react";
 import picture from "../assets/identite2.jpg";
 import dot from "../assets/dotWhite.svg";
 import "../Styles/identity.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Identity() {
     return(
@@ -25,13 +25,13 @@ function Identity() {
                     en développement d'applications front-end ainsi qu'en design graphique.
                     </p>
                     <p className="paragraphePresentation">Je suis ravie de vous présenter ci-dessous les différents projets que j'ai réalisés 
-                    pendant ma formation chez Openclassrooms. 
-                    Je vous invite à les découvrir ci-dessous et j'espère que vous apprécierez votre visite !
+                    pendant ma formation chez Openclassrooms. </p>
+                    <p className="paragraphePresentation">Je vous invite à les découvrir ci-dessous et j'espère que vous apprécierez votre visite !
                     </p>
                 </div>
-                <div>
+                {/* <div>
                     <Link to="/about" className="learnMore">En savoir plus</Link>
-                </div>
+                </div> */}
             </div>
         </div>
     )

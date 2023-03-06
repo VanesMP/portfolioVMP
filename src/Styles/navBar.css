@@ -33,3 +33,18 @@ li {
         font-size: 15px;
     }
 }
+
+
+/* media queries pour mobile (basé sur iphone 12 pro) */
+
+@media (max-width: 850px) {
+    ul {
+        gap: 10px;
+        align-items: flex-end;
+        height: 25px;
+        justify-content: flex-end
+    }
+    li {
+        font-size: 13px;
+    }
+}
