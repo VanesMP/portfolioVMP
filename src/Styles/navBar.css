@@ -1,16 +1,15 @@
-nav {
+nav,
+ul {
     width: 100%;
     height: 70px;
 }
 
 ul {
+    align-items: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
     gap: 46px;
-    width: 100%;
-    align-items: center;
-    height: 70px;
+    justify-content: space-evenly;
 }
 
 li {
@@ -23,28 +22,37 @@ li {
 
 /* media queries pour tablette (basé sur ipad air) */
 
-@media (max-width: 1180px) {
-    ul {
-        gap: 19px;
+@media screen and (min-width: 850px) and (max-width: 1180px) {
+    /* ul {
         align-items: flex-end;
-        height: 59px;
-    }
+        gap: 10px;
+        height: 25px;
+        justify-content: flex-end;
+    } */
     li {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 
 
 /* media queries pour mobile (basé sur iphone 12 pro) */
 
-@media (max-width: 850px) {
+@media (max-width: 849px) {
+    .nav {
+        position: initial;
+        height: 35px;
+        width: 50%;
+        margin: auto;
+    }
     ul {
-        gap: 10px;
         align-items: flex-end;
+        gap: 10px;
         height: 25px;
-        justify-content: flex-end
+        margin: auto;
+        width: 50%;
+        justify-content: flex-end;
     }
     li {
-        font-size: 13px;
+        font-size: 15px;
     }
 }

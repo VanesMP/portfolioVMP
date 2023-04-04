@@ -42,7 +42,7 @@
     }
 }
 
-@media (max-width: 1180px) {
+@media screen and (min-width: 850px) and (max-width: 1180px) {
     .containerName {
         width: 48%;
         height: 121px;
@@ -61,19 +61,20 @@
 
 /* media queries pour mobile (basé sur iphone 12 pro) */
 
-@media (max-width: 850px) {
+@media (max-width: 849px) {
     .containerName {
         width: 79%;
-        height: 67px;
+        height: 80px;
+        margin: auto;
         justify-content: flex-end
     }
     .name {
         height: 25px;
-        font-size: 30px;
+        font-size: 35px;
         letter-spacing: 1pt;
     }
     .job {
-        font-size: 15px;
+        font-size: 20px;
         padding-left: 90px;
     }
 }
