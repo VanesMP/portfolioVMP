@@ -1,10 +1,5 @@
 import React from "react";
 import "../Styles/gallery.css";
-import Box from '@mui/material/Box';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
-// import { useTheme } from "@mui/material/styles";
-// import { ThemeProvider } from '@mui/material/styles';
 import { Link } from "react-router-dom";
 import { dataList } from "../data";
 
@@ -24,86 +19,28 @@ function Gallery() {
       window.scrollTo(0, 0);
     }
 
-  // const theme = useTheme();
-
-  // const getCols = () => {
-  //   if (theme.breakpoints.values <= 'md') {
-  //     return 2;
-  //   } else if (theme.breakpoints.values <= 'lg' ) {
-  //     return 2;
-  //   } else {
-  //     return 3;
-  //   }
-  // };
-
-  // console.log('theme:', theme);
-  // console.log('breakpoint:', theme.breakpoints.values);
-  // const isXs = useMediaQuery(theme => theme.breakpoints.down('xs'));
-  // const isSm = useMediaQuery(theme => theme.breakpoints.between('sm', 'md'));
-  // const isLg = useMediaQuery(theme => theme.breakpoints.up('lg'));
-
-  // console.log(`Breakpoint actuel: xs=${isXs}, sm=${isSm}, lg=${isLg}`);
-
   return (
-
-    // <div>
-    //     <div >
-    //     {dataList.map((data) => (
-    //       <div key={data.id} >
-    //           <Link to={`/projectPage/${data.id}`} key={data.id}  onClick={handleLinkClick}>
-    //           <img
-    //             src={data.source}
-    //             alt={data.name}
-    //             loading="lazy"
-    //             style={data.size === 'small' ? small : large}
-                
-    //           />
-    //           </Link>
-    //           <h4 >{data.name}</h4>
-    //       </div>
-    //     ))}
-    //     </div>
-    //   </div>
-      // <div>
-      //   <div className="box">
-      //   {dataList.map((data) => (
-      //     <div key={data.id} className="cellItem">
-      //         <Link to={`/projectPage/${data.id}`} key={data.id} className="cellLink" onClick={handleLinkClick}>
-      //         <img
-      //           src={data.source}
-      //           alt={data.name}
-      //           loading="lazy"
-      //           style={data.size === 'small' ? small : large}
-      //           className="linkImg"
-      //         />
-      //         </Link>
-      //         <h4 className="titleLink">{data.name}</h4>
-      //     </div>
-      //   ))}
-      //   </div>
-      // </div>
-
-    // <ThemeProvider theme={theme}>
-    <Box sx={{ overflowY: 'unset' }} className="box">
-      <ImageList variant="masonry" cols={3} gap={20} className="ul">
-      {/* <ImageList variant="masonry" cols={getCols()} gap={20} className="ul"> */}
+<div>
+    <div className="box">
+        <div className="boxProjects">
         {dataList.map((data) => (
-          <ImageListItem key={data.id} className="cellItem">
-              <Link to={`/projectPage/${data.id}`} key={data.id} className="cellLink" onClick={handleLinkClick}>
+          <li className="listProjectGallery" key={data.id} >
+              <Link to={`/projectPage/${data.id}`} key={data.id} className="cellLink"  onClick={handleLinkClick}>
               <img
+              className="linkImg"
                 src={data.source}
                 alt={data.name}
                 loading="lazy"
                 style={data.size === 'small' ? small : large}
-                className="linkImg"
+                
               />
               </Link>
               <h4 className="titleLink">{data.name}</h4>
-          </ImageListItem>
+          </li>
         ))}
-      </ImageList>
-      </Box>
-      // </ThemeProvider>
+        </div>
+      </div>
+    </div>
     )
 };
 

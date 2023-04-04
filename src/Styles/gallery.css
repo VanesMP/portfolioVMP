@@ -2,8 +2,18 @@
     margin-bottom: 45px;
 }
 
+.boxProjects {
+    column-count: 3;
+}
+
+.listProjectGallery {
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+}
+
 .ul {
-    /* width: 80%; */
     height: auto;
     margin: auto;
     row-gap: 20px;
@@ -49,19 +59,19 @@
 }
 
 
-/* .box {
-    margin-bottom: 25px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-} */
+/* media queries pour tablette */
+
+@media (max-width: 1180px) {
+    .boxProjects {
+        column-count: 2;
+    }
+}
 
 
-/* media queries pour mobile (basé sur iphone 12 pro) */
+/* media queries pour mobile */
 
-@media (max-width: 851px) {
-    .box {
-        margin-bottom: 25px;
-        display: grid;
-        grid-template-columns: 1fr;
+@media (max-width: 849px) {
+    .boxProjects {
+        column-count: 1;
     }
 }
