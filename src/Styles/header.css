@@ -14,15 +14,16 @@
 .containerName {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    width: 42%;
+    width: 490px;
     height: 120px;
     opacity: 80%;
+    padding-left: 10px;
 }
 
 .name {
-    height: 48px;
+    height: 52px;
     color: #f5f5f5;
     font: 500 53px 'Allura', cursive;
     letter-spacing: 2pt;
@@ -30,21 +31,22 @@
 
 .job {
     font: 400 26px 'Baskervville', serif;
-    padding-left: 220px;
+    /* padding-left: 220px; */
 }
 
 
 /* media queries pour tablette (basé sur ipad air) */
 
-@media (max-width: 1380px) {
+
+/* @media (max-width: 1380px) {
     .job {
         padding-left: 112px;
     }
-}
+} */
 
 @media screen and (min-width: 850px) and (max-width: 1180px) {
     .containerName {
-        width: 48%;
+        width: 50%;
         height: 121px;
     }
     .name {
@@ -54,7 +56,7 @@
     }
     .job {
         font-size: 22px;
-        padding-left: 90px;
+        /* padding-left: 90px; */
     }
 }
 
@@ -62,19 +64,37 @@
 /* media queries pour mobile (basé sur iphone 12 pro) */
 
 @media (max-width: 849px) {
+    .banner {
+        height: 60px;
+    }
     .containerName {
-        width: 79%;
-        height: 80px;
-        margin: auto;
-        justify-content: flex-end
+        width: 52%;
+        height: 108px;
     }
     .name {
-        height: 25px;
+        height: 32px;
         font-size: 35px;
         letter-spacing: 1pt;
     }
     .job {
         font-size: 20px;
-        padding-left: 90px;
+        /* padding-left: 90px; */
+    }
+}
+
+
+/* media queries small resolution (phone) */
+
+@media (max-width: 650px) {
+    .containerName {
+        width: 75%;
+        height: 88px;
+    }
+    .name {
+        height: 25px;
+        font-size: 27px;
+    }
+    .job {
+        font-size: 16px;
     }
 }

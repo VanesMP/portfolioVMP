@@ -4,7 +4,11 @@
 
 #positionHeaderHome {
     position: fixed;
-    top: 0;
+    top: 29px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 #positionFooterHome {
@@ -37,7 +41,7 @@
 .arrow {
     position: absolute;
     bottom: 100px;
-    left: 48%;
+    left: 90%;
 }
 
 .arrowUp {
@@ -51,32 +55,43 @@
 
 .nav {
     position: fixed;
-    right: 0;
-    top: 0;
-    width: 45%;
+    right: 12%;
+    top: 41px;
+    width: 27%;
+    height: 70px;
+}
+
+.navProject {
+    position: fixed;
+    right: 25px;
+    top: 14px;
+    width: 35%;
     height: 70px;
 }
 
 #default {
-    color: #ffffff;
+    color: #ffffffd4;
 }
 
 #scrolled {
-    color: #314035;
+    color: #0d120e;
 }
 
 
 /* media queries pour tablette  */
 
 @media (max-width: 1180px) {
-    .nav {
-        right: 15px;
-    }
     .arrow {
-        bottom: 86px;
-        left: 47%;
+        bottom: 32px;
+        left: 90%;
         width: 50px;
         height: 50px;
+    }
+    .arrowUp {
+        margin-bottom: 50px;
+    }
+    #positionFooterHome {
+        position: inherit;
     }
 }
 
@@ -88,8 +103,7 @@
         height: 30px;
     }
     .arrow {
-        bottom: 35px;
-        left: 43%;
+        left: 90%;
     }
     .arrowUp {
         margin-bottom: 20px;
@@ -100,14 +114,42 @@
         height: 45px;
     }
     #positionHeaderHome {
-        position: initial;
+        width: 90%;
+        margin-left: 5%;
     }
     .nav {
-        position: initial;
-        width: 92%;
-        height: 35px;
+        top: 55px;
+        right: 7%;
+        width: 35%;
+    }
+    .navProject {
+        position: fixed;
+        right: 25px;
+        top: 28px;
+        width: 40%;
+        height: 70px;
     }
     #positionFooterHome {
         position: initial;
+    }
+}
+
+
+/* media queries small resolution Menu Burger */
+
+@media (max-width: 690px) {
+    .nav,
+    .navProject {
+        display: none;
+    }
+}
+
+
+/* media queries small resolution (phone) */
+
+@media (max-width: 410px) {
+    #positionHeaderHome {
+        width: 92%;
+        margin-left: 4%;
     }
 }

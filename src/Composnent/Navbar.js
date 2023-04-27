@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../Styles/navBar.css";
-import CV from "../assets/cvDevelopperJr.pdf";
+import CV from "../assets/DevelopperCV.pdf";
 
 function Navbar ({ navig, pathAncre }) {
 

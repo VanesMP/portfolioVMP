@@ -1,10 +1,10 @@
 .textFooter {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     height: 70px;
-    width: 100%;
+    width: 98%;
     opacity: 80%;
 }
 

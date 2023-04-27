@@ -25,7 +25,7 @@ function Project() {
         <div>
             <Header 
                 fixPosition="positionHeaderProject"
-                classNavig="navFooter"
+                classNavig="navProject"
                 seeProject="/"
             />
             <div className="insidePageProject">

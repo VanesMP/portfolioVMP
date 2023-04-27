@@ -8,8 +8,8 @@ ul {
     align-items: center;
     display: flex;
     flex-direction: row;
-    gap: 46px;
-    justify-content: space-evenly;
+    /* gap: 46px; */
+    justify-content: space-between;
 }
 
 li {
@@ -23,14 +23,8 @@ li {
 /* media queries pour tablette (basé sur ipad air) */
 
 @media screen and (min-width: 850px) and (max-width: 1180px) {
-    /* ul {
-        align-items: flex-end;
-        gap: 10px;
-        height: 25px;
-        justify-content: flex-end;
-    } */
     li {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 
@@ -38,19 +32,17 @@ li {
 /* media queries pour mobile (basé sur iphone 12 pro) */
 
 @media (max-width: 849px) {
-    .nav {
+    /* .nav {
         position: initial;
         height: 35px;
         width: 50%;
         margin: auto;
-    }
+    } */
     ul {
         align-items: flex-end;
-        gap: 10px;
         height: 25px;
         margin: auto;
-        width: 50%;
-        justify-content: flex-end;
+        width: auto;
     }
     li {
         font-size: 15px;
