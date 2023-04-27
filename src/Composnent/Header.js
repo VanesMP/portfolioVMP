@@ -1,8 +1,9 @@
 import React from "react";
 import "../Styles/header.css";
+import BurgerNav from "./BurgerNav";
 import Navbar from "./Navbar";
 
-function Header({ fixPosition, idTextclass, seeProject, classNavig }) {
+function Header({ fixPosition, idTextclass, seeProject, classNavig, classNavigBurger }) {
 
     return(
         <div id="ancreMenu">
@@ -12,6 +13,7 @@ function Header({ fixPosition, idTextclass, seeProject, classNavig }) {
                     <h2 className="job" id={idTextclass}>Développeuse Frontend Junior</h2>
                 </div>
                 <Navbar pathAncre={seeProject} navig={classNavig}/>
+                <BurgerNav pathAncre={seeProject} navig={classNavigBurger}/>
             </div>
         </div>
     )

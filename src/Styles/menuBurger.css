@@ -1,0 +1,95 @@
+.menu,
+.menuBg,
+.menuBurger {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 25%;
+    right: 44px;
+    top: 30px;
+}
+
+.menuBg {
+    background: #889988;
+    opacity: 0.95;
+    pointer-events: none;
+    transition: .3s;
+    right: 65px;
+    top: 59px;
+    transform: translate3d(50%, -50%, 0);
+    transform-origin: center center;
+}
+
+.menuBg.fs {
+    transform: translate3d(50%, -50%, 0);
+    width: 300vw;
+    height: 300vh;
+}
+
+.menuBurger {
+    color: white;
+    padding-top: 11px;
+    cursor: pointer;
+    transition: .4s;
+    transform-origin: center;
+}
+
+.menuBurger.fs {
+    transform: rotate(-180deg) translateY(10px);
+    padding-top: 0;
+    padding-bottom: 15px;
+}
+
+.menuItems.fs .list {
+    opacity: 1;
+    margin-top: 75px;
+}
+
+.menuItems {
+    position: absolute;
+    right: 32%;
+    font-size: 35px;
+    letter-spacing: 3px;
+    color: #f5f5f5;
+    text-align: end;
+    opacity: 0;
+    transition: .4s;
+    margin-top: 59px;
+    transform: translateY(-200%);
+    pointer-events: none;
+}
+
+.menuItems.list {
+    transition: 1s;
+    opacity: 0;
+    margin-top: 0px;
+}
+
+.menuItems.fs {
+    transform: translateY(0);
+    pointer-events: auto;
+    opacity: 1;
+}
+
+.menuItems.fs .list {
+    color: #f5f5f5;
+    opacity: 1;
+    margin-top: 0;
+    height: 75px;
+}
+
+
+/* media queries petites résolution */
+
+@media (max-width:480px) {
+    .menu,
+    .menuBg,
+    .menuBurger {
+        right: 29px;
+    }
+    .menuBg {
+        right: 50px;
+    }
+}

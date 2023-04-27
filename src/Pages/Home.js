@@ -6,6 +6,7 @@ import Footer from "../Composnent/Footer";
 import Identity from "../Composnent/Identity";
 import Gallery from "../Composnent/Gallery";
 import "../Styles/homePage.css";
+
 import Header from "../Composnent/Header";
 
 function Home() {
@@ -45,6 +46,7 @@ function Home() {
                 idTextclass={textClass} 
                 seeProject="#projects"
                 classNavig="nav"
+                classNavigBurger="menu"
             />
             <Footer 
                 fixPosition="positionFooterHome" 

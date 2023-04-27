@@ -53,6 +53,10 @@
     height: 130px;
 }
 
+.menu {
+    display: none;
+}
+
 .nav {
     position: fixed;
     right: 12%;
@@ -103,7 +107,7 @@
         height: 30px;
     }
     .arrow {
-        left: 90%;
+        left: 87%;
     }
     .arrowUp {
         margin-bottom: 20px;
@@ -141,6 +145,9 @@
     .nav,
     .navProject {
         display: none;
+    }
+    .menu {
+        display: block;
     }
 }
 

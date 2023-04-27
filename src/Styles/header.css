@@ -78,7 +78,6 @@
     }
     .job {
         font-size: 20px;
-        /* padding-left: 90px; */
     }
 }
 
@@ -88,7 +87,7 @@
 @media (max-width: 650px) {
     .containerName {
         width: 75%;
-        height: 88px;
+        height: 107px;
     }
     .name {
         height: 25px;
