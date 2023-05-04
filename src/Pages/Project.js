@@ -27,6 +27,7 @@ function Project() {
                 fixPosition="positionHeaderProject"
                 classNavig="navProject"
                 seeProject="/"
+                classNavigBurger="menu"
             />
             <div className="insidePageProject">
                     <DisplayProject 

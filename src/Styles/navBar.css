@@ -32,12 +32,6 @@ li {
 /* media queries pour mobile (basé sur iphone 12 pro) */
 
 @media (max-width: 849px) {
-    /* .nav {
-        position: initial;
-        height: 35px;
-        width: 50%;
-        margin: auto;
-    } */
     ul {
         align-items: flex-end;
         height: 25px;

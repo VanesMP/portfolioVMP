@@ -28,7 +28,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .containerFormContact {
@@ -165,8 +165,6 @@
 
 /* media queries pour tablette (basé sur ipad air) */
 
-@media (max-width: 1290px) {}
-
 @media (max-width: 1290px) {
     .bannerCenter {
         height: max-content;
@@ -175,8 +173,9 @@
         flex-direction: column;
     }
     .contactForm {
-        width: 86%;
+        width: 50%;
         top: -90px;
+        margin: auto;
     }
     .containerContact {
         height: 310px;
@@ -188,5 +187,149 @@
     .containerIcone {
         justify-content: center;
         width: 86%;
+    }
+}
+
+
+/* resolution ecran moyen */
+
+@media (min-width: 781px) and (max-width: 820px) {
+    .containerContact {
+        height: 310px;
+        width: 76%;
+        right: 117px;
+    }
+    .contactForm {
+        width: 87%;
+    }
+    .InProgress1 {
+        left: -194px;
+    }
+    .InProgress2 {
+        left: -144px;
+    }
+    containerIcone {
+        width: 39%;
+    }
+}
+
+@media (min-width: 705px) and (max-width: 910px) {
+    .contactForm {
+        width: 93%;
+    }
+    .InProgress1 {
+        left: -200px;
+    }
+    .InProgress2 {
+        left: -166px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 704px) {
+    .contactForm {
+        width: 65%;
+        top: -70px;
+        margin: auto;
+    }
+    .containerFormContact {
+        width: 100%;
+    }
+    .titleContact {
+        font: 100 44px 'Allura', cursive;
+    }
+    .InProgress1 {
+        left: -393px;
+    }
+    .InProgress2 {
+        left: -335px;
+    }
+    .backHome {
+        top: 13px;
+        left: 16px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 575px) {
+    .titleContact {
+        font: 100 38px 'Allura', cursive;
+    }
+}
+
+
+/* résolution tt petit écran */
+
+@media (max-width: 400px) {
+    .bannerCenter {
+        height: max-content;
+        top: 20%;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .contactForm {
+        width: 100%;
+        top: -90px;
+        height: 571px;
+        align-items: center;
+    }
+    .containerContact {
+        height: 270px;
+        width: 88%;
+        right: 14px;
+    }
+    .titleContactIcone {
+        color: #e5eeeb;
+    }
+    .containerIcone {
+        justify-content: center;
+        width: 86%;
+    }
+    .backHome {
+        height: 55px;
+        left: 22px;
+        position: absolute;
+        top: 12px;
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+        width: 55px;
+    }
+    .titleContact {
+        color: #5a5f5a;
+        font: 100 38px Allura, cursive;
+    }
+    .containerFormContact {
+        background-color: #7c877c;
+        border-radius: 2px;
+        height: 575px;
+        position: relative;
+        width: 85%;
+        margin: auto;
+    }
+    .InProgress1 {
+        width: 443px;
+        left: -81px;
+        top: 271px;
+        -webkit-transform: rotate(344deg);
+        overflow: overlay;
+        transform: rotate(344deg);
+    }
+    .InProgress2 {
+        left: -445px;
+        top: 229px;
+        -webkit-transform: rotate(31deg);
+        overflow: overlay;
+        transform: rotate(31deg);
+    }
+    .instruction,
+    .subtitleContact {
+        color: #eaeaea;
+        font: 100 20px Allura, cursive;
+    }
+    .submitButton {
+        color: #363d36;
+        cursor: pointer;
+        font: 400 18px Buda, serif;
+        height: 30px;
+        margin-top: 14px;
+        width: 100px;
     }
 }
