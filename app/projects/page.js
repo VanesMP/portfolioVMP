@@ -1,10 +1,10 @@
 "use client";
 
-import { DisplayProject, Header, Footer } from "../../components-widgets";
+import { DisplayProject, Header, Footer } from "../../components-widgets/index.js";
 import { dataList } from "../../src/data.js";
 import Styles from "../../styles/projectPage.module.scss";
 import { useSearchParams } from "next/navigation";
-import Home from "../page";
+import Home from "../page.js";
 
 export const Project = () => {
   const searchParams = useSearchParams();
