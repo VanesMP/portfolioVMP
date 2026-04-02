@@ -1,5 +1,0 @@
----
-"portfoliovmp": major
----
-
-add permission

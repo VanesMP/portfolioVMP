@@ -1,5 +1,11 @@
 # portfoliovmp
 
+## 2.0.0
+
+### Major Changes
+
+- cc790cf: add permission
+
 ## 1.0.0
 
 ### Major Changes
