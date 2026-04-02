@@ -4,7 +4,7 @@ import Styles from "../../styles/about.module.scss";
 import { Background } from "../../components-shared";
 import { Footer, Header } from "../../components-widgets";
 
-export const About = () => {
+const About = () => {
   return (
     <div>
       <Background darkorclear="clear" />
@@ -17,3 +17,5 @@ export const About = () => {
     </div>
   );
 };
+
+export default About;

@@ -14,7 +14,7 @@ import { ContactLink } from "../../components-widgets";
 import clsx from "clsx";
 // import {dataLink} from "../data.js";
 
-export const Contact = () => {
+const Contact = () => {
   const { handleSubmit, register, errors } = useForm();
 
   const onSubmit = (data) => {
@@ -130,3 +130,5 @@ export const Contact = () => {
     </div>
   );
 };
+
+export default Contact;
