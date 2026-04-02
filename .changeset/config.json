@@ -1,0 +1,11 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@2.3.0/schema.json",
+  "changelog": ["@changesets/changelog-github", { "repo": "VanesMP/portfolioVMP" }],
+  "commit": true,
+  "fixed": [],
+  "linked": [],
+  "access": "restricted",
+  "baseBranch": "develop",
+  "updateInternalDependencies": "patch",
+  "ignore": []
+}
