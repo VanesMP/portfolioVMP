@@ -23,7 +23,14 @@ BRANCH_NAME="$TYPE/$DESC_SAFE"
 # 4️⃣ Create the git branch
 git checkout -b "$BRANCH_NAME"
 
-# 5️⃣ Create the changeset file with the original description
+# 5️⃣ Get the package name from package.json
+PACKAGE_NAME=$(jq -r .name package.json)
+if [ -z "$PACKAGE_NAME" ]; then
+  echo "Error: could not read package name from package.json"
+  exit 1
+fi
+
+# 6️⃣ Create the changeset file with the correct frontmatter
 mkdir -p .changeset
 CHANGESET_FILE=".changeset/$(date +%Y%m%d)-$DESC_SAFE.md"
 
@@ -37,5 +44,5 @@ EOL
 
 echo "Branch '$BRANCH_NAME' created and changeset generated: $CHANGESET_FILE"
 
-# 6️⃣ Optional: run `npx changeset add` to prepare versioning
+# 7️⃣ Optional: run `npx changeset add` to prepare versioning
 # npx changeset add
