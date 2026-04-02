@@ -1,33 +1,41 @@
 #!/bin/bash
 
-# Script pour créer une branche git avec type + description
+# 1️⃣ Choix du type de branche avec raccourci
+echo "Choisis le type de branche : f = feature / t = task / x = fix"
+read TYPE_SHORT
 
-# 1️⃣ Choisir le type
-echo "Choisis le type de branche :"
-select type in feature task fix; do
-    if [[ -n "$type" ]]; then
-        break
-    else
-        echo "Choix invalide. Essaie encore."
-    fi
-done
+case "$TYPE_SHORT" in
+  f) TYPE="feature"; CHANGESET_TYPE="major";;
+  t) TYPE="task";    CHANGESET_TYPE="minor";;
+  x) TYPE="fix";     CHANGESET_TYPE="patch";;
+  *) echo "Type invalide ! Utilise f, t ou x."; exit 1;;
+esac
 
-# 2️⃣ Demander la description
-read -p "Description de la branche : " description
+# 2️⃣ Demander la description lisible
+echo "Description (ex: ajout d'un header) :"
+read DESC
 
-# 3️⃣ Convertir en kebab-case
-branch_name=$(echo "$description" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9]+/-/g' | sed -E 's/^-+|-+$//g')
+# 3️⃣ Créer un nom de branche "safe" : minuscules + espaces remplacés par -
+DESC_SAFE=$(echo "$DESC" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
 
-# 4️⃣ Préfixer avec le type
-branch_name="${type}/${branch_name}"
+BRANCH_NAME="$TYPE/$DESC_SAFE"
 
-# 5️⃣ Vérifier si la branche existe déjà
-if git show-ref --verify --quiet "refs/heads/$branch_name"; then
-    echo "❌ La branche $branch_name existe déjà."
-    exit 1
-fi
+# 4️⃣ Créer la branche git
+git checkout -b "$BRANCH_NAME"
 
-# 6️⃣ Créer et switcher sur la branche
-git checkout -b "$branch_name"
+# 5️⃣ Créer le fichier changeset avec la description originale
+mkdir -p .changeset
+CHANGSET_FILE=".changeset/$(date +%Y%m%d)-$DESC_SAFE.md"
 
-echo "✅ Branche créée et positionnée : $branch_name"
+cat <<EOL > "$CHANGSET_FILE"
+---
+"$CHANGESET_TYPE"
+---
+
+$DESC
+EOL
+
+echo "Branche '$BRANCH_NAME' créée et changeset généré : $CHANGSET_FILE"
+
+# 6️⃣ Optionnel : lancer npx changeset add pour préparer le versionning
+# npx changeset add
