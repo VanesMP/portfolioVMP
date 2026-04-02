@@ -1,5 +1,0 @@
----
-"minor"
----
-
-Add changeset version
