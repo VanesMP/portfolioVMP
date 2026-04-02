@@ -1,0 +1,43 @@
+@use "../../styles/mixins" as *;
+@import 'bubbles-data';
+
+$size-bubbles: 1vmin;
+
+
+.background {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #223229;
+}
+
+.bubbles {
+  width: $size-bubbles;
+  height: $size-bubbles;
+  border-radius: $size-bubbles;
+  position: absolute;
+  backface-visibility: hidden;
+  animation: move linear infinite;
+}
+
+@keyframes move {
+    100% {
+        transform: translate3d(0, 0, 1px) rotate(360deg);
+    }
+}
+@for $i from 1 through length($bubbles-data) {
+  .bubbles:nth-child(#{$i}) {
+    $b: nth($bubbles-data, $i);
+
+    @include bubble(
+      nth($b, 1),
+      nth($b, 2),
+      nth($b, 3),
+      nth($b, 4),
+      nth($b, 5),
+      nth($b, 6),
+      nth($b, 7)
+    );
+  }
+}

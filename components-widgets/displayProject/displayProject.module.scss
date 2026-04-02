@@ -1,0 +1,117 @@
+.containerDescriptionProject {
+    width: 100%;
+}
+
+.title {
+    position: relative;
+    top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerTitle {
+    width: 100%;
+    height: 35px;
+    position: absolute;
+}
+
+.logoTitle {
+    position: absolute;
+    width: 15%;
+    height: 100px;
+    object-fit: contain;
+}
+
+.descriptionProject {
+    width: 50%;
+    height: fit-content;
+    margin: auto;
+    background-color: #444c4405;
+    margin-top: 255px;
+    margin-bottom: 1px;
+}
+
+.textProject {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.textEntreprise p,
+.textObjectif p,
+.textRealisation p {
+    font: 300 17px 'Roboto', sans-serif;
+    color: black;
+    line-height: 25px;
+}
+
+.titreTextPres {
+    color: #314035;
+    font: 400 22px 'Baskerville', serif;
+}
+
+.textObjectif,
+.textRealisation {
+    margin: 20px 0;
+}
+
+.titreTextPres {
+    margin-bottom: 15px;
+}
+
+.containerLinkProject {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.linkproject {
+    width: 270px;
+    height: 50px;
+}
+
+.displayNone {
+    display: none;
+}
+
+.galleryImg {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgGallery {
+    border-top: solid 7px white;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1180px) {
+    .logoTitle {
+        width: 25%;
+    }
+    .descriptionProject {
+        width: 78%;
+        margin-top: 230px;
+    }
+    .containerLinkProject {
+        justify-content: space-between;
+    }
+    .galleryImg {
+        width: 78%;
+        margin-bottom: 45px;
+    }
+}

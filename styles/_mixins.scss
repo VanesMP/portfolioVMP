@@ -1,0 +1,9 @@
+@mixin bubble($color, $top, $left, $duration, $delay, $origin, $shadow) {
+  color: $color;
+  top: $top;
+  left: $left;
+  animation-duration: $duration;
+  animation-delay: $delay;
+  transform-origin: $origin;
+  box-shadow: $shadow;
+}

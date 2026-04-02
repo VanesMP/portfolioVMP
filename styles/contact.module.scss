@@ -1,0 +1,335 @@
+#clear {
+    background: #f3f3f3;
+}
+
+.backHome {
+    position: absolute;
+    top: 43px;
+    left: 37px;
+    width: 55px;
+    height: 55px;
+    transform: rotate(270deg);
+}
+
+.bannerCenter {
+    background-color: #2b322bf0;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contactForm {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerFormContact {
+    background-color: #7c877c;
+    width: 600px;
+    height: 635px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.titleContact {
+    font: 100 60px 'Allura', cursive;
+    color: #5a5f5a;
+}
+
+.containerContact {
+    position: relative;
+    height: 611px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.titleContactIcone {
+    font: 100 60px 'Allura', cursive;
+    color: #5a5f5a;
+    height: 55px;
+}
+
+.subtitleContact,
+.instruction {
+    color: #eaeaea;
+    font: 100 22px 'Allura', cursive;
+}
+
+.subtitleContactForm {
+    width: 95%;
+    margin: auto;
+}
+
+.containerIcone {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    height: 110px;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.formulaire {
+    width: 85%;
+    margin: auto;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.labelContact {
+    font: 100 21px 'Buda', serif;
+    color: #e8f0ee;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.inputContact {
+    height: 32px;
+}
+
+.textareaContact {
+    height: 160px;
+}
+
+.inputContact,
+.textareaContact {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: #f8fbfa;
+}
+
+.submitButton {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    color: #363d36;
+    background-color: #f8fbfa;
+    font: 400 18px 'Buda', serif;
+    cursor: pointer;
+}
+
+.submitButton:active {
+    color: #f8fbfa;
+    background-color: #363d36;
+    border: solid 1px #f8fbfab2;
+}
+
+.iconeContact {
+    width: 60px;
+    height: 60px;
+}
+
+.crimeBanner {
+    position: absolute;
+    z-index: 3;
+    height: 30px;
+}
+
+.InProgress1 {
+    top: 301px;
+    left: -148px;
+    transform: rotate(344deg);
+}
+
+.InProgress2 {
+    top: 350px;
+    left: -117px;
+    transform: rotate(31deg);
+}
+
+.iconentext {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 100px;
+    align-items: flex-start;
+}
+
+
+/* media queries pour tablette (basé sur ipad air) */
+
+@media (max-width: 1290px) {
+    .bannerCenter {
+        height: max-content;
+        top: 18%;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .contactForm {
+        width: 50%;
+        top: -90px;
+        margin: auto;
+    }
+    .containerContact {
+        height: 310px;
+        width: 86%;
+    }
+    .titleContactIcone {
+        color: #e5eeeb;
+    }
+    .containerIcone {
+        justify-content: center;
+        width: 86%;
+    }
+}
+
+
+/* resolution ecran moyen */
+
+@media (min-width: 781px) and (max-width: 820px) {
+    .containerContact {
+        height: 310px;
+        width: 76%;
+        right: 117px;
+    }
+    .contactForm {
+        width: 87%;
+    }
+    .InProgress1 {
+        left: -194px;
+    }
+    .InProgress2 {
+        left: -144px;
+    }
+    .containerIcone {
+        width: 39%;
+    }
+}
+
+@media (min-width: 705px) and (max-width: 910px) {
+    .contactForm {
+        width: 93%;
+    }
+    .InProgress1 {
+        left: -200px;
+    }
+    .InProgress2 {
+        left: -166px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 704px) {
+    .contactForm {
+        width: 65%;
+        top: -70px;
+        margin: auto;
+    }
+    .containerFormContact {
+        width: 100%;
+    }
+    .titleContact {
+        font: 100 44px 'Allura', cursive;
+    }
+    .InProgress1 {
+        left: -393px;
+    }
+    .InProgress2 {
+        left: -335px;
+    }
+    .backHome {
+        top: 13px;
+        left: 16px;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 575px) {
+    .titleContact {
+        font: 100 38px 'Allura', cursive;
+    }
+}
+
+
+/* résolution tt petit écran */
+
+@media (max-width: 400px) {
+    .bannerCenter {
+        height: max-content;
+        top: 20%;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+    .contactForm {
+        width: 100%;
+        top: -90px;
+        height: 571px;
+        align-items: center;
+    }
+    .containerContact {
+        height: 270px;
+        width: 88%;
+        right: 14px;
+    }
+    .titleContactIcone {
+        color: #e5eeeb;
+    }
+    .containerIcone {
+        justify-content: center;
+        width: 86%;
+    }
+    .backHome {
+        height: 55px;
+        left: 22px;
+        position: absolute;
+        top: 12px;
+        -webkit-transform: rotate(270deg);
+        transform: rotate(270deg);
+        width: 55px;
+    }
+    .titleContact {
+        color: #5a5f5a;
+        font: 100 38px Allura, cursive;
+    }
+    .containerFormContact {
+        background-color: #7c877c;
+        border-radius: 2px;
+        height: 575px;
+        position: relative;
+        width: 85%;
+        margin: auto;
+    }
+    .InProgress1 {
+        width: 443px;
+        left: -81px;
+        top: 271px;
+        -webkit-transform: rotate(344deg);
+        overflow: overlay;
+        transform: rotate(344deg);
+    }
+    .InProgress2 {
+        left: -445px;
+        top: 229px;
+        -webkit-transform: rotate(31deg);
+        overflow: overlay;
+        transform: rotate(31deg);
+    }
+    .instruction,
+    .subtitleContact {
+        color: #eaeaea;
+        font: 100 20px Allura, cursive;
+    }
+    .submitButton {
+        color: #363d36;
+        cursor: pointer;
+        font: 400 18px Buda, serif;
+        height: 30px;
+        margin-top: 14px;
+        width: 100px;
+    }
+}

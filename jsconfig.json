@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@widgets/*": ["components-widgets/*"],
+      "@shared/*": ["components-shared/*"],
+      "@styles/*": ["styles/*"],
+      "@config/*": ["src/config/*"],
+      "@public/*": ["public/*"]
+    },
+    "jsx": "preserve"
+  },
+  "exclude": ["node_modules", ".next", "out"]
+}

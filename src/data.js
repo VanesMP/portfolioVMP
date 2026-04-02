@@ -2,67 +2,67 @@
 // import contactmeGallery from "../src/assets/linkImg/contactLink.png";
 
 // Reservia Media
-import reserviaLogo from "../src/assets/logo/reservia.png";
-import reserviaGallery from "../src/assets/linkImg/reserviaLink.png";
+const reserviaLogo = "/logo/reservia.png";
+const reserviaGallery = "/linkImg/reserviaLink.png";
 // import reserviaIFrame from "../src/assets/media/reservia/frame-Reservia.png";
-import reserviaDesktop from "../src/assets/media/reservia/imageA.Reservia.jpg";
-import reserviaTablet from "../src/assets/media/reservia/imageB.Reservia.jpg";
-import reserviaMobile from "../src/assets/media/reservia/imageC.Reservia.jpg";
+const reserviaDesktop = "/media/reservia/imageA.Reservia.jpg";
+const reserviaTablet = "/media/reservia/imageB.Reservia.jpg";
+const reserviaMobile = "/media/reservia/imageC.Reservia.jpg";
 
 // OhMyFood Media
-import ohmyfoodLogo from "../src/assets/logo/ohmyfood.png";
-import ohmyfoodGallery from "../src/assets/linkImg/ohmyfood.png";
+const ohmyfoodLogo = "/logo/ohmyfood.png";
+const ohmyfoodGallery = "/linkImg/ohmyfood.png";
 // import ohmyfoodIFrame from "../src/assets/media/ohmyfood/frame-Ohmyfood.png";
-import ohmyfoodDesktop from "../src/assets/media/ohmyfood/imageA.Ohmyfood.jpg";
-import ohmyfoodTablet from "../src/assets/media/ohmyfood/imageB.Ohmyfood.jpg";
-import ohmyfoodMobile from "../src/assets/media/ohmyfood/imageC.Ohmyfood.jpg";
+const ohmyfoodDesktop = "/media/ohmyfood/imageA.Ohmyfood.jpg";
+const ohmyfoodTablet = "/media/ohmyfood/imageB.Ohmyfood.jpg";
+const ohmyfoodMobile = "/media/ohmyfood/imageC.Ohmyfood.jpg";
 
 // GameOn Media
-import gameonLogo from "../src/assets/logo/gameOn.png";
-import gameonGallery from "../src/assets/linkImg/gameonLink.png";
+const gameonLogo = "/logo/gameOn.png";
+const gameonGallery = "/linkImg/gameonLink.png";
 // import gameonIFrame from "../src/assets/media/gameon/frame-Gameon.png";
-import gameonDesktop from "../src/assets/media/gameon/imageA.GameOn.jpg";
-import gameonTablet from "../src/assets/media/gameon/imageB.GameOn.jpg";
-import gameonMobile from "../src/assets/media/gameon/imageC.GameOn.jpg";
+const gameonDesktop = "/media/gameon/imageA.GameOn.jpg";
+const gameonTablet = "/media/gameon/imageB.GameOn.jpg";
+const gameonMobile = "/media/gameon/imageC.GameOn.jpg";
 
 // Fisheye Media
-import fisheyeLogo from "../src/assets/logo/fisheye.png";
-import fisheyeGallery from "../src/assets/linkImg/fisheyeLink.png";
+const fisheyeLogo = "/logo/fisheye.png";
+const fisheyeGallery = "/linkImg/fisheyeLink.png";
 // import fisheyeIFrame from "../src/assets/media/fisheye/frame-Fisheye.png";
-import fisheyeDesktop from "../src/assets/media/fisheye/imageA.Fisheye.jpg";
-import fisheyeTablet from "../src/assets/media/fisheye/imageB.Fisheye.jpg";
-import fisheyeMobile from "../src/assets/media/fisheye/imageC.Fisheye.jpg";
+const fisheyeDesktop = "/media/fisheye/imageA.Fisheye.jpg";
+const fisheyeTablet = "/media/fisheye/imageB.Fisheye.jpg";
+const fisheyeMobile = "/media/fisheye/imageC.Fisheye.jpg";
 
 // Les petits plats Media
-import lespetitsplatsLogo from "../src/assets/logo/lespetitsplats.svg";
-import lespetitsplatsGallery from "../src/assets/linkImg/lespetitsplatsLink.png";
+const lespetitsplatsLogo = "/logo/lespetitsplats.svg";
+const lespetitsplatsGallery = "/linkImg/lespetitsplatsLink.png";
 // import lespetitsplatsIFrame from "../src/assets/media/lespetitsplats/frame-Lespetitsplats.png";
-import lespetitsplatsDesktop from "../src/assets/media/lespetitsplats/imageA.FLespetitsplats.jpg";
-import lespetitsplatsTablet from "../src/assets/media/lespetitsplats/imageB.FLespetitsplats.jpg";
+const lespetitsplatsDesktop = "/media/lespetitsplats/imageA.FLespetitsplats.jpg";
+const lespetitsplatsTablet = "/media/lespetitsplats/imageB.FLespetitsplats.jpg";
 
 // Learn@Home Media
-import learnhomelogo from "../src/assets/logo/learnhome.png";
-import learnhomeGallery from "../src/assets/linkImg/learnmoreLink.png";
+const learnhomelogo = "/logo/learnhome.png";
+const learnhomeGallery = "/linkImg/learnmoreLink.png";
 // import learnhomeIFrame from "../src/assets/media/learnhome/frame-learnhome.png";
-import learnhomeDesktop from "../src/assets/media/learnhome/imageA.learnhome.jpg";
-import learnhomeTablet from "../src/assets/media/learnhome/imageB.learnhome.jpg";
-import learnhomeMobile from "../src/assets/media/learnhome/imageC.learnhome.jpg";
+const learnhomeDesktop = "/media/learnhome/imageA.learnhome.jpg";
+const learnhomeTablet = "/media/learnhome/imageB.learnhome.jpg";
+const learnhomeMobile = "/media/learnhome/imageC.learnhome.jpg";
 
 // Kasa Media
-import kasalogo from "../src/assets/logo/kasa.png";
-import kasaGallery from "../src/assets/linkImg/kasaLink.png";
+const kasalogo = "/logo/kasa.png";
+const kasaGallery = "/linkImg/kasaLink.png";
 // import kasaIFrame from "../src/assets/media/kasa/frame-Kasa.png";
-import kasaDesktop from "../src/assets/media/kasa/imageA.Kasa.jpg";
-import kasaTablet from "../src/assets/media/kasa/imageB.Kasa.jpg";
-import kasaMobile from "../src/assets/media/kasa/imageC.Kasa.jpg";
+const kasaDesktop = "/media/kasa/imageA.Kasa.jpg";
+const kasaTablet = "/media/kasa/imageB.Kasa.jpg";
+const kasaMobile = "/media/kasa/imageC.Kasa.jpg";
 
 // Sportsee Media
-import sportseelogo from "../src/assets/logo/sportsee.png";
-import sportseeGallery from "../src/assets/linkImg/sportseeLink.png";
+const sportseelogo = "/logo/sportsee.png";
+const sportseeGallery = "/linkImg/sportseeLink.png";
 // import sportseeIFrame from "../src/assets/media/sportsee/frame-Sportsee.png";
-import sportseeDesktop from "../src/assets/media/sportsee/imageA.Sportsee.jpg";
-import sportseeTablet from "../src/assets/media/sportsee/imageB.Sportsee.jpg";
-import sportseeMobile from "../src/assets/media/sportsee/imageC.Sportsee.jpg";
+const sportseeDesktop = "/media/sportsee/imageA.Sportsee.jpg";
+const sportseeTablet = "/media/sportsee/imageB.Sportsee.jpg";
+const sportseeMobile = "/media/sportsee/imageC.Sportsee.jpg";
 
 export const dataList = [{
         id: "001",
