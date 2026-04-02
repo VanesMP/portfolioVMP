@@ -29,7 +29,7 @@ CHANGESET_FILE=".changeset/$(date +%Y%m%d)-$DESC_SAFE.md"
 
 cat <<EOL > "$CHANGESET_FILE"
 ---
-"$CHANGESET_TYPE"
+"portfoliovmp": $CHANGESET_TYPE
 ---
 
 $DESC
