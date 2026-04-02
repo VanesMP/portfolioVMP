@@ -30,3 +30,5 @@ yarn-error.log*
 .vscode/
 .idea/
 
+.changeset/*.json
+.changeset/README.md

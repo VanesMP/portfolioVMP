@@ -23,11 +23,11 @@ BRANCH_NAME="$TYPE/$DESC_SAFE"
 git checkout -b "$BRANCH_NAME"
 
 # 5️⃣ Get package name from package.json
-PACKAGE_NAME=$(jq -r '.name' package.json)
+PACKAGE_NAME=$(jq -r .name package.json)
 
 if [ -z "$PACKAGE_NAME" ] || [ "$PACKAGE_NAME" = "null" ]; then
-  echo "Error: could not read package name from package.json"
-  exit 1
+  echo "Warning: package.json name not found, using fallback 'portfoliovmp'"
+  PACKAGE_NAME="portfoliovmp"
 fi
 
 # 6️⃣ Create changeset file
