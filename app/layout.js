@@ -1,10 +1,9 @@
-// app/layout.js
 import "../styles/global.css";
-import { Header, Footer } from "../components-widgets";
+import { Footer } from "../components-widgets";
 
 export const metadata = {
-  title: "Mon PortFolio",
-  description: "Portfolio personnel créé avec Next.js et React.js",
+  title: "My PortFolio",
+  description: "Personal portfolio created with Next.js and React.js",
   icons: {
     icon: "/logovmp.jpg",
   },
@@ -23,7 +22,7 @@ function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body>
-        <Header />
+        {/* <Header /> */}
         {children}
         <Footer />
       </body>

@@ -1,0 +1,25 @@
+.heroBanner {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+
+  &__image {
+    border-radius: 16px;
+    border: 1px solid var(--color-secondary);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__title {
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    line-height: 1.625;
+  }
+}
