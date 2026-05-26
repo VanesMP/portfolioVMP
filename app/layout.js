@@ -1,5 +1,6 @@
 import "../styles/global.css";
-import { Footer } from "../components-widgets";
+import "../src/i18n/config";
+import { I18nProvider } from "../src/i18n/I18nProvider";
 
 export const metadata = {
   title: "My PortFolio",
@@ -22,9 +23,7 @@ function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body>
-        {/* <Header /> */}
-        {children}
-        <Footer />
+        <I18nProvider>{children}</I18nProvider>
       </body>
     </html>
   );
