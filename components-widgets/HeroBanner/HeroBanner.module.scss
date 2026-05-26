@@ -1,9 +1,18 @@
+$image-width: 256px;
+$image-height: 320px;
+
 .heroBanner {
   display: flex;
   justify-content: center;
   gap: 64px;
 
+  &__imageContainer {
+    width: $image-width;
+    height: $image-height;
+  }
+
   &__image {
+    object-fit: cover;
     border-radius: 16px;
     border: 1px solid var(--color-secondary);
   }
