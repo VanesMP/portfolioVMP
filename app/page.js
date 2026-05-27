@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { arrowDown, arrowUp, Background } from "../components-shared";
-import { Footer, Header, Identity, Gallery } from "../components-widgets";
-import Styles from "../styles/homePage.module.scss";
+import { HeroBanner } from "../components-widgets";
+import Styles from "../styles/page.module.scss";
 
 const Home = () => {
   const [textClass, setTextClass] = useState("default");
@@ -24,11 +23,11 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <Background darkorclear="darkbackground" />
-      <div className={Styles.boxIdentity}>
-        <Identity />
-        <a href="#projects">
+    <div className={Styles.page}>
+      {/* <Background darkorclear="darkbackground" /> */}
+      {/* <div className={Styles.boxIdentity}> */}
+      <HeroBanner />
+      {/* <a href="#projects">
           <img src={arrowDown} alt="arrow to check directly all the projects" className="arrow" />
         </a>
         <div className={Styles.containerPresentation}>
@@ -46,7 +45,7 @@ const Home = () => {
         classNavig="nav"
         classNavigBurger="menu"
       />
-      <Footer fixPosition="positionFooterHome" />
+      <Footer fixPosition="positionFooterHome" /> */}
     </div>
   );
 };

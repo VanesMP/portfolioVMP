@@ -1,3 +1,2 @@
-export * from "./background"
-export * from "./buttonLink"
-export * from "./assets"
+export * from "./ButtonLink";
+export * from "./assets";
