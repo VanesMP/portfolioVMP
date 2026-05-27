@@ -7,6 +7,11 @@
     color: #fff;
     padding: 12px 24px;
     background: linear-gradient(135deg, #0f3d2e, #118856);
+
+    &:hover {
+      transform: translateY(-3px);
+      transition: transform 0.3s ease;
+    }
   }
 
   &--outlined {
