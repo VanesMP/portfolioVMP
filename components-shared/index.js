@@ -1,2 +1,2 @@
-export * from "./buttonLink";
+export * from "./ButtonLink";
 export * from "./assets";

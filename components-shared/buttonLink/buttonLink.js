@@ -1,13 +1,21 @@
-import Styles from "./buttonLink.module.scss";
+import Styles from "./ButtonLink.module.scss";
+import clsx from "clsx";
+import Link from "next/link";
+import { BUTTON_VARIANTS } from "src";
 
-export const ButtonLink = ({ textButtonLink, pathLink }) => {
+export const ButtonLink = ({
+  labelButtonLink,
+  pathLink,
+  iconName,
+  variant = BUTTON_VARIANTS.CONTAINED,
+}) => {
   return (
-    <div>
-      <div className={Styles.boxButton}>
-        <a href={pathLink} target="_blank" rel="noopener noreferrer">
-          <p className={Styles.textButton}>{textButtonLink}</p>
-        </a>
-      </div>
-    </div>
+    <Link href={pathLink} className={clsx(Styles.buttonLink, Styles[`buttonLink--${variant}`])}>
+      {iconName && <span className={Styles.buttonLink__icon}>{iconName}</span>}
+      {labelButtonLink}
+      {/* <span className={clsx(Styles.buttonLink__label, Styles[`buttonLink__label--${variant}`])}>
+        {labelButtonLink}
+      </span> */}
+    </Link>
   );
 };

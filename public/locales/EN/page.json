@@ -1,6 +1,8 @@
 {
   "heroBanner": {
     "title": "Crafting Digital Experiences That Matter",
-    "subtitle": "After several years of art studies and co-founding an artists' collective in Toulouse, I gave my career a new direction by transitioning into front-end development, specializing in React. For more than two years at Kotzilla, a startup based in Toulouse, I combined front-end development and product design to design and develop elegant, functional user experiences."
+    "subtitle": "After several years of art studies and co-founding an artists' collective in Toulouse, I gave my career a new direction by transitioning into front-end development, specializing in React. For more than two years at Kotzilla, a startup based in Toulouse, I combined front-end development and product design to design and develop elegant, functional user experiences.",
+    "buttonProjects": "View Projects",
+    "buttonContact": "Get in Touch"
   }
 }
