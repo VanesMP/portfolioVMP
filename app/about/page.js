@@ -1,14 +1,15 @@
 "use client";
 
 import Styles from "../../styles/about.module.scss";
-import { Background } from "../../components-shared";
-import { Footer, Header } from "../../components-widgets";
+// import { Background } from "../../components-shared";
+import { Footer } from "../../components-widgets";
+// import { Header } from "../../components-widgets";
 
 const About = () => {
   return (
     <div>
-      <Background darkorclear="clear" />
-      <Header fixPosition="positionHeaderProject" classNavig={Styles.navFooter} />
+      {/* <Background darkorclear="clear" /> */}
+      {/* <Header fixPosition="positionHeaderProject" classNavig={Styles.navFooter} /> */}
       <div className={Styles.containerAbout}>
         <h1 className={Styles.textComingSoon}> Coming soon </h1>
         <span className={Styles.loader} />

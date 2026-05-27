@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form";
 import Link from "next/link";
 import Styles from "../../styles/contact.module.scss";
 import {
-  Background,
+  // Background,
   bannerWip,
   iconeEmail,
   iconeLinkedin,
@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Background darkorclear="clear" />
+      {/* <Background darkorclear="clear" /> */}
       <Link href="/">
         <img src={backHome} alt="retour vers la page d'accueil" className={Styles.backHome} />
       </Link>

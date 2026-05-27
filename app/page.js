@@ -1,32 +1,33 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { HeroBanner } from "../components-widgets";
+import { HeroBanner, SwitchPortfolio } from "../components-widgets";
 import Styles from "../styles/page.module.scss";
 
 const Home = () => {
-  const [textClass, setTextClass] = useState("default");
+  // const [textClass, setTextClass] = useState("default");
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
-  const handleScroll = () => {
-    if (window.scrollY > 860) {
-      setTextClass("scrolled");
-    } else {
-      setTextClass("default");
-    }
-  };
+  // const handleScroll = () => {
+  //   if (window.scrollY > 860) {
+  //     setTextClass("scrolled");
+  //   } else {
+  //     setTextClass("default");
+  //   }
+  // };
 
   return (
     <div className={Styles.page}>
       {/* <Background darkorclear="darkbackground" /> */}
       {/* <div className={Styles.boxIdentity}> */}
       <HeroBanner />
+      <SwitchPortfolio />
       {/* <a href="#projects">
           <img src={arrowDown} alt="arrow to check directly all the projects" className="arrow" />
         </a>

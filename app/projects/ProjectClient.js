@@ -1,6 +1,7 @@
 "use client";
 
-import { DisplayProject, Header, Footer } from "../../components-widgets/index.js";
+import { DisplayProject, Footer } from "../../components-widgets/index.js";
+// import { Header } from "../../components-widgets/index.js";
 import { dataList } from "../../src/data.js";
 import Styles from "../../styles/projectPage.module.scss";
 import { useSearchParams } from "next/navigation";
@@ -23,12 +24,12 @@ const ProjectClient = () => {
 
   return (
     <div>
-      <Header
+      {/* <Header
         fixPosition="positionHeaderProject"
         classNavig={Styles.navProject}
         seeProject="/"
         classNavigBurger={Styles.menu}
-      />
+      /> */}
       <div className={Styles.insidePageProject}>
         <DisplayProject
           dataLogo={itemProject.logo}

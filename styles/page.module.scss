@@ -162,4 +162,7 @@
 .page {
   max-width: 65%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
 }

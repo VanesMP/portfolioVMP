@@ -7,8 +7,6 @@
   },
   "switchPortfolio": {
     "labelDev": "Developer & UX",
-    "labelArt": "Art & Illustration",
-    "optionDev": "dev",
-    "optionArt": "art"
+    "labelArt": "Art & Illustration"
   }
 }
