@@ -1,2 +1,2 @@
-export * from "./ButtonLink";
-export * from "./assets";
+export { ButtonLink } from "./ButtonLink";
+export { SwitchButton } from "./SwitchButton";

@@ -1,0 +1,30 @@
+.switchPortfolio {
+  display: flex;
+  padding: var(--space-xs);
+  border-radius: var(--border-radius-lg);
+  background-color: var(--color-secondary);
+  border: var(--border-card);
+
+  &__switchButton {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius-lg);
+    gap: var(--space-sm);
+    padding: var(--space-sm) var(--space-md);
+    border: none;
+    background: transparent;
+    color: var(--color-text);
+    font: var(--typography-label);
+
+    &:hover {
+      color: var(--color-heading);
+    }
+
+    &--active {
+      cursor: default;
+      background: var(--gradient-hero);
+      color: #fff;
+    }
+  }
+}
