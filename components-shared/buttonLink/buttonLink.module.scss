@@ -1,7 +1,7 @@
 .buttonLink {
   font-size: 14px;
   font-weight: 500;
-  border-radius: 16px;
+  border-radius: 12px;
 
   &--contained {
     color: #fff;
@@ -19,6 +19,7 @@
     background-color: transparent;
     border: 1px solid #1d353099;
     color: #fff;
+    transition: background-color 0.2s ease;
 
     &:hover {
       background-color: #0a4457;
@@ -33,20 +34,6 @@
 
     &:hover {
       color: #fff;
-    }
-  }
-
-  &__label {
-    font-size: 14px;
-    font-weight: 500;
-
-    &--contained,
-    &--outlined {
-      padding: 12px 24px;
-    }
-
-    &--ghost {
-      padding: 0px;
     }
   }
 }

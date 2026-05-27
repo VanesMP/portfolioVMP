@@ -13,9 +13,6 @@ export const ButtonLink = ({
     <Link href={pathLink} className={clsx(Styles.buttonLink, Styles[`buttonLink--${variant}`])}>
       {iconName && <span className={Styles.buttonLink__icon}>{iconName}</span>}
       {labelButtonLink}
-      {/* <span className={clsx(Styles.buttonLink__label, Styles[`buttonLink__label--${variant}`])}>
-        {labelButtonLink}
-      </span> */}
     </Link>
   );
 };
