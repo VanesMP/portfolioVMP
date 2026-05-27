@@ -4,8 +4,9 @@
   border-radius: 16px;
 
   &--contained {
+    color: #fff;
     padding: 12px 24px;
-    background-color: linear-gradient(135deg, #0f3d2e, #118856);
+    background: linear-gradient(135deg, #0f3d2e, #118856);
   }
 
   &--outlined {
