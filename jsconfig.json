@@ -3,6 +3,7 @@
     "baseUrl": ".",
     "ignoreDeprecations": "6.0",
     "paths": {
+      "@/*": ["/*"],
       "@components/*": ["components/*"],
       "@widgets/*": ["components-widgets/*"],
       "@shared/*": ["components-shared/*"],
