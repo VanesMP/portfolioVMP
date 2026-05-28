@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Styles from "./navBar.module.scss";
-import { DevelopperCV } from "../../components-shared";
+import { DevelopperCV } from "@shared/assets";
 
 export const Navbar = ({ navig, pathAncre }) => {
   return (

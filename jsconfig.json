@@ -4,8 +4,11 @@
     "ignoreDeprecations": "6.0",
     "paths": {
       "@/*": ["/*"],
+      "@components": ["components/index.js"],
       "@components/*": ["components/*"],
+      "@widgets": ["components-widgets/index.js"],
       "@widgets/*": ["components-widgets/*"],
+      "@shared": ["components-shared/index.js"],
       "@shared/*": ["components-shared/*"],
       "@styles/*": ["styles/*"],
       "@config/*": ["src/config/*"],

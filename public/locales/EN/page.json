@@ -8,5 +8,17 @@
   "switchPortfolio": {
     "labelDev": "Developer & UX",
     "labelArt": "Art & Illustration"
+  },
+  "section" : {
+    "projects": {
+      "tag": "Experience",
+      "title": "Professional Projects",
+      "description": "A selection of projects from my professional career as a developer and designer."
+    },
+    "training": {
+      "tag": "Training",
+      "title": "Training & Career Change",
+      "description": "Projects completed during my career change into web development and design."
+    }
   }
 }

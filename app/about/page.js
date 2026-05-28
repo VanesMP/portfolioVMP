@@ -1,9 +1,9 @@
 "use client";
 
-import Styles from "../../styles/about.module.scss";
-// import { Background } from "../../components-shared";
-import { Footer } from "../../components-widgets";
-// import { Header } from "../../components-widgets";
+import Styles from "@styles/about.module.scss";
+// import { Background } from "@shared";
+import { Footer } from "@widgets/footer";
+// import { Header } from "@widgets/header";
 
 const About = () => {
   return (
