@@ -2,6 +2,7 @@ import Styles from "./ButtonLink.module.scss";
 import clsx from "clsx";
 import Link from "next/link";
 import { BUTTON_VARIANTS } from "src";
+import { Icon } from "@shared/Icon";
 
 export const ButtonLink = ({
   labelButtonLink,
@@ -11,7 +12,7 @@ export const ButtonLink = ({
 }) => {
   return (
     <Link href={pathLink} className={clsx(Styles.buttonLink, Styles[`buttonLink--${variant}`])}>
-      {iconName && <span className={Styles.buttonLink__icon}>{iconName}</span>}
+      {iconName && <Icon name={iconName} />}
       {labelButtonLink}
     </Link>
   );

@@ -8,7 +8,7 @@ export const SectionLayout = ({ tag, title, description, children }) => {
         <h2 className={Styles.sectionLayout__title}>{title}</h2>
         <p className={Styles.sectionLayout__description}>{description}</p>
       </div>
-      <div className={Styles.sectionLayout__children}>{children}</div>
+      {children}
     </div>
   );
 };
