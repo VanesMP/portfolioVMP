@@ -1,7 +1,4 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { HeroBanner, SwitchPortfolio } from "../components-widgets";
+import { HeroBanner, PortfolioSection } from "@widgets/index";
 import Styles from "../styles/page.module.scss";
 
 const Home = () => {
@@ -27,7 +24,7 @@ const Home = () => {
       {/* <Background darkorclear="darkbackground" /> */}
       {/* <div className={Styles.boxIdentity}> */}
       <HeroBanner />
-      <SwitchPortfolio />
+      <PortfolioSection />
       {/* <a href="#projects">
           <img src={arrowDown} alt="arrow to check directly all the projects" className="arrow" />
         </a>

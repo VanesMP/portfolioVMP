@@ -8,12 +8,12 @@ export const PORTFOLIO_VALUE = {
 export const OPTIONS_PORTFOLIO = [
   {
     value: PORTFOLIO_VALUE.DEV,
-    label: "switchPortfolio.labelDev",
+    labelKey: "switchPortfolio.labelDev",
     iconName: Code2,
   },
   {
     value: PORTFOLIO_VALUE.ART,
-    label: "switchPortfolio.labelArt",
+    labelKey: "switchPortfolio.labelArt",
     iconName: Palette,
   },
 ];

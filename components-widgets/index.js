@@ -6,4 +6,4 @@ export { Gallery } from "./gallery";
 export { HeroBanner } from "./HeroBanner";
 export { Navbar } from "./navBar";
 export { ScrollToTop } from "./scrollToTop";
-export { SwitchPortfolio } from "./SwitchPortfolio";
+export { PortfolioSection } from "./PortfolioSection";
