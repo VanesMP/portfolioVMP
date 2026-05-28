@@ -1,5 +1,5 @@
-import { HeroBanner, PortfolioSection } from "@widgets/index";
-import Styles from "../styles/page.module.scss";
+import { HeroBanner, PortfolioSection, ProjectsSection, TrainingSection } from "@components";
+import Styles from "@styles/page.module.scss";
 
 const Home = () => {
   // const [textClass, setTextClass] = useState("default");
@@ -25,6 +25,8 @@ const Home = () => {
       {/* <div className={Styles.boxIdentity}> */}
       <HeroBanner />
       <PortfolioSection />
+      <ProjectsSection />
+      <TrainingSection />
       {/* <a href="#projects">
           <img src={arrowDown} alt="arrow to check directly all the projects" className="arrow" />
         </a>

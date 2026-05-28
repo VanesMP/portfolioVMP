@@ -2,15 +2,15 @@
 
 import { useForm } from "react-hook-form";
 import Link from "next/link";
-import Styles from "../../styles/contact.module.scss";
+import Styles from "@styles/contact.module.scss";
 import {
   // Background,
   bannerWip,
   iconeEmail,
   iconeLinkedin,
   arrowUp as backHome,
-} from "../../components-shared";
-import { ContactLink } from "../../components-widgets";
+} from "@shared/assets";
+import { ContactLink } from "@widgets/contactLink";
 import clsx from "clsx";
 // import {dataLink} from "../data.js";
 

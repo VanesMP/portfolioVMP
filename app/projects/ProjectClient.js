@@ -1,9 +1,10 @@
 "use client";
 
-import { DisplayProject, Footer } from "../../components-widgets/index.js";
-// import { Header } from "../../components-widgets/index.js";
+import { DisplayProject } from "@widgets/displayProject";
+import { Footer } from "@widgets/footer";
+// import { Header } from "@widgets/header";
 import { dataList } from "../../src/data.js";
-import Styles from "../../styles/projectPage.module.scss";
+import Styles from "@styles/projectPage.module.scss";
 import { useSearchParams } from "next/navigation";
 import Home from "../page.js";
 
