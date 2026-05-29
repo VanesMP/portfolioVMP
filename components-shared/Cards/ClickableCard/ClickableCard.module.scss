@@ -1,0 +1,18 @@
+.clickableCard {
+  min-width: 260px;
+  padding: 24px;
+  border-radius: 8px;
+  width: fit-content;
+  height: 100%;
+  background-color: #052e26cc;
+  border: 1px solid #1d353080;
+  transition:
+    transform 0.3s cubic-bezier(0, 0, 0.2, 1),
+    box-shadow 0.3s cubic-bezier(0, 0, 0.2, 1);
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+}

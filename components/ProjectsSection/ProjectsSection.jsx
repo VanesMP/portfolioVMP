@@ -2,18 +2,18 @@
 
 import { useTranslation } from "react-i18next";
 import { SectionLayout } from "@shared/SectionLayout";
-import { ClickableCard } from "@shared/Card";
+import { DevCard } from "@shared/Cards/DevCard";
 
 export const ProjectsSection = () => {
   const { t } = useTranslation("page");
 
   return (
     <SectionLayout
-      tag={t("section.projects.tag")}
+      intro={t("section.projects.tag")}
       title={t("section.projects.title")}
       description={t("section.projects.description")}
     >
-      <ClickableCard
+      <DevCard
         title="title"
         subtitle="subtitle"
         date="date"

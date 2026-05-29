@@ -1,34 +1,11 @@
 .sectionLayout {
   display: flex;
   flex-direction: column;
+  padding: 40px 24px;
   gap: 32px;
 
   &__text {
     width: 53%;
-    display: flex;
-    flex-direction: column;
     gap: 12px;
-  }
-
-  &__tag {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #118856;
-    letter-spacing: 0.1em;
-  }
-
-  &__title {
-    margin: 0;
-    font-size: 30px;
-    font-weight: 700;
-    text-transform: capitalize;
-    color: #fff;
-  }
-
-  &__description {
-    margin: 0;
-    font-size: 14px;
-    line-height: 1.25;
-    color: #9bb0a8;
   }
 }

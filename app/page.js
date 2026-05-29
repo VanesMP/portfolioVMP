@@ -1,4 +1,10 @@
-import { HeroBanner, PortfolioSection, ProjectsSection, TrainingSection } from "@components";
+import {
+  CtaSection,
+  HeroBanner,
+  PortfolioSection,
+  ProjectsSection,
+  TrainingSection,
+} from "@components";
 import Styles from "@styles/page.module.scss";
 
 const Home = () => {
@@ -24,9 +30,14 @@ const Home = () => {
       {/* <Background darkorclear="darkbackground" /> */}
       {/* <div className={Styles.boxIdentity}> */}
       <HeroBanner />
-      <PortfolioSection />
-      <ProjectsSection />
-      <TrainingSection />
+      <div className={Styles.page__content}>
+        <PortfolioSection />
+        <ProjectsSection />
+        <div className={Styles.page__trainingSection}>
+          <TrainingSection />
+        </div>
+      </div>
+      <CtaSection />
       {/* <a href="#projects">
           <img src={arrowDown} alt="arrow to check directly all the projects" className="arrow" />
         </a>
