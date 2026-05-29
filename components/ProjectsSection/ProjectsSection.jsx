@@ -2,15 +2,24 @@
 
 import { useTranslation } from "react-i18next";
 import { SectionLayout } from "@shared/SectionLayout";
+import { DevCard } from "@shared/Cards/DevCard";
 
 export const ProjectsSection = () => {
   const { t } = useTranslation("page");
 
   return (
     <SectionLayout
-      tag={t("section.projects.tag")}
+      intro={t("section.projects.tag")}
       title={t("section.projects.title")}
       description={t("section.projects.description")}
-    ></SectionLayout>
+    >
+      <DevCard
+        title="title"
+        subtitle="subtitle"
+        date="date"
+        description="description"
+        pathLink="/projects/project1"
+      />
+    </SectionLayout>
   );
 };

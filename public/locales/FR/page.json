@@ -19,6 +19,13 @@
       "tag": "Formation",
       "title": "Formation & reconversion",
       "description": "Projets réalisés dans le cadre de ma reconversion vers le développement web et le design."
+    },
+    "ctaSection": {
+    "intro": "Restons en contact",
+    "title": "Intéressé par mon profil ?",
+    "description": "Je suis à l'écoute de nouvelles opportunités professionnelles. Vous pouvez télécharger mon CV ou me contacter directement sur LinkedIn.",
+    "buttonCV": "Télécharger mon CV",
+    "buttonLinkedIn": "Me contacter sur LinkedIn"
     }
   }
 }

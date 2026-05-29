@@ -2,11 +2,14 @@
   font-size: 14px;
   font-weight: 500;
   border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
 
   &--contained {
     color: #fff;
     padding: 12px 24px;
-    background: linear-gradient(135deg, #0f3d2e, #118856);
+    background: linear-gradient(135deg, hsl(195 80% 19%), hsl(155 78% 30%));
 
     &:hover {
       transform: translateY(-3px);

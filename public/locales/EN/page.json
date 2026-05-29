@@ -19,6 +19,13 @@
       "tag": "Training",
       "title": "Training & Career Change",
       "description": "Projects completed during my career change into web development and design."
+    },
+    "cta": {
+      "intro": "Let's Connect",
+      "title": "Interested in working together?",
+      "description": "I'm open to new opportunities. Feel free to download my CV or connect with me on LinkedIn.",
+      "buttonCV": "Download CV",
+      "buttonLinkedIn": "LinkedIn Profile"
     }
   }
 }
