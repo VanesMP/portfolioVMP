@@ -3,13 +3,13 @@
     "baseUrl": ".",
     "ignoreDeprecations": "6.0",
     "paths": {
-      "@/*": ["/*"],
-      "@components": ["components/index.js"],
-      "@components/*": ["components/*"],
+      "@/*": ["src/*"],
+      "@components": ["src/components/index.js"],
+      "@components/*": ["src/components/*"],
       "@widgets": ["components-widgets/index.js"],
       "@widgets/*": ["components-widgets/*"],
-      "@shared": ["components-shared/index.js"],
-      "@shared/*": ["components-shared/*"],
+      "@shared": ["src/components-shared/index.js"],
+      "@shared/*": ["src/components-shared/*"],
       "@styles/*": ["styles/*"],
       "@config/*": ["src/config/*"],
       "@public/*": ["public/*"]
