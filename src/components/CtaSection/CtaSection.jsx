@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { GroupButtons } from "@shared/GroupButtons";
 import { ContentCard } from "@shared";
 import Styles from "./CtaSection.module.scss";
-import { OPTIONS_BUTTONS_CTASECTION } from "@/src/constants";
+import { OPTIONS_BUTTONS_CTASECTION } from "@/constants";
 
 export const CtaSection = () => {
   const { t } = useTranslation("page");

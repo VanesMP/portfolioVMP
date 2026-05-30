@@ -3,16 +3,9 @@
 import { useForm } from "react-hook-form";
 import Link from "next/link";
 import Styles from "@styles/contact.module.scss";
-import {
-  // Background,
-  bannerWip,
-  iconeEmail,
-  iconeLinkedin,
-  arrowUp as backHome,
-} from "@shared/assets";
+import { bannerWip, iconeEmail, iconeLinkedin, arrowUp as backHome } from "@shared/assets";
 import { ContactLink } from "@widgets/contactLink";
 import clsx from "clsx";
-// import {dataLink} from "../data.js";
 
 const Contact = () => {
   const { handleSubmit, register, errors } = useForm();
@@ -23,7 +16,6 @@ const Contact = () => {
 
   return (
     <div>
-      {/* <Background darkorclear="clear" /> */}
       <Link href="/">
         <img src={backHome} alt="retour vers la page d'accueil" className={Styles.backHome} />
       </Link>

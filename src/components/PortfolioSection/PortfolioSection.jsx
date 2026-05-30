@@ -1,7 +1,7 @@
 "use client";
 
 import { SwitchPortfolio } from "@shared/SwitchPortfolio";
-import { OPTIONS_PORTFOLIO, PORTFOLIO_VALUE } from "src/constants/constants";
+import { OPTIONS_PORTFOLIO, PORTFOLIO_VALUE } from "@/constants";
 import { useState } from "react";
 
 export const PortfolioSection = () => {
