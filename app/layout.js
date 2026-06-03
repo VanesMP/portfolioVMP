@@ -1,6 +1,7 @@
 import "../styles/global.css";
 import "../src/i18n/config";
 import { I18nProvider } from "../src/i18n/I18nProvider";
+import { Header } from "@components";
 
 export const metadata = {
   title: "My PortFolio",
