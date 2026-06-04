@@ -1,0 +1,19 @@
+.switchTheme {
+  background-color: #0a445799;
+  border-radius: 24px;
+  border: 1px solid #1d353080;
+
+  &__switchButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    color: #9bb0a8;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      color: #edf1ea;
+    }
+  }
+}

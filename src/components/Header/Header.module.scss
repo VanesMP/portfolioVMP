@@ -17,4 +17,10 @@
     height: 100%;
     margin: auto;
   }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
 }

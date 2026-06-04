@@ -1,4 +1,5 @@
 import { BUTTON_VARIANTS } from "./buttonVariants";
+import { FileUser } from "lucide-react";
 
 export const BANNER_PALETTE = [
   "155,176,168",
@@ -26,6 +27,20 @@ export const OPTIONS_BUTTONS_HEROBANNER = [
   {
     labelKey: "heroBanner.buttonContact",
     path: "/",
+    variant: BUTTON_VARIANTS.OUTLINED,
+  },
+];
+
+export const OPTIONS_BUTTONS_CTASECTION = [
+  {
+    labelKey: "section.cta.buttonCV",
+    path: "/",
+    iconName: FileUser,
+  },
+  {
+    labelKey: "section.cta.buttonLinkedIn",
+    path: "https://www.linkedin.com/in/vanessa-macedopinto/",
+    iconName: "/logo/linkedin.svg",
     variant: BUTTON_VARIANTS.OUTLINED,
   },
 ];

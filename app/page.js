@@ -11,10 +11,10 @@ import Styles from "@styles/page.module.scss";
 const Home = () => {
   return (
     <div className={Styles.page}>
-      <div className={Styles.page__heroBanner}>
+      <div className={Styles.page__heroBanner} id="about">
         <HeroBanner />
       </div>
-      <div className={Styles.page__content}>
+      <div className={Styles.page__content} id="projects">
         <PortfolioSection />
         <ProjectsSection />
         <div className={Styles.page__trainingSection}>
