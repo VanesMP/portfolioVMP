@@ -6,3 +6,4 @@ export { SwitchPortfolio } from "./SwitchPortfolio";
 export { SectionLayout } from "./SectionLayout";
 export { Tag } from "./Tag";
 export { ContentCard } from "./ContentCard";
+export { Link } from "./Link";
