@@ -1,3 +1,5 @@
+import { BUTTON_VARIANTS } from "./buttonVariants";
+
 export const BANNER_PALETTE = [
   "155,176,168",
   "17,136,86",
@@ -15,3 +17,15 @@ export const CONN_COLOR = "#1a4a30";
 export const BASE_Y = 0.62;
 export const NODE_COUNT = 9;
 export const FIREFLY_COUNT = 90;
+
+export const OPTIONS_BUTTONS_HEROBANNER = [
+  {
+    labelKey: "heroBanner.buttonProjects",
+    path: "/",
+  },
+  {
+    labelKey: "heroBanner.buttonContact",
+    path: "/",
+    variant: BUTTON_VARIANTS.OUTLINED,
+  },
+];

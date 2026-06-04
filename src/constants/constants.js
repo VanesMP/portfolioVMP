@@ -19,18 +19,6 @@ export const OPTIONS_PORTFOLIO = [
   },
 ];
 
-export const OPTIONS_BUTTONS_HEROBANNER = [
-  {
-    labelKey: "heroBanner.buttonProjects",
-    path: "/",
-  },
-  {
-    labelKey: "heroBanner.buttonContact",
-    path: "/",
-    variant: BUTTON_VARIANTS.OUTLINED,
-  },
-];
-
 export const OPTIONS_BUTTONS_CTASECTION = [
   {
     labelKey: "section.cta.buttonCV",

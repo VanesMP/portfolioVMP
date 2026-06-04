@@ -1,7 +1,4 @@
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   position: fixed;
   top: 0;
   left: 0;
@@ -11,4 +8,13 @@
   height: 65px;
   border: 1px solid #1d353066;
   background-color: #00241dcc;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+  }
 }

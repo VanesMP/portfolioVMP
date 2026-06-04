@@ -24,8 +24,10 @@ function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body>
-        <Header />
-        <I18nProvider>{children}</I18nProvider>
+        <I18nProvider>
+          <Header />
+          {children}
+        </I18nProvider>
       </body>
     </html>
   );
