@@ -9,6 +9,7 @@ export const ProjectsSection = () => {
 
   return (
     <SectionLayout
+      id="projects"
       intro={t("section.projects.tag")}
       title={t("section.projects.title")}
       description={t("section.projects.description")}

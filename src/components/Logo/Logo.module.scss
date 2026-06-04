@@ -1,0 +1,14 @@
+.logo {
+  position: relative;
+
+  &__image {
+    border-radius: 16px;
+    filter: brightness(0.9);
+  }
+
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(6, 59, 48, 0.2);
+  }
+}
