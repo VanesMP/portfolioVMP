@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { DevelopperCV } from "../../components-shared";
+import { DevelopperCV } from "@shared/assets";
 import Styles from "./burgerNav.module.scss";
 import clsx from "clsx";
 

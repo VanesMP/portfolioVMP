@@ -1,0 +1,42 @@
+.buttonLink {
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  &--contained {
+    color: #fff;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, hsl(195 80% 19%), hsl(155 78% 30%));
+
+    &:hover {
+      transform: translateY(-3px);
+      transition: transform 0.3s ease;
+    }
+  }
+
+  &--outlined {
+    padding: 12px 24px;
+    background-color: transparent;
+    border: 1px solid #1d353099;
+    color: #fff;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #0a4457;
+    }
+  }
+
+  &--ghost {
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    color: #9bb0a8;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}

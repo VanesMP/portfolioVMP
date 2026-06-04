@@ -1,6 +1,6 @@
-import { titleDecoration } from "../../components-shared";
+import { titleDecoration } from "@shared/assets";
 import Styles from "./displayProject.module.scss";
-import { ButtonLink } from "../../components-shared/buttonLink";
+import { ButtonLink } from "@shared/ButtonLink";
 
 export const DisplayProject = ({
   dataLogo,

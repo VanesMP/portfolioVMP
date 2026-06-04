@@ -1,0 +1,26 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+
+  &__heroBanner {
+    position: relative;
+    overflow: hidden;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: linear-gradient(135deg, hsl(195deg 80% 19% / 5%), hsl(155deg 78% 30% / 5%));
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 65%;
+  }
+
+  &__trainingSection {
+    background-color: #08211c;
+    border-radius: 8px;
+  }
+}
