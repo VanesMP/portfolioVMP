@@ -1,5 +1,0 @@
----
-"portfoliovmp": minor
----
-
-component section
