@@ -1,5 +1,11 @@
 # portfoliovmp
 
+## 2.2.0
+
+### Minor Changes
+
+- 320dfd4: Implemente new component footer, inside put navigation bar, coptright and privacy policy
+
 ## 2.1.0
 
 ### Minor Changes
