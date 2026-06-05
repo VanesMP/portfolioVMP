@@ -1,7 +1,6 @@
 import "../styles/global.css";
 import "../src/i18n/config";
-import { I18nProvider } from "../src/i18n/I18nProvider";
-import { Header } from "@components";
+import { LayoutShell } from "@components";
 
 export const metadata = {
   title: "My PortFolio",
@@ -24,10 +23,7 @@ function RootLayout({ children }) {
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body>
-        <I18nProvider>
-          <Header />
-          {children}
-        </I18nProvider>
+        <LayoutShell>{children}</LayoutShell>
       </body>
     </html>
   );

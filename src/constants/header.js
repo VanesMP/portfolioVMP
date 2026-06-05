@@ -1,5 +1,7 @@
+import { ROUTES } from "@/constants/routes";
+
 export const NAVBAR_LINKS = [
-  { href: "/#about", label: "navBar.about" },
-  { href: "/#projects", label: "navBar.projects" },
-  { href: "/#contact", label: "navBar.contact" },
+  { href: ROUTES.ABOUT, label: "navBar.about" },
+  { href: ROUTES.PROJECTS, label: "navBar.projects" },
+  { href: ROUTES.CONTACT, label: "navBar.contact" },
 ];

@@ -12,7 +12,9 @@
       "@shared/*": ["src/components-shared/*"],
       "@styles/*": ["styles/*"],
       "@config/*": ["src/config/*"],
-      "@public/*": ["public/*"]
+      "@public/*": ["public/*"],
+      "@utils": ["src/utils/index.js"],
+      "@utils/*": ["src/utils/*"]
     },
     "jsx": "preserve"
   }

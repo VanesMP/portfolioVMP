@@ -1,0 +1,6 @@
+{
+  "buttons": {
+    "formatPdf": "Exporter en PDF",
+    "formatWord": "Exporter en Word"
+  }
+}

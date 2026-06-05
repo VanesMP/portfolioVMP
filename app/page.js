@@ -15,13 +15,15 @@ const Home = () => {
         <HeroBanner />
       </div>
       <div className={Styles.page__content} id="projects">
-        <PortfolioSection />
-        <ProjectsSection />
-        <div className={Styles.page__trainingSection}>
+        <div className={Styles.page__content__sections}>
+          <PortfolioSection />
+          <ProjectsSection />
           <TrainingSection />
         </div>
       </div>
-      <CtaSection />
+      <div className={Styles.page__content}>
+        <CtaSection />
+      </div>
       <BannerAnimation />
     </div>
   );

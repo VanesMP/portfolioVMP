@@ -2,8 +2,6 @@ export { BUTTON_VARIANTS } from "./buttonVariants";
 export { OPTIONS_PORTFOLIO, PORTFOLIO_VALUE } from "./portfolio";
 export { ICON_SIZES } from "./iconSizes";
 export {
-  OPTIONS_BUTTONS_HEROBANNER,
-  OPTIONS_BUTTONS_CTASECTION,
   BANNER_PALETTE,
   WIRE_COLOR,
   BULB_COLOR,
@@ -15,3 +13,9 @@ export {
 } from "./banner";
 export { NAVBAR_LINKS } from "./header";
 export { OPTION_THEMES, THEME_VALUE } from "./theme";
+export { ROUTES, HIDE_SHELL_ROUTES } from "./routes";
+export {
+  OPTIONS_BUTTONS_HEROBANNER,
+  OPTIONS_BUTTONS_CTASECTION,
+  OPTIONS_BUTTONS_CV,
+} from "./groupButtons";
