@@ -15,3 +15,4 @@ export {
 } from "./banner";
 export { NAVBAR_LINKS } from "./header";
 export { OPTION_THEMES, THEME_VALUE } from "./theme";
+export { ROUTES } from "./routes";
