@@ -12,11 +12,17 @@ export const ButtonLink = ({
   pathLink,
   iconName,
   variant = BUTTON_VARIANTS.CONTAINED,
+  openInNewTab = false,
+  nameSpace = "page",
 }) => {
-  const { t } = useTranslation("page");
+  const { t } = useTranslation(nameSpace);
 
   return (
-    <Link href={pathLink} className={clsx(Styles.buttonLink, Styles[`buttonLink--${variant}`])}>
+    <Link
+      href={pathLink}
+      {...(openInNewTab && { target: "_blank", rel: "noopener noreferrer" })}
+      className={clsx(Styles.buttonLink, Styles[`buttonLink--${variant}`])}
+    >
       {iconName && <Icon name={iconName} />}
       {t(labelButtonLink)}
     </Link>

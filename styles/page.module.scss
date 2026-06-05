@@ -13,14 +13,11 @@
   }
 
   &__content {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    width: 65%;
-  }
+    width: 100%;
 
-  &__trainingSection {
-    background-color: #08211c;
-    border-radius: 8px;
+    &__sections {
+      margin: auto;
+      width: 65%;
+    }
   }
 }

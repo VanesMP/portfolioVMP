@@ -1,5 +1,5 @@
 {
-  "navBar" :{
+  "navBar": {
     "about": "About",
     "projects": "Projects",
     "contact": "Contact"
@@ -14,7 +14,7 @@
     "labelDev": "Developer & UX",
     "labelArt": "Art & Illustration"
   },
-  "section" : {
+  "section": {
     "projects": {
       "tag": "Experience",
       "title": "Professional Projects",
@@ -28,9 +28,13 @@
     "cta": {
       "intro": "Let's Connect",
       "title": "Interested in working together?",
-      "description": "I'm open to new opportunities. Feel free to download my CV or connect with me on LinkedIn.",
-      "buttonCV": "Download CV",
+      "description": "I'm open to new opportunities. Feel free to check out my CV or connect with me on LinkedIn.",
+      "buttonCV": "Check out CV",
       "buttonLinkedIn": "LinkedIn Profile"
     }
+  },
+  "footer": {
+    "copyright": "© 2026 Vanessa MP. Portfolio. All rights reserved.",
+    "privacyPolicy": "Privacy Policy"
   }
 }
