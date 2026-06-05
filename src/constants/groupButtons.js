@@ -32,14 +32,16 @@ export const OPTIONS_BUTTONS_HEROBANNER = [
 export const OPTIONS_BUTTONS_CV = [
   {
     labelKey: "buttons.formatPdf",
-    path: "/images/cv-vanessaMP.pdf",
+    path: "/cv/cv-vanessaMP.pdf",
     iconName: "FileDown",
     nameSpace: "myCv",
+    download: true,
   },
   {
     labelKey: "buttons.formatWord",
-    path: "/images/cv-vanessaMP.docx",
+    path: "/cv/cv-vanessaMP.docx",
     iconName: "FileDown",
     nameSpace: "myCv",
+    download: true,
   },
 ];

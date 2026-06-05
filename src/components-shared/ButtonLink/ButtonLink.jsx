@@ -14,17 +14,33 @@ export const ButtonLink = ({
   variant = BUTTON_VARIANTS.CONTAINED,
   openInNewTab = false,
   nameSpace = "page",
+  download = false,
 }) => {
   const { t } = useTranslation(nameSpace);
+
+  const className = clsx(Styles.buttonLink, Styles[`buttonLink--${variant}`]);
+  const content = (
+    <>
+      {iconName && <Icon name={iconName} />}
+      {t(labelButtonLink)}
+    </>
+  );
+
+  if (download) {
+    return (
+      <a href={pathLink} className={className} download>
+        {content}
+      </a>
+    );
+  }
 
   return (
     <Link
       href={pathLink}
+      className={className}
       {...(openInNewTab && { target: "_blank", rel: "noopener noreferrer" })}
-      className={clsx(Styles.buttonLink, Styles[`buttonLink--${variant}`])}
     >
-      {iconName && <Icon name={iconName} />}
-      {t(labelButtonLink)}
+      {content}
     </Link>
   );
 };

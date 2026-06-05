@@ -6,7 +6,7 @@ import { OPTIONS_BUTTONS_CV } from "@/constants/groupButtons";
 const CvPage = () => {
   return (
     <div className={Styles.cvPage}>
-      <GroupButtons options={OPTIONS_BUTTONS_CV} n />
+      <GroupButtons options={OPTIONS_BUTTONS_CV} nameSpace="myCv" />
       <div className={Styles.cvPage__cv}>
         <Image
           src="/images/cv/cv-vanessaMP.png"

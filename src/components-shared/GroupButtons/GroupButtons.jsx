@@ -13,6 +13,7 @@ export const GroupButtons = ({ options = [] }) => {
           iconName={opt.iconName}
           openInNewTab={opt.openInNewTab}
           nameSpace={opt.nameSpace}
+          download={opt.download}
         />
       ))}
     </div>
