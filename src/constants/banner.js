@@ -1,5 +1,6 @@
 import { BUTTON_VARIANTS } from "./buttonVariants";
 import { FileUser } from "lucide-react";
+import { ROUTES } from "./routes";
 
 export const BANNER_PALETTE = [
   "155,176,168",
@@ -22,11 +23,11 @@ export const FIREFLY_COUNT = 90;
 export const OPTIONS_BUTTONS_HEROBANNER = [
   {
     labelKey: "heroBanner.buttonProjects",
-    path: "/",
+    path: ROUTES.PROJECTS,
   },
   {
     labelKey: "heroBanner.buttonContact",
-    path: "/",
+    path: ROUTES.CONTACT,
     variant: BUTTON_VARIANTS.OUTLINED,
   },
 ];
@@ -34,13 +35,15 @@ export const OPTIONS_BUTTONS_HEROBANNER = [
 export const OPTIONS_BUTTONS_CTASECTION = [
   {
     labelKey: "section.cta.buttonCV",
-    path: "/",
+    path: ROUTES.MYCV,
     iconName: FileUser,
+    openInNewTab: true,
   },
   {
     labelKey: "section.cta.buttonLinkedIn",
     path: "https://www.linkedin.com/in/vanessa-macedopinto/",
     iconName: "/logo/linkedin.svg",
     variant: BUTTON_VARIANTS.OUTLINED,
+    openInNewTab: true,
   },
 ];

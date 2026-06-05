@@ -28,8 +28,8 @@
     "ctaSection": {
       "intro": "Restons en contact",
       "title": "Mon profil vous intéresse ?",
-      "description": "Je suis à l'écoute de nouvelles opportunités professionnelles. Vous pouvez télécharger mon CV ou me contacter directement sur LinkedIn.",
-      "buttonCV": "Télécharger mon CV",
+      "description": "Je suis à l'écoute de nouvelles opportunités professionnelles. Vous pouvez jeter un œil à mon CV ou me contacter directement sur LinkedIn.",
+      "buttonCV": "Voir mon CV",
       "buttonLinkedIn": "Me contacter sur LinkedIn"
     }
   }

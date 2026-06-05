@@ -11,6 +11,7 @@ export const GroupButtons = ({ options = [] }) => {
           pathLink={opt.path}
           variant={opt.variant}
           iconName={opt.iconName}
+          openInNewTab={opt.openInNewTab}
         />
       ))}
     </div>
