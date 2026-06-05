@@ -9,3 +9,5 @@ export { BannerAnimation } from "./BannerAnimation";
 export { Header } from "./Header";
 export { Logo } from "./Logo";
 export { NavBar } from "./NavBar";
+export { Footer } from "./Footer";
+export { LayoutShell } from "./LayoutShell";

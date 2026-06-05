@@ -32,5 +32,9 @@
       "buttonCV": "Download CV",
       "buttonLinkedIn": "LinkedIn Profile"
     }
+  },
+  "footer": {
+    "copyright": "© 2026 Vanessa MP. Portfolio. All rights reserved.",
+    "privacyPolicy": "Privacy Policy"
   }
 }
