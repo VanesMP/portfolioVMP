@@ -1,5 +1,5 @@
 {
-  "navBar" :{
+  "navBar": {
     "about": "About",
     "projects": "Projects",
     "contact": "Contact"
@@ -14,7 +14,7 @@
     "labelDev": "Developer & UX",
     "labelArt": "Art & Illustration"
   },
-  "section" : {
+  "section": {
     "projects": {
       "tag": "Experience",
       "title": "Professional Projects",
