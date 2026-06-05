@@ -19,31 +19,3 @@ export const CONN_COLOR = "#1a4a30";
 export const BASE_Y = 0.62;
 export const NODE_COUNT = 9;
 export const FIREFLY_COUNT = 90;
-
-export const OPTIONS_BUTTONS_HEROBANNER = [
-  {
-    labelKey: "heroBanner.buttonProjects",
-    path: ROUTES.PROJECTS,
-  },
-  {
-    labelKey: "heroBanner.buttonContact",
-    path: ROUTES.CONTACT,
-    variant: BUTTON_VARIANTS.OUTLINED,
-  },
-];
-
-export const OPTIONS_BUTTONS_CTASECTION = [
-  {
-    labelKey: "section.cta.buttonCV",
-    path: ROUTES.MYCV,
-    iconName: FileUser,
-    openInNewTab: true,
-  },
-  {
-    labelKey: "section.cta.buttonLinkedIn",
-    path: "https://www.linkedin.com/in/vanessa-macedopinto/",
-    iconName: "/logo/linkedin.svg",
-    variant: BUTTON_VARIANTS.OUTLINED,
-    openInNewTab: true,
-  },
-];

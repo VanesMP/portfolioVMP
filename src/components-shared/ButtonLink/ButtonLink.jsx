@@ -13,8 +13,9 @@ export const ButtonLink = ({
   iconName,
   variant = BUTTON_VARIANTS.CONTAINED,
   openInNewTab = false,
+  nameSpace = "page",
 }) => {
-  const { t } = useTranslation("page");
+  const { t } = useTranslation(nameSpace);
 
   return (
     <Link

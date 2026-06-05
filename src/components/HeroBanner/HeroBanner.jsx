@@ -2,10 +2,9 @@
 
 import Styles from "./HeroBanner.module.scss";
 import { useTranslation } from "react-i18next";
-import { OPTIONS_BUTTONS_HEROBANNER } from "@/constants";
+import { OPTIONS_BUTTONS_HEROBANNER } from "@/constants/groupButtons";
 import { GroupButtons } from "@shared/GroupButtons";
-import { AnimatedImageBanner } from "@components/AnimatedImageBanner";
-import { HeroTitle } from "@components/HeroTitle/HeroTitle";
+import { AnimatedImageBanner, HeroTitle } from "@components";
 
 export const HeroBanner = () => {
   const { t } = useTranslation("page");
