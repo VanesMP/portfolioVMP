@@ -1,0 +1,88 @@
+{
+  "privacyPolicy": {
+    "title": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : Juin 2026",
+
+    "introduction": {
+      "title": "Introduction",
+      "content": "La présente Politique de confidentialité explique comment Vanessa MP (« je », « me », « mon ») collecte, utilise et protège les informations lorsque vous consultez ce site portfolio."
+    },
+
+    "informationCollected": {
+      "title": "Informations collectées",
+
+      "providedInformation": {
+        "title": "Informations que vous fournissez",
+        "content": "Si vous me contactez via un formulaire de contact, par e-mail ou par tout autre moyen de communication, je peux collecter les informations suivantes :",
+        "list": [
+          "Votre nom",
+          "Votre adresse e-mail",
+          "Toute information que vous choisissez d'inclure dans votre message"
+        ]
+      },
+
+      "automaticInformation": {
+        "title": "Informations collectées automatiquement",
+        "content": "Ce site peut collecter automatiquement certaines informations techniques limitées, notamment :",
+        "list": [
+          "Adresse IP",
+          "Type et version du navigateur",
+          "Informations relatives à l'appareil utilisé",
+          "Pages consultées et statistiques d'utilisation"
+        ],
+        "footer": "Ces informations sont utilisées uniquement pour améliorer les performances, la sécurité et l'expérience utilisateur du site."
+      }
+    },
+
+    "useOfInformation": {
+      "title": "Utilisation des informations",
+      "content": "Les informations collectées peuvent être utilisées pour :",
+      "list": [
+        "Répondre à vos demandes et messages",
+        "Échanger au sujet d'opportunités professionnelles",
+        "Améliorer les fonctionnalités et les performances du site",
+        "Assurer la sécurité du site"
+      ]
+    },
+
+    "thirdPartyServices": {
+      "title": "Services tiers",
+      "content": [
+        "Ce site peut contenir des liens vers des sites tiers, notamment LinkedIn et d'autres plateformes externes. Je ne suis pas responsable des pratiques de confidentialité ni du contenu de ces sites.",
+        "Si des services d'hébergement ou d'analyse sont utilisés, ceux-ci peuvent traiter certaines informations techniques nécessaires au fonctionnement du site."
+      ]
+    },
+
+    "dataRetention": {
+      "title": "Conservation des données",
+      "content": "Les données personnelles sont conservées uniquement pendant la durée nécessaire au traitement des demandes ou à la gestion des échanges professionnels légitimes."
+    },
+
+    "dataSecurity": {
+      "title": "Sécurité des données",
+      "content": "Des mesures raisonnables sont mises en œuvre afin de protéger les données personnelles contre tout accès, divulgation ou usage non autorisé."
+    },
+
+    "rights": {
+      "title": "Vos droits",
+      "content": "Selon votre lieu de résidence et la réglementation applicable, vous pouvez disposer des droits suivants :",
+      "list": [
+        "Accéder à vos données personnelles",
+        "Demander la rectification de données inexactes",
+        "Demander la suppression de vos données personnelles",
+        "Vous opposer à certains traitements de données"
+      ],
+      "footer": "Pour exercer ces droits, vous pouvez me contacter via les coordonnées disponibles sur ce site."
+    },
+
+    "policyChanges": {
+      "title": "Modifications de cette politique",
+      "content": "Cette Politique de confidentialité peut être mise à jour à tout moment. Toute modification sera publiée sur cette page avec une nouvelle date de mise à jour."
+    },
+
+    "contact": {
+      "title": "Contact",
+      "content": "Pour toute question relative à cette Politique de confidentialité, vous pouvez me contacter via les informations de contact disponibles sur ce site."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "privacyPolicyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: June 2026",
+    "introduction": {
+      "title": "Introduction",
+      "content": "This Privacy Policy explains how Vanessa MP collects, uses, and protects information when you visit this portfolio website."
+    },
+    "informationCollected": {
+      "title": "Information Collected",
+      "provided": {
+        "title": "Information You Provide",
+        "content": "If you contact me through email or other communication methods, I may collect your name, email address, and any information you choose to share."
+      },
+      "automatic": {
+        "title": "Automatically Collected Information",
+        "content": "This website may collect limited technical information such as IP address, browser type, device information, visited pages, and usage statistics."
+      }
+    },
+    "useOfInformation": {
+      "title": "Use of Information",
+      "content": "Collected information may be used to respond to inquiries, discuss professional opportunities, improve website performance, and maintain website security."
+    },
+    "thirdPartyServices": {
+      "title": "Third-Party Services",
+      "content": "This website may contain links to external platforms such as LinkedIn. I am not responsible for the privacy practices or content of third-party websites."
+    },
+    "dataRetention": {
+      "title": "Data Retention",
+      "content": "Personal information is retained only for as long as necessary to respond to inquiries and maintain professional communications."
+    },
+    "dataSecurity": {
+      "title": "Data Security",
+      "content": "Reasonable measures are taken to protect personal information from unauthorized access, disclosure, or misuse."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "content": "Depending on applicable laws, you may have the right to access, correct, delete, or object to the processing of your personal information."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "This Privacy Policy may be updated from time to time. Any changes will be published on this page."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "If you have any questions regarding this Privacy Policy, please use the contact information available on this website."
+    }
+  }
+}

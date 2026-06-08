@@ -1,0 +1,42 @@
+.devCard {
+  &:hover .devCard__header__text__title {
+    color: #118856;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+
+    &__text {
+      &__title {
+        margin: 0;
+        color: #edf1ea;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5rem;
+
+        &:hover {
+          color: #e8edde;
+        }
+      }
+
+      &__subtitle {
+        color: #118856;
+        font-size: 12px;
+        line-height: 1rem;
+      }
+    }
+
+    &__date {
+      color: #9bb0a8;
+      font-size: 12px;
+      line-height: 1rem;
+    }
+  }
+
+  &__description {
+    color: #9bb0a8;
+    font-size: 14px;
+    line-height: 1.625rem;
+  }
+}

@@ -1,0 +1,32 @@
+.switchPortfolio {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  padding: 4px;
+  border-radius: 24px;
+  background-color: #0a4457;
+  border: #1d353080;
+
+  &__switchButton {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    gap: 8px;
+    padding: 8px 16px;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 14px;
+
+    &:hover {
+      color: #e8edde;
+    }
+
+    &--active {
+      cursor: default;
+      background: linear-gradient(135deg, #0f3d2e, #118856);
+      color: #fff;
+    }
+  }
+}

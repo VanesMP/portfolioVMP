@@ -1,5 +1,0 @@
----
-"major"
----
-
-Install changeset

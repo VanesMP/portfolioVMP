@@ -1,0 +1,40 @@
+{
+  "navBar": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "heroBanner": {
+    "title": "Crafting <GradientText>Digital Experiences</GradientText> That Matter",
+    "subtitle": "After several years of art studies and co-founding an artists' collective in Toulouse, I gave my career a new direction by transitioning into front-end development, specializing in React. For more than two years at Kotzilla, a startup based in Toulouse, I combined front-end development and product design to design and develop elegant, functional user experiences.",
+    "buttonProjects": "View Projects",
+    "buttonContact": "Get in Touch"
+  },
+  "switchPortfolio": {
+    "labelDev": "Developer & UX",
+    "labelArt": "Art & Illustration"
+  },
+  "section": {
+    "projects": {
+      "tag": "Experience",
+      "title": "Professional Projects",
+      "description": "A selection of projects from my professional career as a developer and designer."
+    },
+    "training": {
+      "tag": "Training",
+      "title": "Training & Career Change",
+      "description": "Projects completed during my career change into web development and design."
+    },
+    "cta": {
+      "intro": "Let's Connect",
+      "title": "Interested in working together?",
+      "description": "I'm open to new opportunities. Feel free to check out my CV or connect with me on LinkedIn.",
+      "buttonCV": "Check out CV",
+      "buttonLinkedIn": "LinkedIn Profile"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Vanessa MP. Portfolio. All rights reserved.",
+    "privacyPolicy": "Privacy Policy"
+  }
+}

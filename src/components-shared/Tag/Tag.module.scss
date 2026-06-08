@@ -1,0 +1,12 @@
+.tag {
+  background-color: #0a4457;
+  border-radius: 8px;
+  border: 1px solid #1d35304d;
+
+  &__text {
+    font-size: 12px;
+    font-weight: 500;
+    color: #e6ebe0;
+    padding: 2px 8px;
+  }
+}

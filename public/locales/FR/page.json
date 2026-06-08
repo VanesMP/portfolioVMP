@@ -1,0 +1,36 @@
+{
+  "navBar": {
+    "about": "À Propos",
+    "projects": "Réalisations",
+    "contact": "Contact"
+  },
+  "heroBanner": {
+    "title": "Créer des <GradientText>expériences numériques</GradientText> qui ont du sens",
+    "subtitle": "Après plusieurs années d’études artistiques et la cofondation d’un collectif d’artistes à Toulouse, j’ai donné une nouvelle orientation à ma carrière en me reconvertissant dans le développement front-end, avec une spécialisation en React. Pendant plus de deux ans chez Kotzilla, une startup basée à Toulouse, j’ai combiné développement front-end et conception produit afin de concevoir et développer des expériences utilisateur à la fois élégantes et fonctionnelles.",
+    "buttonProjects": "Découvrir mes projets",
+    "buttonContact": "Me contacter"
+  },
+  "switchPortfolio": {
+    "labelDev": "Développement & UX",
+    "labelArt": "Art & Illustration"
+  },
+  "section": {
+    "projects": {
+      "tag": "Expérience",
+      "title": "Projets professionnels",
+      "description": "Une sélection de projets issus de mon parcours professionnel en tant que développeuse et designer."
+    },
+    "training": {
+      "tag": "Formation",
+      "title": "Formation & reconversion",
+      "description": "Projets réalisés dans le cadre de ma reconversion vers le développement web et le design."
+    },
+    "ctaSection": {
+      "intro": "Restons en contact",
+      "title": "Mon profil vous intéresse ?",
+      "description": "Je suis à l'écoute de nouvelles opportunités professionnelles. Vous pouvez jeter un œil à mon CV ou me contacter directement sur LinkedIn.",
+      "buttonCV": "Voir mon CV",
+      "buttonLinkedIn": "Me contacter sur LinkedIn"
+    }
+  }
+}
