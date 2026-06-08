@@ -1,5 +1,11 @@
 # portfoliovmp
 
+## 2.2.2
+
+### Patch Changes
+
+- 7750435: Fix image path
+
 ## 2.2.1
 
 ### Patch Changes

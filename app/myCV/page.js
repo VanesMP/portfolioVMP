@@ -9,7 +9,7 @@ const CvPage = () => {
       <GroupButtons options={OPTIONS_BUTTONS_CV} nameSpace="myCv" />
       <div className={Styles.cvPage__cv}>
         <Image
-          src="/images/cv/cv-vanessaMP.png"
+          src="/images/cv-vanessaMP.png"
           alt="my cv ats friendly"
           width={500}
           height={700}
